@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- 追加：viewport設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台湾華語聞き取りトレーニング</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 上部右側にシャドーイングモードのチェックボックスを追加 -->
+  <div id="shadowing-mode-container">
+    <label>
+      <input type="checkbox" id="shadowing-checkbox">
+      シャドーイングモード
+    </label>
+  </div>
+  
+  <!-- ランディング/トレーニングモード用のメインコンテナ -->
+  <div id="card-container">
+    <!-- ここでは、画面中央に現在の例文が再生される対象の単語番号だけを表示 -->
+    <div id="card-word"></div>
+    <div id="word-number"></div>
+    <!-- リスニングモード用の入力領域 -->
+    <div id="listening-mode">
+      <!-- 再生ボタン：例文の再生 -->
+      <button id="phraseReplayBtn" title="例文再生">🔈️</button>
+      <!-- ユーザー回答入力欄 -->
+      <input type="text" id="answer-input" placeholder="例文を入力してください">
+    </div>
+    <!-- オーバーレイ：回答後、正解例文等を表示する（フラッシュカード版と同様） -->
+    <div id="overlay">
+      <div class="pinyin-row">
+        <span id="pinyin"></span>
+        <button id="replayBtn" title="例文再生（再度）">🔈️</button>
+      </div>
+      <div id="meaning"></div>
+      <div class="example-row">
+        <div id="example"></div>
+      </div>
+      <div class="buttons-row">
+        <button id="superCorrectBtn" title="◎：正答して問題除外">◎</button>
+        <button id="correctBtn" title="◯：正答">◯</button>
+        <button id="incorrectBtn" title="✗：誤答">✗</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- リセットエリア（全例文が正答済みの場合） -->
+  <div id="reset-container">
+    <div class="reset-message">今日の学習は終了しました</div>
+    <button id="resetBtn">リセット</button>
+  </div>
+
+  <!-- 継続プロンプト用エリア -->
+  <div id="continue-container">
+    <div class="continue-message"></div>
+    <button id="continueBtn">継続する</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
