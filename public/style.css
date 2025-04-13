@@ -1,218 +1,164 @@
 /* html, body のリセットと全画面表示 */
 html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    position: relative;
-  }
-  
-  /* シャドーイングモードチェックボックス（上部右側） */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* シャドーイングモードチェックボックス（右上） */
+#shadowing-mode-container {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 3vw;
+  z-index: 20;
+}
+
+/* ランディングヘッダー */
+#landing-header {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  z-index: 10;
+}
+#landing-header h1 {
+  font-size: 8vw;
+  margin: 0.5em;
+}
+#landing-header p {
+  font-size: 4vw;
+  margin: 0;
+}
+
+/* メイントレーニングコンテナ */
+#training-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  /* 初期状態はhiddenクラスで非表示。ランディングからのクリックで表示 */
+}
+.hidden {
+  display: none;
+}
+
+/* 回答入力欄と例文再生ボタン */
+#replayPhraseBtn {
+  font-size: 6vw;
+  padding: 2vw 4vw;
+  margin-bottom: 2vw;
+  cursor: pointer;
+}
+#answer-input {
+  font-size: 6vw;
+  padding: 1vw;
+  width: 70vw;
+  text-align: center;
+}
+
+/* オーバーレイ：回答結果表示用 */
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.95);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4vw;
+  box-sizing: border-box;
+  z-index: 15;
+}
+#overlay.visible {
+  display: flex;
+}
+.result-info {
+  text-align: center;
+  margin-bottom: 4vw;
+}
+.result-info p {
+  font-size: 6vw;
+  margin: 1vw 0;
+}
+
+/* オーバーレイ内の例文再生ボタン */
+#replayResultBtn {
+  font-size: 6vw;
+  padding: 2vw 4vw;
+  cursor: pointer;
+}
+
+/* リセットコンテナ */
+#reset-container, #continue-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+#reset-container.visible, #continue-container.visible {
+  display: flex;
+}
+.reset-message, .continue-message {
+  font-size: 8vw;
+  margin-bottom: 4vw;
+}
+button {
+  /* 共通のボタンスタイル（ただし、各ボタン固有のサイズは後で調整） */
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* スマートフォン向け調整（ここではvw単位でほぼ共通） */
+/* 必要に応じてこのブレークポイントの数値は調整してください */
+@media (max-width: 768px) {
   #shadowing-mode-container {
-    position: absolute;
-    top: 2%;
-    right: 2%;
-    font-size: 3vw;
-    z-index: 20;
-  }
-  
-  /* カードコンテナ（全画面） */
-  #card-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: #fff;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* 単語表示（ここでは問題番号や識別情報として使用） */
-  #card-word {
-    font-size: 8vw;
-    text-align: center;
-  }
-  
-  /* 単語番号（右下に表示） */
-  #word-number {
-    position: absolute;
-    bottom: 2%;
-    right: 2%;
-    font-size: 4vw;
-    color: #888;
-    z-index: 10;
-  }
-  
-  /* リスニングモード：音声再生ボタンと回答入力欄 */
-  #listening-mode {
-    margin-top: 2vw;
-    display: flex;
-    align-items: center;
-    gap: 2vw;
-  }
-  #answer-input {
-    font-size: 4vw;
-    padding: 0.5vw 1vw;
-    width: 60vw;
-  }
-  
-  /* オーバーレイ：回答確認表示（初期は非表示） */
-  #overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    display: none; /* 初期は非表示 */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    box-sizing: border-box;
-    overflow: hidden;
-    z-index: 1;
-  }
-  #overlay.visible {
-    display: flex;
-  }
-  
-  /* 各行のスタイル */
-  .pinyin-row,
-  .example-row,
-  .buttons-row {
-    width: 100%;
-    text-align: center;
-    margin: 1vw 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-  }
-  .pinyin-row {
     font-size: 5vw;
   }
-  #meaning {
-    width: 100%;
-    text-align: center;
-    font-size: 4vw;
-    margin: 1vw 0;
-    word-wrap: break-word;
+  #landing-header h1 {
+    font-size: 12vw;
   }
-  .example-row {
-    font-size: 3vw;
-    line-height: 1.4;
-  }
-  .buttons-row {
-    font-size: 3vw;
-    gap: 2vw;
-    margin-top: 2vw;
-  }
-  
-  /* ボタン共通（固定幅はフラッシュカード版と同様、ただしオーバーレイで使用するもの） */
-  button {
-    width: 120px;
-    font-size: 3vw;
-    padding: 1.5vw 2vw;
-    cursor: pointer;
-    box-sizing: border-box;
-  }
-  
-  /* リセットコンテナ：全画面中央表示 */
-  #reset-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #f0f0f0;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    z-index: 10;
-  }
-  #reset-container.visible {
-    display: flex;
-  }
-  .reset-message {
+  #landing-header p {
     font-size: 6vw;
-    margin-bottom: 2vw;
   }
-  
-  /* 継続プロンプト用コンテナ */
-  #continue-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #f0f0f0;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    z-index: 10;
+  #replayPhraseBtn,
+  #replayResultBtn {
+    font-size: 8vw;
+    padding: 3vw 6vw;
   }
-  #continue-container.visible {
-    display: flex;
+  #answer-input {
+    font-size: 8vw;
+    padding: 1.5vw;
+    width: 80vw;
   }
+  .result-info p,
+  .reset-message,
   .continue-message {
-    font-size: 6vw;
-    margin-bottom: 2vw;
+    font-size: 10vw;
   }
-  
-  /* スマートフォン向け調整（ブレークポイント：768px以下） */
-  @media (max-width: 768px) {
-    #card-container {
-      width: 100vw;
-      height: 100vh;
-      padding: 4vw;
-    }
-    #card-word {
-      font-size: 12vw;
-    }
-    #word-number {
-      font-size: 6vw;
-    }
-    #answer-input {
-      font-size: 6vw;
-      padding: 1vw;
-      width: 70vw;
-    }
-    .pinyin-row {
-      font-size: 8vw;
-    }
-    #meaning {
-      font-size: 7vw;
-    }
-    .example-row {
-      font-size: 6vw;
-    }
-    .buttons-row {
-      font-size: 6vw;
-    }
-    button {
-      width: 160px;
-      font-size: 6vw;
-      padding: 2vw 4vw;
-    }
-    .reset-message,
-    .continue-message {
-      font-size: 8vw;
-    }
-  }
-  
+}
