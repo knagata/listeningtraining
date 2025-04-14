@@ -21,7 +21,7 @@ body {
   position: absolute;
   top: 2%;
   right: 2%;
-  font-size: 3vw;
+  font-size: 2vw;
   z-index: 20;
 }
 
@@ -40,13 +40,13 @@ body {
 
 /* 例文再生ボタン & 回答入力欄 */
 #replayPhraseBtn {
-  font-size: 6vw;
-  padding: 2vw 4vw;
+  font-size: 4vw;
+  padding: 1vw 4vw;
   margin-bottom: 2vw;
   cursor: pointer;
 }
 #answer-input {
-  font-size: 6vw;
+  font-size: 4vw;
   padding: 1vw;
   width: 70vw;
   text-align: center;
@@ -88,14 +88,14 @@ body {
   margin-bottom: 4vw;
 }
 .result-info p {
-  font-size: 6vw;
+  font-size: 4vw;
   margin: 1vw 0;
 }
 
 /* オーバーレイ内の例文再生ボタン */
 #replayResultBtn {
-  font-size: 6vw;
-  padding: 2vw 4vw;
+  font-size: 4vw;
+  padding: 1vw 4vw;
   cursor: pointer;
 }
 
@@ -117,28 +117,28 @@ body {
   display: flex;
 }
 .reset-message, .continue-message {
-  font-size: 8vw;
+  font-size: 6vw;
   margin-bottom: 4vw;
 }
 
 /* スマートフォン向け調整（ブレークポイント：768px以下） */
 @media (max-width: 768px) {
   #shadowing-mode-container {
-    font-size: 5vw;
+    font-size: 2vw;
   }
   #replayPhraseBtn,
   #replayResultBtn {
-    font-size: 8vw;
-    padding: 3vw 6vw;
+    font-size: 4vw;
+    padding: 2vw 4vw;
   }
   #answer-input {
-    font-size: 8vw;
+    font-size: 6vw;
     padding: 1.5vw;
     width: 80vw;
   }
   .result-info p,
   .reset-message,
   .continue-message {
-    font-size: 10vw;
+    font-size: 4vw;
   }
 }
