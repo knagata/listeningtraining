@@ -2,10 +2,12 @@
 let allWords = [];
 let activeWords = [];
 let currentIndex = 0;
-let resultsData = {};  // DBから取得した結果データ；キーは "number" をハイフンで連結
-let promptThreshold = 0;  // 継続プロンプト閾値（初期は0、100,200,300,…）
+let resultsData = {}; // DBから取得した結果データ；キーは "number" をハイフンで連結
+let promptThreshold = 0; // 継続プロンプトの閾値（初期は0，100,200,300,…）
+let isComposing = false; // IME変換中かどうかのフラグ
 
 // ─── 複合キー作成関数 ─────────────────────────────
+// word.numberが配列であることを前提。そうでなければエラーをスロー
 function keyForWord(word) {
   if (!Array.isArray(word.number)) {
     console.error("デバッグ：word.number が配列ではありません。word:", word);
@@ -24,6 +26,7 @@ function isToday(dateString) {
 }
 
 // ─── 今日の正答（correct）タップ数更新関数 ─────────────
+// resultsDataの各レコードでlast_correctが今日ならカウント
 function updateTodayCorrectCount() {
   let count = 0;
   Object.values(resultsData).forEach(record => {
@@ -36,27 +39,28 @@ function updateTodayCorrectCount() {
 }
 
 // ─── 継続プロンプト表示用関数 ─────────────
+// 今日の正答数が (promptThreshold + 100) に達した場合に実行
 function showContinuePrompt(todayCount) {
   const continueContainer = document.getElementById('continue-container');
   const messageEl = document.querySelector('.continue-message');
   messageEl.textContent = `${todayCount}個の例文に正答しました。学習を継続しますか？`;
-  // トレーニングコンテナを隠し、継続プロンプトを表示
+  // トレーニングコンテナを隠して、継続プロンプトを表示
   document.getElementById('training-container').classList.add('hidden');
   continueContainer.classList.add('visible');
 }
 
 // ─── 初期データ読み込み ─────────────────────────────
+// words.jsonと/resultsからデータを取得し、activeWordsを生成
 Promise.all([
   fetch('words.json').then(r => r.json()),
   fetch('/results').then(r => r.json())
 ]).then(([wordsData, resData]) => {
   allWords = wordsData;
-  // resData は配列なので、キー付きオブジェクトに変換（キーは number 配列をハイフン連結）
   resData.forEach(record => {
     const key = record.number.join('-');
     resultsData[key] = record;
   });
-  // activeWords 作成：DB上で今日正答済みの単語は除外
+  // activeWords生成：DB上で今日正答済み（last_correct更新済み）の単語は除外
   activeWords = allWords.filter(word => {
     const rec = resultsData[keyForWord(word)];
     if (rec && rec.last_correct && isToday(rec.last_correct)) {
@@ -85,6 +89,7 @@ function chooseWeightedIndex() {
       const sum = rec.history.reduce((a, b) => a + b, 0);
       accuracy = Math.round((sum / total) * 100);
     }
+    // 正答率が低い単語ほど重みが大きくなる
     const weight = (100 - accuracy) + 1;
     weights.push(weight);
     totalWeight += weight;
@@ -103,6 +108,8 @@ function chooseNextWord() {
   currentIndex = chooseWeightedIndex();
 }
 
+// ─── displayWord() の最適化 ─────────────────────────────
+// 変更点：次の問題表示時にanswer-inputへ自動focusを追加
 function displayWord() {
   if (activeWords.length < 1) {
     document.getElementById('training-container').classList.add('hidden');
@@ -110,17 +117,18 @@ function displayWord() {
     return;
   }
   const currentWord = activeWords[currentIndex];
-  // 聞き取りトレーニングでは、画面上には問題文（例文）は表示しない
-  // 単語番号のみ右下に表示
+  // 聞き取りトレーニングでは、画面上に例文は表示しないので、単語番号のみ表示（flashcard版から変更）
   document.getElementById('word-number').textContent = `#${keyForWord(currentWord)}`;
   
-  // 回答入力欄をクリア
-  document.getElementById('answer-input').value = "";
+  // 回答入力欄をクリアし、自動でフォーカスを当てる（変更）
+  const answerInput = document.getElementById('answer-input');
+  answerInput.value = "";
+  answerInput.focus();
   
-  // オーバーレイは非表示にする
+  // オーバーレイは非表示
   document.getElementById('overlay').classList.remove('visible');
   
-  // 自動で例文の音声を再生（聴き取りモード）
+  // 自動で例文音声を再生
   const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
   playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
 }
@@ -150,6 +158,7 @@ function playAudioWithFallback(url, fallbackFn) {
 }
 
 function playFeedbackSound(type) {
+  // シャドーイングモードチェック
   const shadowingMode = document.getElementById('shadowing-checkbox').checked;
   if (shadowingMode) return;
   const soundUrl = `sounds/${type}.mp3`;
@@ -157,69 +166,38 @@ function playFeedbackSound(type) {
   audio.play().catch(err => console.error(err));
 }
 
-// ─── オーバーレイ自体にクリック＆エンターキーで次の問題へ ─────────────────────────────
-const overlayEl = document.getElementById('overlay');
-overlayEl.addEventListener('click', function(e) {
-  overlayEl.classList.remove('visible');
-  chooseNextWord();
-  displayWord();
+// ─── IME変換中を判定するためのイベントリスナー ─────────────────────────────
+const answerInputEl = document.getElementById('answer-input');
+answerInputEl.addEventListener('compositionstart', function() {
+  window.isComposing = true;  // グローバル変数として管理
 });
-overlayEl.addEventListener('keypress', function(e) {
+answerInputEl.addEventListener('compositionend', function() {
+  window.isComposing = false;
+});
+
+// ─── グローバルEnterキーイベント ─────────────────────────────
+// 変更点：IME変換中ではない場合、Enterキーを押すと次の問題へ進む
+document.addEventListener("keydown", function(e) {
   if (e.key === "Enter") {
-    e.preventDefault();
-    overlayEl.classList.remove('visible');
-    chooseNextWord();
-    displayWord();
+    // もし入力欄でIME変換中なら何もしない
+    if ((e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") && window.isComposing) {
+      return;
+    }
+    // もしオーバーレイが表示中なら、Enterでオーバーレイを解除して次の問題へ
+    if (document.getElementById('overlay').classList.contains('visible')) {
+      document.getElementById('overlay').classList.remove('visible');
+      chooseNextWord();
+      displayWord();
+      return;
+    }
+    // それ以外の場合、入力欄にテキストがあれば回答処理、なければ次の問題へ
+    if (answerInputEl.value.trim() !== "") {
+      processAnswer();
+    } else {
+      chooseNextWord();
+      displayWord();
+    }
   }
-});
-
-// ─── トレーニングコンテナクリック（回答確定処理） ─────────────────────────────
-document.getElementById('training-container').addEventListener('click', function(e) {
-  const answerInput = document.getElementById('answer-input');
-  if (answerInput.value.trim() !== "") {
-    processAnswer();
-  }
-});
-
-// エンターキーによる回答確定
-document.getElementById('answer-input').addEventListener('keypress', function(e) {
-  if (e.key === "Enter") {
-    e.preventDefault();
-    processAnswer();
-  }
-});
-
-// ─── 継続プロンプト「継続する」ボタン ─────────────────────────────
-document.getElementById('continueBtn').addEventListener('click', function(e) {
-  e.stopPropagation();
-  document.getElementById('continue-container').classList.remove('visible');
-  document.getElementById('training-container').classList.remove('hidden');
-  displayWord();
-});
-
-// ─── リセットボタン ─────────────────────────────
-document.getElementById('resetBtn').addEventListener('click', function(e) {
-  activeWords = allWords.slice();
-  chooseNextWord();
-  document.getElementById('reset-container').classList.remove('visible');
-  document.getElementById('training-container').classList.remove('hidden');
-  displayWord();
-});
-
-// ─── 例文再生ボタン（聴き取りモード用） ─────────────────────────────
-document.getElementById('replayPhraseBtn').addEventListener('click', function(e) {
-  e.stopPropagation();
-  const currentWord = activeWords[currentIndex];
-  const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
-  playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
-});
-
-// ─── オーバーレイ内の例文再生ボタン ─────────────────────────────
-document.getElementById('replayResultBtn').addEventListener('click', function(e) {
-  e.stopPropagation();
-  const currentWord = activeWords[currentIndex];
-  const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
-  playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
 });
 
 // ─── 回答処理（正誤判定） ─────────────────────────────
@@ -240,7 +218,7 @@ function processAnswer() {
     }
   }
   
-  // オーバーレイ表示で結果確認（正解例文等）
+  // オーバーレイ表示で回答結果を確認
   showResultOverlay(isCorrect, currentWord);
   
   // 結果記録（シャドーイングモードでなければ）
@@ -262,6 +240,7 @@ function showResultOverlay(isCorrect, word) {
 }
 
 // ─── 回答送信処理 ─────────────────────────────
+// 今回は "correct" と "incorrect" のみ送信する
 function recordAnswer(result) {
   const currentWord = activeWords[currentIndex];
   fetch('/results', {
@@ -285,3 +264,36 @@ function recordAnswer(result) {
       }
     });
 }
+
+// ─── 継続プロンプト「継続する」ボタン ─────────────────────────────
+document.getElementById('continueBtn').addEventListener('click', function(e) {
+  e.stopPropagation();
+  document.getElementById('continue-container').classList.remove('visible');
+  document.getElementById('training-container').classList.remove('hidden');
+  displayWord();
+});
+
+// ─── リセットボタン ─────────────────────────────
+document.getElementById('resetBtn').addEventListener('click', function(e) {
+  activeWords = allWords.slice();
+  chooseNextWord();
+  document.getElementById('reset-container').classList.remove('visible');
+  document.getElementById('training-container').classList.remove('hidden');
+  displayWord();
+});
+
+// ─── 例文再生ボタン（聞き取りモード用） ─────────────────────────────
+document.getElementById('replayPhraseBtn').addEventListener('click', function(e) {
+  e.stopPropagation();
+  const currentWord = activeWords[currentIndex];
+  const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
+  playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
+});
+
+// ─── オーバーレイ内の例文再生ボタン ─────────────────────────────
+document.getElementById('replayResultBtn').addEventListener('click', function(e) {
+  e.stopPropagation();
+  const currentWord = activeWords[currentIndex];
+  const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
+  playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
+});
