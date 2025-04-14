@@ -25,7 +25,7 @@ body {
   z-index: 20;
 }
 
-/* メイントレーニングコンテナ（常に表示、ランディング廃止） */
+/* メイントレーニングコンテナ */
 #training-container {
   position: relative;
   width: 100vw;
@@ -38,7 +38,7 @@ body {
   z-index: 5;
 }
 
-/* 例文再生ボタン＆入力欄 */
+/* 例文再生ボタン & 回答入力欄 */
 #replayPhraseBtn {
   font-size: 6vw;
   padding: 2vw 4vw;
@@ -52,7 +52,17 @@ body {
   text-align: center;
 }
 
-/* オーバーレイ（回答結果表示） */
+/* 右下の単語番号表示 */
+#word-number {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  font-size: 4vw;
+  color: #888;
+  z-index: 10;
+}
+
+/* オーバーレイ：回答結果表示用 */
 #overlay {
   position: absolute;
   top: 0;
@@ -60,7 +70,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: rgba(255,255,255,0.95);
-  display: none; /* 初期は非表示 */
+  display: none;  /* 初期は非表示 */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -72,7 +82,7 @@ body {
   display: flex;
 }
 
-/* オーバーレイの内容 */
+/* オーバーレイ内の結果情報 */
 .result-info {
   text-align: center;
   margin-bottom: 4vw;
@@ -89,7 +99,7 @@ body {
   cursor: pointer;
 }
 
-/* リセット画面 */
+/* リセット画面と継続プロンプト画面 */
 #reset-container, #continue-container {
   position: absolute;
   top: 0;
@@ -111,17 +121,7 @@ body {
   margin-bottom: 4vw;
 }
 
-/* 右下に単語番号表示（フラッシュカードと同様） */
-#word-number {
-  position: absolute;
-  bottom: 2%;
-  right: 2%;
-  font-size: 4vw;
-  color: #888;
-  z-index: 10;
-}
-
-/* スマートフォン向け調整（必要に応じて） */
+/* スマートフォン向け調整（ブレークポイント：768px以下） */
 @media (max-width: 768px) {
   #shadowing-mode-container {
     font-size: 5vw;
@@ -141,5 +141,4 @@ body {
   .continue-message {
     font-size: 10vw;
   }
-  /* その他の要素も必要に応じて調整 */
 }

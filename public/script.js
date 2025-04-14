@@ -1,11 +1,11 @@
-// ─── グローバル変数 ───────────────────────────────
+// ─── グローバル変数 ─────────────────────────────
 let allWords = [];
 let activeWords = [];
 let currentIndex = 0;
-let resultsData = {}; // DBから取得した結果データ；キーは "number" をハイフンで連結した文字列
-let promptThreshold = 0; // 継続プロンプト閾値（初期値：0，100, 200, ...）
+let resultsData = {};  // DBから取得した結果データ；キーは "number" をハイフンで連結
+let promptThreshold = 0;  // 継続プロンプト閾値（初期は0、100,200,300,…）
 
-// ─── 複合キー作成関数 ───────────────────────────────
+// ─── 複合キー作成関数 ─────────────────────────────
 function keyForWord(word) {
   if (!Array.isArray(word.number)) {
     console.error("デバッグ：word.number が配列ではありません。word:", word);
@@ -14,7 +14,7 @@ function keyForWord(word) {
   return word.number.join('-');
 }
 
-// ─── 今日の日付判定 ───────────────────────────────
+// ─── 今日の日付判定 ─────────────────────────────
 function isToday(dateString) {
   const d = new Date(dateString);
   const today = new Date();
@@ -27,7 +27,6 @@ function isToday(dateString) {
 function updateTodayCorrectCount() {
   let count = 0;
   Object.values(resultsData).forEach(record => {
-    // ここでは last_correct をチェック
     if (record.last_correct && isToday(record.last_correct)) {
       count++;
     }
@@ -41,8 +40,8 @@ function showContinuePrompt(todayCount) {
   const continueContainer = document.getElementById('continue-container');
   const messageEl = document.querySelector('.continue-message');
   messageEl.textContent = `${todayCount}個の例文に正答しました。学習を継続しますか？`;
-  // フラッシュカードエリアを隠して、継続プロンプトを表示
-  document.getElementById('card-container').classList.add('hidden');
+  // トレーニングコンテナを隠し、継続プロンプトを表示
+  document.getElementById('training-container').classList.add('hidden');
   continueContainer.classList.add('visible');
 }
 
@@ -52,12 +51,12 @@ Promise.all([
   fetch('/results').then(r => r.json())
 ]).then(([wordsData, resData]) => {
   allWords = wordsData;
-  // resData をキー付きオブジェクトに変換（キーは number 配列をハイフン連結）
+  // resData は配列なので、キー付きオブジェクトに変換（キーは number 配列をハイフン連結）
   resData.forEach(record => {
     const key = record.number.join('-');
     resultsData[key] = record;
   });
-  // activeWords の生成：DB上で今日正答済みの単語は除外する
+  // activeWords 作成：DB上で今日正答済みの単語は除外
   activeWords = allWords.filter(word => {
     const rec = resultsData[keyForWord(word)];
     if (rec && rec.last_correct && isToday(rec.last_correct)) {
@@ -65,9 +64,8 @@ Promise.all([
     }
     return true;
   });
-  // 初期化時に activeWords が空ならリセット画面表示
   if (activeWords.length < 1) {
-    document.getElementById('card-container').classList.add('hidden');
+    document.getElementById('training-container').classList.add('hidden');
     document.getElementById('reset-container').classList.add('visible');
   } else {
     chooseNextWord();
@@ -107,32 +105,30 @@ function chooseNextWord() {
 
 function displayWord() {
   if (activeWords.length < 1) {
-    document.getElementById('card-container').classList.add('hidden');
+    document.getElementById('training-container').classList.add('hidden');
     document.getElementById('reset-container').classList.add('visible');
     return;
   }
   const currentWord = activeWords[currentIndex];
-  document.getElementById('card-word').textContent = currentWord.word;
+  // 聞き取りトレーニングでは、画面上には問題文（例文）は表示しない
+  // 単語番号のみ右下に表示
   document.getElementById('word-number').textContent = `#${keyForWord(currentWord)}`;
   
-  // 聞き取りモード：テキスト入力欄を空にする
+  // 回答入力欄をクリア
   document.getElementById('answer-input').value = "";
-  // オーバーレイは非表示
+  
+  // オーバーレイは非表示にする
   document.getElementById('overlay').classList.remove('visible');
   
-  // 自動で例文の音声再生
+  // 自動で例文の音声を再生（聴き取りモード）
   const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
   playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
 }
 
 // ─── 正規化関数 ─────────────────────────────
 function normalizeText(text) {
-  // 例：不要な記号を削除＆同音文字の統一変換（必要に応じて調整）
   const removeChars = /[，。？、]/g;
-  const mapping = {
-    "她": "他",
-    "妳": "你"
-  };
+  const mapping = { "她": "他", "妳": "你" };
   let normalized = text.replace(removeChars, "");
   normalized = normalized.split("").map(ch => mapping[ch] || ch).join("");
   normalized = normalized.replace(/\s+/g, "");
@@ -154,7 +150,6 @@ function playAudioWithFallback(url, fallbackFn) {
 }
 
 function playFeedbackSound(type) {
-  // チェックボックス（シャドーイングモード）確認
   const shadowingMode = document.getElementById('shadowing-checkbox').checked;
   if (shadowingMode) return;
   const soundUrl = `sounds/${type}.mp3`;
@@ -162,23 +157,31 @@ function playFeedbackSound(type) {
   audio.play().catch(err => console.error(err));
 }
 
-// ─── イベントリスナー ─────────────────────────────
+// ─── オーバーレイ自体にクリック＆エンターキーで次の問題へ ─────────────────────────────
+const overlayEl = document.getElementById('overlay');
+overlayEl.addEventListener('click', function(e) {
+  overlayEl.classList.remove('visible');
+  chooseNextWord();
+  displayWord();
+});
+overlayEl.addEventListener('keypress', function(e) {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    overlayEl.classList.remove('visible');
+    chooseNextWord();
+    displayWord();
+  }
+});
 
-// カードコンテナクリック：聞き取りモード
-document.getElementById('card-container').addEventListener('click', function(e) {
-  // もしオーバーレイが表示中（回答確認中）またはシャドーイングモードなら何もしない
-  const overlay = document.getElementById('overlay');
-  const shadowingMode = document.getElementById('shadowing-checkbox').checked;
-  if (overlay.classList.contains('visible') || shadowingMode) return;
-  
-  // もし回答入力欄に内容があれば回答確定
+// ─── トレーニングコンテナクリック（回答確定処理） ─────────────────────────────
+document.getElementById('training-container').addEventListener('click', function(e) {
   const answerInput = document.getElementById('answer-input');
   if (answerInput.value.trim() !== "") {
     processAnswer();
   }
 });
 
-// エンターキー押下で回答確定
+// エンターキーによる回答確定
 document.getElementById('answer-input').addEventListener('keypress', function(e) {
   if (e.key === "Enter") {
     e.preventDefault();
@@ -186,35 +189,33 @@ document.getElementById('answer-input').addEventListener('keypress', function(e)
   }
 });
 
-// 継続プロンプト「継続する」ボタン
+// ─── 継続プロンプト「継続する」ボタン ─────────────────────────────
 document.getElementById('continueBtn').addEventListener('click', function(e) {
   e.stopPropagation();
   document.getElementById('continue-container').classList.remove('visible');
-  document.getElementById('card-container').classList.remove('hidden');
+  document.getElementById('training-container').classList.remove('hidden');
   displayWord();
 });
 
-// リセットボタン
+// ─── リセットボタン ─────────────────────────────
 document.getElementById('resetBtn').addEventListener('click', function(e) {
-  // フロントエンド側リセット：activeWords を全単語に戻す
   activeWords = allWords.slice();
   chooseNextWord();
   document.getElementById('reset-container').classList.remove('visible');
-  document.getElementById('card-container').classList.remove('hidden');
+  document.getElementById('training-container').classList.remove('hidden');
   displayWord();
 });
 
-// 単語再生ボタン
-document.getElementById('replayBtn').addEventListener('click', function(e) {
+// ─── 例文再生ボタン（聴き取りモード用） ─────────────────────────────
+document.getElementById('replayPhraseBtn').addEventListener('click', function(e) {
   e.stopPropagation();
   const currentWord = activeWords[currentIndex];
-  // ここでは例文再生の再生ボタンとして使用
   const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
   playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
 });
 
-// 例文再生ボタン
-document.getElementById('phraseReplayBtn').addEventListener('click', function(e) {
+// ─── オーバーレイ内の例文再生ボタン ─────────────────────────────
+document.getElementById('replayResultBtn').addEventListener('click', function(e) {
   e.stopPropagation();
   const currentWord = activeWords[currentIndex];
   const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
@@ -239,10 +240,10 @@ function processAnswer() {
     }
   }
   
-  // オーバーレイ表示で正解例文等を確認できるようにする
+  // オーバーレイ表示で結果確認（正解例文等）
   showResultOverlay(isCorrect, currentWord);
   
-  // 結果を記録（シャドーイングモードでなければ）
+  // 結果記録（シャドーイングモードでなければ）
   if (!shadowingMode) {
     if (isCorrect) {
       recordAnswer("correct");
@@ -252,13 +253,12 @@ function processAnswer() {
   }
 }
 
-// オーバーレイ表示：回答確認
+// ─── オーバーレイ表示（回答結果確認） ─────────────────────────────
 function showResultOverlay(isCorrect, word) {
-  const overlay = document.getElementById('overlay');
-  document.getElementById('pinyin').textContent = word.example.pinyin;
-  document.getElementById('meaning').textContent = word.example.translation;
-  document.getElementById('example').innerHTML = `<strong>例文:</strong> ${word.example.text}`;
-  overlay.classList.add('visible');
+  document.querySelector('#correct-example span').textContent = word.example.text;
+  document.querySelector('#result-pinyin span').textContent = word.example.pinyin;
+  document.querySelector('#result-translation span').textContent = word.example.translation;
+  document.getElementById('overlay').classList.add('visible');
 }
 
 // ─── 回答送信処理 ─────────────────────────────
@@ -271,14 +271,12 @@ function recordAnswer(result) {
   }).then(response => response.json())
     .then(data => {
       console.log(`Word: ${keyForWord(currentWord)}, Result: ${result}, Accuracy: ${data.accuracy}`);
-      // ローカルresultsData更新：正答の場合はlast_correctを更新する
       if (!resultsData[keyForWord(currentWord)]) {
         resultsData[keyForWord(currentWord)] = { history: [] };
       }
       if (result === "correct") {
         resultsData[keyForWord(currentWord)].last_correct = new Date().toISOString();
       }
-      // 更新後、正答タップ数を再計算
       const todayCount = updateTodayCorrectCount();
       if (todayCount >= promptThreshold + 100) {
         promptThreshold = Math.floor(todayCount / 100) * 100;
@@ -287,22 +285,3 @@ function recordAnswer(result) {
       }
     });
 }
-
-// ─── 正誤ボタンイベント ─────────────────────────────
-// ここでは SuperCorrect ボタンは廃止し、正答(◯)と誤答(✗)のみ
-
-document.getElementById('correctBtn').addEventListener('click', function(e) {
-  e.stopPropagation();
-  playFeedbackSound('correct');
-  recordAnswer("correct");
-  chooseNextWord();
-  displayWord();
-});
-
-document.getElementById('incorrectBtn').addEventListener('click', function(e) {
-  e.stopPropagation();
-  playFeedbackSound('incorrect');
-  recordAnswer("incorrect");
-  chooseNextWord();
-  displayWord();
-});

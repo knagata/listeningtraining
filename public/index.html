@@ -2,15 +2,13 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <!-- 変更点：ランディングページは廃止。viewport設定はそのまま -->
+  <!-- 追加：viewport設定 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>台湾華語聞き取りトレーニング</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- 変更点：ランディングヘッダーを削除 -->
-
-  <!-- 上部右側にシャドーイングモードチェックボックス -->
+  <!-- 右上のシャドーイングモードチェックボックス -->
   <div id="shadowing-mode-container">
     <label>
       <input type="checkbox" id="shadowing-checkbox">
@@ -18,22 +16,24 @@
     </label>
   </div>
 
-  <!-- メイントレーニングコンテナ（常に表示） -->
+  <!-- メイントレーニングコンテナ：ランディングなしでいきなり表示 -->
   <div id="training-container">
     <!-- 例文再生ボタン -->
     <button id="replayPhraseBtn" title="例文再生">🔈️</button>
     <!-- ユーザー回答入力欄 -->
     <input type="text" id="answer-input" placeholder="聞き取った内容を台湾華語で入力">
+    <!-- 追加：画面右下に単語番号を表示する要素 -->
+    <div id="word-number"></div>
   </div>
 
-  <!-- オーバーレイ：回答結果表示（正解例文、拼音、訳、再生ボタン） -->
+  <!-- オーバーレイ：回答結果表示（例文・拼音・訳、再生ボタン） -->
   <div id="overlay" class="hidden">
     <div class="result-info">
       <p id="correct-example"><strong>例文：</strong><span></span></p>
       <p id="result-pinyin"><strong>拼音：</strong><span></span></p>
       <p id="result-translation"><strong>訳：</strong><span></span></p>
     </div>
-    <!-- 変更点：オーバーレイにも例文再生ボタンを配置 -->
+    <!-- オーバーレイ内の例文再生ボタン -->
     <button id="replayResultBtn" title="例文再生（再度）">🔈️</button>
   </div>
 
