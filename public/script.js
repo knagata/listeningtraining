@@ -2,10 +2,10 @@
 let allWords = [];
 let activeWords = [];
 let currentIndex = 0;
-let resultsData = {};  // DBから取得した結果；キーは "number" をハイフン連結
-let promptThreshold = 0;  // 継続プロンプトの閾値（初期は0，100,200,300,…）
+let resultsData = {};  // DBから取得した結果；キーは "number" をハイフンで連結
+let promptThreshold = 0;  // 継続プロンプトの閾値（初期は0, 100,200,300,…）
 let isComposing = false;  // IME変換中フラグ
-let currentAnswerCorrect = null;  // 最後に回答した正誤（true/false/null）
+let currentAnswerCorrect = null;  // 最後の回答の正誤（true/false/null）
 
 // ─── 複合キー作成関数 ─────────────────────────────
 function keyForWord(word) {
@@ -25,7 +25,7 @@ function isToday(dateString) {
          d.getDate() === today.getDate();
 }
 
-// ─── 今日の正答（correct）数更新 ─────────────────────────────
+// ─── 今日の正答（correct）数更新関数 ─────────────────────────────
 function updateTodayCorrectCount() {
   let count = 0;
   Object.values(resultsData).forEach(record => {
@@ -33,15 +33,16 @@ function updateTodayCorrectCount() {
       count++;
     }
   });
-  console.log("今日の正答数:", count);
+  console.log("【DEBUG】今日の正答数:", count);
   return count;
 }
 
-// ─── 継続プロンプト表示 ─────────────────────────────
+// ─── 継続プロンプト表示用関数 ─────────────────────────────
 function showContinuePrompt(todayCount) {
   const continueContainer = document.getElementById('continue-container');
   const messageEl = document.querySelector('.continue-message');
   messageEl.textContent = `${todayCount}個の例文に正答しました。学習を継続しますか？`;
+  console.log("【DEBUG】継続プロンプト表示：todayCount =", todayCount);
   document.getElementById('training-container').classList.add('hidden');
   continueContainer.classList.add('visible');
 }
@@ -56,11 +57,12 @@ Promise.all([
     const key = record.number.join('-');
     resultsData[key] = record;
   });
-  // DB上で今日正答済み（last_correct 更新済み）の単語を除外して activeWords を生成
+  // DB上で今日正答済み（last_correct更新済み）の単語を除外して activeWords 生成
   activeWords = allWords.filter(word => {
     const rec = resultsData[keyForWord(word)];
     return !(rec && rec.last_correct && isToday(rec.last_correct));
   });
+  console.log("【DEBUG】初期 activeWords 数:", activeWords.length);
   if (activeWords.length < 1) {
     document.getElementById('training-container').classList.add('hidden');
     document.getElementById('reset-container').classList.add('visible');
@@ -98,10 +100,11 @@ function chooseWeightedIndex() {
 function chooseNextWord() {
   if (activeWords.length < 1) return;
   currentIndex = chooseWeightedIndex();
+  console.log("【DEBUG】次の問題インデックス:", currentIndex);
 }
 
-// ─── displayWord() ─────────────────────────────
-// 次の問題表示時、回答欄をクリアし自動でフォーカスし、音声再生する
+// ─── displayWord() の最適化 ─────────────────────────────
+// 次の問題表示時に入力欄をクリアし、自動フォーカスと例文音声再生
 function displayWord() {
   if (activeWords.length < 1) {
     document.getElementById('training-container').classList.add('hidden');
@@ -109,18 +112,18 @@ function displayWord() {
     return;
   }
   const currentWord = activeWords[currentIndex];
-  // 聞き取りトレーニングでは画面上に例文は表示せず、右下に単語番号のみ表示
   document.getElementById('word-number').textContent = `#${keyForWord(currentWord)}`;
   
   const answerInput = document.getElementById('answer-input');
   answerInput.value = "";
-  answerInput.focus(); // 自動フォーカス
+  answerInput.focus();
   
   document.getElementById('overlay').classList.remove('visible');
   
-  // 新しい問題の例文音声を再生する
+  // 新しい問題の例文音声を再生
   const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
   playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
+  console.log("【DEBUG】displayWord() 実行：問題=", keyForWord(currentWord));
 }
 
 // ─── 正規化関数 ─────────────────────────────
@@ -161,30 +164,38 @@ answerInputEl.addEventListener('compositionstart', () => { window.isComposing = 
 answerInputEl.addEventListener('compositionend', () => { window.isComposing = false; });
 
 // ─── グローバルEnterキーイベント ─────────────────────────────
-// 変更：IME変換中の場合はスキップ；オーバーレイが表示中ならEnterで次の問題へ移行
+// 変更：IME変換中の場合はスキップ；オーバーレイ表示中ならEnterキーで解除して次の問題へ進む
 document.addEventListener("keydown", function(e) {
   if (e.key === "Enter") {
+    // IME変換中なら何もしない
     if ((e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") && window.isComposing) {
       return;
     }
-    // もしオーバーレイが表示中ならEnterキーで解除して次の問題へ進む（変更）
-    if (document.getElementById('overlay').classList.contains('visible')) {
-      document.getElementById('overlay').classList.remove('visible');
+    // オーバーレイが表示中の場合、Enterでオーバーレイを解除し、もし正答なら対象単語を削除してから次の問題へ
+    const overlayEl = document.getElementById('overlay');
+    if (overlayEl.classList.contains('visible')) {
+      overlayEl.classList.remove('visible');
+      console.log("【DEBUG】Enter：オーバーレイ解除");
+      if (currentAnswerCorrect === true) {
+        console.log("【DEBUG】正答だったので、単語", keyForWord(activeWords[currentIndex]), "を除外");
+        activeWords.splice(currentIndex, 1);
+      }
       chooseNextWord();
       displayWord();
       return;
     }
-    // 入力欄にテキストがあれば回答処理、空なら不正解として処理
-    if (document.getElementById('answer-input').value.trim() !== "") {
+    // それ以外、入力欄があるなら回答処理。空なら不正解扱い。
+    const answerInput = document.getElementById('answer-input');
+    if (answerInput.value.trim() !== "") {
       processAnswer();
     } else {
-      processAnswer(true);  // 空入力＝不正解
+      processAnswer(true);
     }
   }
 });
 
 // ─── グローバルSpaceキーイベント ─────────────────────────────
-// 変更：IME変換中でなければスペースキーで例文再生（入力欄がフォーカスされていても実行）
+// 変更：IME変換中でなければ、スペースキーで例文再生（入力欄がフォーカス中でも実行）
 document.addEventListener("keydown", function(e) {
   if (e.key === " ") {
     if ((e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") && window.isComposing) {
@@ -235,7 +246,7 @@ document.getElementById('replayResultBtn').addEventListener('click', function(e)
 });
 
 // ─── 回答処理（正誤判定） ─────────────────────────────
-// 変更：空入力の場合は必ず不正解扱い、activeWordsからの除外は「次の問題へ進むタイミング」で実施
+// 変更：空入力は不正解扱い；正誤結果はオーバーレイで表示し、結果の記録はシャドーイングモードでなければ実施
 function processAnswer(emptyInput = false) {
   const answerInput = document.getElementById('answer-input');
   const userAnswer = emptyInput ? "" : normalizeText(answerInput.value);
@@ -243,7 +254,8 @@ function processAnswer(emptyInput = false) {
   const correctAnswer = normalizeText(currentWord.example.text);
   
   const isCorrect = emptyInput ? false : (userAnswer === correctAnswer);
-  currentAnswerCorrect = isCorrect;  // 正誤状態を保存
+  currentAnswerCorrect = isCorrect;
+  console.log("【DEBUG】processAnswer: userAnswer=", userAnswer, "正解=", correctAnswer, "結果=", isCorrect);
   
   const shadowingMode = document.getElementById('shadowing-checkbox').checked;
   
@@ -274,10 +286,10 @@ function showResultOverlay(isCorrect, word) {
   document.querySelector('#result-pinyin span').textContent = word.example.pinyin;
   document.querySelector('#result-translation span').textContent = word.example.translation;
   document.getElementById('overlay').classList.add('visible');
+  console.log("【DEBUG】オーバーレイ表示：正誤=", isCorrect);
 }
 
 // ─── 回答送信処理 ─────────────────────────────
-// "correct"の場合にのみlast_correctを更新
 function recordAnswer(result) {
   const currentWord = activeWords[currentIndex];
   fetch('/results', {
@@ -286,7 +298,7 @@ function recordAnswer(result) {
     body: JSON.stringify({ number: currentWord.number, result: result })
   }).then(response => response.json())
     .then(data => {
-      console.log(`Word: ${keyForWord(currentWord)}, Result: ${result}, Accuracy: ${data.accuracy}`);
+      console.log(`【DEBUG】Word: ${keyForWord(currentWord)}, Result: ${result}, Accuracy: ${data.accuracy}`);
       if (!resultsData[keyForWord(currentWord)]) {
         resultsData[keyForWord(currentWord)] = { history: [] };
       }
