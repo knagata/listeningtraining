@@ -16,7 +16,7 @@ body {
   justify-content: center;
 }
 
-/* シャドーイングモードチェックボックス（右上） */
+/* シャドーイングモードチェックボックス */
 #shadowing-mode-container {
   position: absolute;
   top: 2%;
@@ -25,23 +25,7 @@ body {
   z-index: 20;
 }
 
-/* ランディングヘッダー */
-#landing-header {
-  position: absolute;
-  top: 20%;
-  text-align: center;
-  z-index: 10;
-}
-#landing-header h1 {
-  font-size: 8vw;
-  margin: 0.5em;
-}
-#landing-header p {
-  font-size: 4vw;
-  margin: 0;
-}
-
-/* メイントレーニングコンテナ */
+/* メイントレーニングコンテナ（常に表示、ランディング廃止） */
 #training-container {
   position: relative;
   width: 100vw;
@@ -52,13 +36,9 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 5;
-  /* 初期状態はhiddenクラスで非表示。ランディングからのクリックで表示 */
-}
-.hidden {
-  display: none;
 }
 
-/* 回答入力欄と例文再生ボタン */
+/* 例文再生ボタン＆入力欄 */
 #replayPhraseBtn {
   font-size: 6vw;
   padding: 2vw 4vw;
@@ -72,15 +52,15 @@ body {
   text-align: center;
 }
 
-/* オーバーレイ：回答結果表示用 */
+/* オーバーレイ（回答結果表示） */
 #overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.95);
-  display: none;
+  background: rgba(255,255,255,0.95);
+  display: none; /* 初期は非表示 */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -91,6 +71,8 @@ body {
 #overlay.visible {
   display: flex;
 }
+
+/* オーバーレイの内容 */
 .result-info {
   text-align: center;
   margin-bottom: 4vw;
@@ -107,7 +89,7 @@ body {
   cursor: pointer;
 }
 
-/* リセットコンテナ */
+/* リセット画面 */
 #reset-container, #continue-container {
   position: absolute;
   top: 0;
@@ -128,23 +110,21 @@ body {
   font-size: 8vw;
   margin-bottom: 4vw;
 }
-button {
-  /* 共通のボタンスタイル（ただし、各ボタン固有のサイズは後で調整） */
-  cursor: pointer;
-  box-sizing: border-box;
+
+/* 右下に単語番号表示（フラッシュカードと同様） */
+#word-number {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  font-size: 4vw;
+  color: #888;
+  z-index: 10;
 }
 
-/* スマートフォン向け調整（ここではvw単位でほぼ共通） */
-/* 必要に応じてこのブレークポイントの数値は調整してください */
+/* スマートフォン向け調整（必要に応じて） */
 @media (max-width: 768px) {
   #shadowing-mode-container {
     font-size: 5vw;
-  }
-  #landing-header h1 {
-    font-size: 12vw;
-  }
-  #landing-header p {
-    font-size: 6vw;
   }
   #replayPhraseBtn,
   #replayResultBtn {
@@ -161,4 +141,5 @@ button {
   .continue-message {
     font-size: 10vw;
   }
+  /* その他の要素も必要に応じて調整 */
 }
