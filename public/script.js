@@ -141,7 +141,7 @@ function displayWord() {
 
 // ─── 正規化関数 ─────────────────────────────
 function normalizeText(text) {
-  const removeChars = /[，。？、]/g;
+  const removeChars = /[，。？、「」]/g;
   const mapping = { "她": "他", "妳": "你" };
   let normalized = text.replace(removeChars, "");
   normalized = normalized.split("").map(ch => mapping[ch] || ch).join("");
