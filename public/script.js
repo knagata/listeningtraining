@@ -2,11 +2,10 @@
 let allWords = [];
 let activeWords = [];
 let currentIndex = 0;
-let resultsData = {}; // DBから取得した結果データ；キーは "number" をハイフンで連結
+let resultsData = {};  // DBから取得した結果；キーは "number" をハイフン連結
 let promptThreshold = 0;  // 継続プロンプトの閾値（初期は0，100,200,300,…）
 let isComposing = false;  // IME変換中フラグ
-let currentAnswerCorrect = null;  // 今回回答した内容が正解かどうか（true/false/null）
-let waitingForAnswer = false;  // 新しい問題の読み込み後、回答待ちかどうか
+let currentAnswerCorrect = null;  // 最後に回答した正誤（true/false/null）
 
 // ─── 複合キー作成関数 ─────────────────────────────
 function keyForWord(word) {
@@ -26,7 +25,7 @@ function isToday(dateString) {
          d.getDate() === today.getDate();
 }
 
-// ─── 今日の正答（correct）タップ数更新関数 ─────────────
+// ─── 今日の正答（correct）数更新 ─────────────────────────────
 function updateTodayCorrectCount() {
   let count = 0;
   Object.values(resultsData).forEach(record => {
@@ -34,11 +33,11 @@ function updateTodayCorrectCount() {
       count++;
     }
   });
-  console.log("今日の正答タップ数:", count);
+  console.log("今日の正答数:", count);
   return count;
 }
 
-// ─── 継続プロンプト表示用関数 ─────────────
+// ─── 継続プロンプト表示 ─────────────────────────────
 function showContinuePrompt(todayCount) {
   const continueContainer = document.getElementById('continue-container');
   const messageEl = document.querySelector('.continue-message');
@@ -57,7 +56,7 @@ Promise.all([
     const key = record.number.join('-');
     resultsData[key] = record;
   });
-  // DB上で今日正答済み（last_correct更新済み）の単語を除外してactiveWords生成
+  // DB上で今日正答済み（last_correct 更新済み）の単語を除外して activeWords を生成
   activeWords = allWords.filter(word => {
     const rec = resultsData[keyForWord(word)];
     return !(rec && rec.last_correct && isToday(rec.last_correct));
@@ -66,7 +65,6 @@ Promise.all([
     document.getElementById('training-container').classList.add('hidden');
     document.getElementById('reset-container').classList.add('visible');
   } else {
-    waitingForAnswer = true;  // 新しい問題待ちの状態
     chooseNextWord();
     displayWord();
   }
@@ -102,8 +100,8 @@ function chooseNextWord() {
   currentIndex = chooseWeightedIndex();
 }
 
-// ─── displayWord() の最適化 ─────────────────────────────
-// 次の問題表示時に、回答入力欄をクリア・自動フォーカスし、例文音声は再生のみする
+// ─── displayWord() ─────────────────────────────
+// 次の問題表示時、回答欄をクリアし自動でフォーカスし、音声再生する
 function displayWord() {
   if (activeWords.length < 1) {
     document.getElementById('training-container').classList.add('hidden');
@@ -111,22 +109,18 @@ function displayWord() {
     return;
   }
   const currentWord = activeWords[currentIndex];
-  // 聞き取りトレーニングでは、画面上に例文は表示せず、右下に単語番号を表示
+  // 聞き取りトレーニングでは画面上に例文は表示せず、右下に単語番号のみ表示
   document.getElementById('word-number').textContent = `#${keyForWord(currentWord)}`;
   
   const answerInput = document.getElementById('answer-input');
   answerInput.value = "";
-  answerInput.focus();  // 自動フォーカス設定
+  answerInput.focus(); // 自動フォーカス
   
-  // オーバーレイは非表示
   document.getElementById('overlay').classList.remove('visible');
   
-  // 新しい例文音声は、ここでのみ再生される
-  if (waitingForAnswer) {
-    const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
-    playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
-  }
-  waitingForAnswer = true;  // 次の問題へ進む準備完了
+  // 新しい問題の例文音声を再生する
+  const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
+  playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
 }
 
 // ─── 正規化関数 ─────────────────────────────
@@ -167,28 +161,30 @@ answerInputEl.addEventListener('compositionstart', () => { window.isComposing = 
 answerInputEl.addEventListener('compositionend', () => { window.isComposing = false; });
 
 // ─── グローバルEnterキーイベント ─────────────────────────────
-// 変更：IME変換中はスキップ；オーバーレイ表示中なら何もしない；
-// 入力欄にテキストがあれば processAnswer()（不正解入力の場合はemptyInputを true に）
+// 変更：IME変換中の場合はスキップ；オーバーレイが表示中ならEnterで次の問題へ移行
 document.addEventListener("keydown", function(e) {
   if (e.key === "Enter") {
     if ((e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") && window.isComposing) {
       return;
     }
-    // もしオーバーレイが表示中ならEnterキーでは何もしない（継続は「継続する」ボタンで実施）
+    // もしオーバーレイが表示中ならEnterキーで解除して次の問題へ進む（変更）
     if (document.getElementById('overlay').classList.contains('visible')) {
+      document.getElementById('overlay').classList.remove('visible');
+      chooseNextWord();
+      displayWord();
       return;
     }
-    const answerInput = document.getElementById('answer-input');
-    if (answerInput.value.trim() !== "") {
+    // 入力欄にテキストがあれば回答処理、空なら不正解として処理
+    if (document.getElementById('answer-input').value.trim() !== "") {
       processAnswer();
     } else {
-      processAnswer(true); // 空入力は不正解扱い
+      processAnswer(true);  // 空入力＝不正解
     }
   }
 });
 
 // ─── グローバルSpaceキーイベント ─────────────────────────────
-// 変更：IME変換中でなければ、スペースキーで例文再生（入力欄がフォーカスされていても実行）
+// 変更：IME変換中でなければスペースキーで例文再生（入力欄がフォーカスされていても実行）
 document.addEventListener("keydown", function(e) {
   if (e.key === " ") {
     if ((e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") && window.isComposing) {
@@ -206,18 +202,12 @@ document.getElementById('continueBtn').addEventListener('click', function(e) {
   e.stopPropagation();
   document.getElementById('continue-container').classList.remove('visible');
   document.getElementById('training-container').classList.remove('hidden');
-  // 次の問題へ進む前に、もし前回回答が正解なら対象の単語を activeWords から削除（ユーザー選択により除外）
-  if (currentAnswerCorrect === true) {
-    activeWords.splice(currentIndex, 1);
-  }
-  // 次の問題への準備
   chooseNextWord();
   displayWord();
 });
 
 // ─── リセットボタン ─────────────────────────────
 document.getElementById('resetBtn').addEventListener('click', function(e) {
-  // リセット時、DB上の今日正答済み単語でフィルタリングし直す
   activeWords = allWords.filter(word => {
     const rec = resultsData[keyForWord(word)];
     return !(rec && rec.last_correct && isToday(rec.last_correct));
@@ -239,23 +229,21 @@ document.getElementById('replayPhraseBtn').addEventListener('click', function(e)
 // ─── オーバーレイ内の例文再生ボタン ─────────────────────────────
 document.getElementById('replayResultBtn').addEventListener('click', function(e) {
   e.stopPropagation();
-  // オーバーレイ内の再生は、現在の回答対象の単語の例文を再生する（再度読み込まない）
   const currentWord = activeWords[currentIndex];
   const phraseAudioUrl = `mp3/${keyForWord(currentWord)}_phrase.mp3`;
   playAudioWithFallback(phraseAudioUrl, () => speakText(currentWord.example.text));
 });
 
 // ─── 回答処理（正誤判定） ─────────────────────────────
-// 変更：空入力の場合は必ず不正解扱い；activeWordsから即除外せず、継続ボタンで次の問題へ進む際に削除
+// 変更：空入力の場合は必ず不正解扱い、activeWordsからの除外は「次の問題へ進むタイミング」で実施
 function processAnswer(emptyInput = false) {
   const answerInput = document.getElementById('answer-input');
   const userAnswer = emptyInput ? "" : normalizeText(answerInput.value);
   const currentWord = activeWords[currentIndex];
   const correctAnswer = normalizeText(currentWord.example.text);
   
-  // 空入力なら false、それ以外は比較結果
   const isCorrect = emptyInput ? false : (userAnswer === correctAnswer);
-  currentAnswerCorrect = isCorrect;  // グローバル変数に保存
+  currentAnswerCorrect = isCorrect;  // 正誤状態を保存
   
   const shadowingMode = document.getElementById('shadowing-checkbox').checked;
   
@@ -267,7 +255,7 @@ function processAnswer(emptyInput = false) {
     }
   }
   
-  // オーバーレイ表示で回答結果確認（表示中は新しい例文を読み込まない）
+  // オーバーレイ表示（回答結果確認）：ここで新たな例文は読み込まれない
   showResultOverlay(isCorrect, currentWord);
   
   // 結果記録（シャドーイングモードでなければ）
@@ -289,7 +277,7 @@ function showResultOverlay(isCorrect, word) {
 }
 
 // ─── 回答送信処理 ─────────────────────────────
-// 正答ならlast_correctを更新、DBへ"correct"または"incorrect"を送信
+// "correct"の場合にのみlast_correctを更新
 function recordAnswer(result) {
   const currentWord = activeWords[currentIndex];
   fetch('/results', {
