@@ -2306,7 +2306,7 @@
     "example": {
       "text": "這房子是有名的四合院。",
       "pinyin": "Zhè fángzi shì yǒumíng de sìhéyuàn.",
-      "translation": "この家は有名な中庭の家です。"
+      "translation": "この家は有名な四合院です。"
     }
   },
   {
@@ -2315,7 +2315,7 @@
     "pinyin": "mén",
     "meaning": "ドア",
     "example": {
-      "text": "門口貼了一個「福」子。",
+      "text": "門口貼了一個福字。",
       "pinyin": "Ménkǒu tiē le yí gè 'fú' zì.",
       "translation": "ドアには「福」のステッカーが貼ってあります。"
     }
@@ -3338,9 +3338,9 @@
     "pinyin": "zhǐ",
     "meaning": "〜だけ、ただ〜",
     "example": {
-      "text": "我一直有一個哥哥。",
-      "pinyin": "Wǒ yīzhí yǒu yí gè gēge.",
-      "translation": "私にはいつも兄がいた。"
+      "text": "我只有一個哥哥。",
+      "pinyin": "Wǒ zhí yǒu yí gè gēge.",
+      "translation": "私にはひとりだけ兄がいます。"
     }
   },
   {
@@ -3415,8 +3415,8 @@
     "pinyin": "gēn",
     "meaning": "〜と〜",
     "example": {
-      "text": "我要吃水餃包跟酸辣湯。",
-      "pinyin": "Wǒ yào chī shuǐjiǎo bāo gēn suānlàtāng.",
+      "text": "我要吃水煎包跟酸辣湯。",
+      "pinyin": "Wǒ yào chī shuǐjiānbāo gēn suānlàtāng..",
       "translation": "餃子と酸辣湯が食べたいです。"
     }
   },
