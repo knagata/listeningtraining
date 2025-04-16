@@ -3,7 +3,7 @@ let allWords = [];
 let activeWords = [];
 let currentIndex = 0;
 let resultsData = {};  // DBから取得した結果；キーは "number" をハイフンで連結
-let promptThreshold = 0;  // 継続プロンプトの閾値（初期は0, 100,200,300,…）
+let promptThreshold = 50;  // 何回正答するごとに継続プロンプトを表示するか
 let isComposing = false;  // IME変換中フラグ
 let currentAnswerCorrect = null;  // 最後の回答の正誤（true/false/null）
 
@@ -316,8 +316,7 @@ function recordAnswer(result) {
         resultsData[keyForWord(currentWord)].last_correct = new Date().toISOString();
       }
       const todayCount = updateTodayCorrectCount();
-      if (todayCount >= promptThreshold + 100) {
-        promptThreshold = Math.floor(todayCount / 100) * 100;
+      if (todayCount%promptThreshold == 0) {
         showContinuePrompt(todayCount);
         return;
       }
