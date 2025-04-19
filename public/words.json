@@ -3630,7 +3630,7 @@
     }
   },
   {
-    "number": 331,
+    "number": [0, 331],
     "word": "男生",
     "pinyin": "nánshēng",
     "meaning": "男性",
@@ -3641,7 +3641,7 @@
     }
   },
   {
-    "number": 332,
+    "number": [0, 332],
     "word": "女生",
     "pinyin": "nǚshēng",
     "meaning": "女性",
@@ -3652,7 +3652,7 @@
     }
   },
   {
-    "number": 333,
+    "number": [0, 333],
     "word": "小孩",
     "pinyin": "xiǎohái",
     "meaning": "子供",
@@ -3663,7 +3663,7 @@
     }
   },
   {
-    "number": 334,
+    "number": [0, 334],
     "word": "家人",
     "pinyin": "jiārén",
     "meaning": "家族",
@@ -3674,7 +3674,7 @@
     }
   },
   {
-    "number": 335,
+    "number": [0, 335],
     "word": "姓名",
     "pinyin": "xìngmíng",
     "meaning": "名前",
@@ -3685,7 +3685,7 @@
     }
   },
   {
-    "number": 336,
+    "number": [0, 336],
     "word": "千",
     "pinyin": "qiān",
     "meaning": "千",
@@ -3696,7 +3696,7 @@
     }
   },
   {
-    "number": 337,
+    "number": [0, 337],
     "word": "萬",
     "pinyin": "wàn",
     "meaning": "万",
@@ -3707,7 +3707,7 @@
     }
   },
   {
-    "number": 338,
+    "number": [0, 338],
     "word": "樓",
     "pinyin": "lóu",
     "meaning": "階",
@@ -3718,7 +3718,7 @@
     }
   },
   {
-    "number": 339,
+    "number": [0, 339],
     "word": "公斤",
     "pinyin": "gōngjīn",
     "meaning": "キログラム",
@@ -3729,7 +3729,7 @@
     }
   },
   {
-    "number": 340,
+    "number": [0, 340],
     "word": "片",
     "pinyin": "piàn/piān",
     "meaning": "平らな形のものやかけらを数える",
@@ -3740,7 +3740,7 @@
     }
   },
   {
-    "number": 341,
+    "number": [0, 341],
     "word": "一半",
     "pinyin": "yībàn",
     "meaning": "半分",
@@ -3751,7 +3751,7 @@
     }
   },
   {
-    "number": 342,
+    "number": [0, 342],
     "word": "新年",
     "pinyin": "xīnnián",
     "meaning": "新年",
@@ -3762,7 +3762,7 @@
     }
   },
   {
-    "number": 343,
+    "number": [0, 343],
     "word": "春天",
     "pinyin": "chūntiān",
     "meaning": "春",
@@ -3773,7 +3773,7 @@
     }
   },
   {
-    "number": 344,
+    "number": [0, 344],
     "word": "夏天",
     "pinyin": "xiàtiān",
     "meaning": "夏",
@@ -3784,7 +3784,7 @@
     }
   },
   {
-    "number": 345,
+    "number": [0, 345],
     "word": "秋天",
     "pinyin": "qiūtiān",
     "meaning": "秋",
@@ -3795,7 +3795,7 @@
     }
   },
   {
-    "number": 346,
+    "number": [0, 346],
     "word": "冬天",
     "pinyin": "dōngtiān",
     "meaning": "冬",
@@ -3806,7 +3806,7 @@
     }
   },
   {
-    "number": 347,
+    "number": [0, 347],
     "word": "小時",
     "pinyin": "xiǎoshí",
     "meaning": "時間",
@@ -3817,7 +3817,7 @@
     }
   },
   {
-    "number": 348,
+    "number": [0, 348],
     "word": "點鐘",
     "pinyin": "diǎnzhōng",
     "meaning": "〜時",
@@ -3828,7 +3828,7 @@
     }
   },
   {
-    "number": 349,
+    "number": [0, 349],
     "word": "分鐘",
     "pinyin": "fēnzhōng",
     "meaning": "～分、〜分間",
@@ -3839,7 +3839,7 @@
     }
   },
   {
-    "number": 350,
+    "number": [0, 350],
     "word": "久",
     "pinyin": "jiǔ",
     "meaning": "長い、久しい",
@@ -3850,7 +3850,7 @@
     }
   },
   {
-    "number": 351,
+    "number": [0, 351],
     "word": "有時候",
     "pinyin": "yǒushíhòu",
     "meaning": "時々",
@@ -3861,7 +3861,7 @@
     }
   },
   {
-    "number": 352,
+    "number": [0, 352],
     "word": "在",
     "pinyin": "zài",
     "meaning": "〜している",
@@ -3872,7 +3872,7 @@
     }
   },
   {
-    "number": 353,
+    "number": [0, 353],
     "word": "對面",
     "pinyin": "duìmiàn",
     "meaning": "向かい、真正面",
@@ -3883,7 +3883,7 @@
     }
   },
   {
-    "number": 354,
+    "number": [0, 354],
     "word": "裡面",
     "pinyin": "lǐmiàn",
     "meaning": "中、内側",
@@ -3894,7 +3894,7 @@
     }
   },
   {
-    "number": 355,
+    "number": [0, 355],
     "word": "國家",
     "pinyin": "guójiā",
     "meaning": "国家",
@@ -3905,7 +3905,7 @@
     }
   },
   {
-    "number": 356,
+    "number": [0, 356],
     "word": "城市",
     "pinyin": "chéngshì",
     "meaning": "都市",
@@ -3916,7 +3916,7 @@
     }
   },
   {
-    "number": 357,
+    "number": [0, 357],
     "word": "街",
     "pinyin": "jiē",
     "meaning": "街、通り",
@@ -3927,7 +3927,7 @@
     }
   },
   {
-    "number": 358,
+    "number": [0, 358],
     "word": "海邊",
     "pinyin": "hǎibiān",
     "meaning": "海辺、海岸",
@@ -3938,7 +3938,7 @@
     }
   },
   {
-    "number": 359,
+    "number": [0, 359],
     "word": "公園",
     "pinyin": "gōngyuán",
     "meaning": "公園",
@@ -3949,7 +3949,7 @@
     }
   },
   {
-    "number": 360,
+    "number": [0, 360],
     "word": "郵局",
     "pinyin": "yóujú",
     "meaning": "郵便局",
@@ -3960,7 +3960,7 @@
     }
   },
   {
-    "number": 361,
+    "number": [0, 361],
     "word": "銀行",
     "pinyin": "yínháng",
     "meaning": "銀行",
@@ -3971,7 +3971,7 @@
     }
   },
   {
-    "number": 362,
+    "number": [0, 362],
     "word": "警察",
     "pinyin": "jǐngchá",
     "meaning": "警察",
@@ -3982,7 +3982,7 @@
     }
   },
   {
-    "number": 363,
+    "number": [0, 363],
     "word": "飯店",
     "pinyin": "fàndiàn",
     "meaning": "ホテル、レストラン",
@@ -3993,7 +3993,7 @@
     }
   },
   {
-    "number": 364,
+    "number": [0, 364],
     "word": "旅館",
     "pinyin": "lǚguǎn",
     "meaning": "旅館、ホテル",
@@ -4004,7 +4004,7 @@
     }
   },
   {
-    "number": 365,
+    "number": [0, 365],
     "word": "商店",
     "pinyin": "shāngdiàn",
     "meaning": "店、店舗",
@@ -4015,7 +4015,7 @@
     }
   },
   {
-    "number": 366,
+    "number": [0, 366],
     "word": "店",
     "pinyin": "diàn",
     "meaning": "店",
@@ -4026,7 +4026,7 @@
     }
   },
   {
-    "number": 367,
+    "number": [0, 367],
     "word": "樓上",
     "pinyin": "lóushàng",
     "meaning": "上の階",
@@ -4037,7 +4037,7 @@
     }
   },
   {
-    "number": 368,
+    "number": [0, 368],
     "word": "樓下",
     "pinyin": "lóuxià",
     "meaning": "階下",
@@ -4048,7 +4048,7 @@
     }
   },
   {
-    "number": 369,
+    "number": [0, 369],
     "word": "頭",
     "pinyin": "tóu",
     "meaning": "頭",
@@ -4059,7 +4059,7 @@
     }
   },
   {
-    "number": 370,
+    "number": [0, 370],
     "word": "頭髮",
     "pinyin": "tóufà",
     "meaning": "髪",
@@ -4070,7 +4070,7 @@
     }
   },
   {
-    "number": 371,
+    "number": [0, 371],
     "word": "耳朵",
     "pinyin": "ěrduo",
     "meaning": "耳",
@@ -4081,7 +4081,7 @@
     }
   },
   {
-    "number": 372,
+    "number": [0, 372],
     "word": "手指頭",
     "pinyin": "shǒuzhǐtou",
     "meaning": "指",
@@ -4092,7 +4092,7 @@
     }
   },
   {
-    "number": 373,
+    "number": [0, 373],
     "word": "肚子",
     "pinyin": "dùzi",
     "meaning": "腹部",
@@ -4103,7 +4103,7 @@
     }
   },
   {
-    "number": 374,
+    "number": [0, 374],
     "word": "健康",
     "pinyin": "jiànkāng",
     "meaning": "健康",
@@ -4114,7 +4114,7 @@
     }
   },
   {
-    "number": 375,
+    "number": [0, 375],
     "word": "生病",
     "pinyin": "shēngbìng",
     "meaning": "病気になる",
@@ -4125,7 +4125,7 @@
     }
   },
   {
-    "number": 376,
+    "number": [0, 376],
     "word": "感冒",
     "pinyin": "gǎnmào",
     "meaning": "風邪をひく",
@@ -4136,7 +4136,7 @@
     }
   },
   {
-    "number": 377,
+    "number": [0, 377],
     "word": "受傷",
     "pinyin": "shòushāng",
     "meaning": "怪我をする",
@@ -4147,7 +4147,7 @@
     }
   },
   {
-    "number": 378,
+    "number": [0, 378],
     "word": "痛",
     "pinyin": "tòng",
     "meaning": "痛い",
@@ -4158,7 +4158,7 @@
     }
   },
   {
-    "number": 379,
+    "number": [0, 379],
     "word": "胖",
     "pinyin": "pàng",
     "meaning": "太っている",
@@ -4169,7 +4169,7 @@
     }
   },
   {
-    "number": 380,
+    "number": [0, 380],
     "word": "瘦",
     "pinyin": "shòu",
     "meaning": "痩せている、脂肪が少ない",
@@ -4180,7 +4180,7 @@
     }
   },
   {
-    "number": 381,
+    "number": [0, 381],
     "word": "矮",
     "pinyin": "ǎi",
     "meaning": "背の低い",
@@ -4191,7 +4191,7 @@
     }
   },
   {
-    "number": 382,
+    "number": [0, 382],
     "word": "短",
     "pinyin": "duǎn",
     "meaning": "短い",
@@ -4202,7 +4202,7 @@
     }
   },
   {
-    "number": 383,
+    "number": [0, 383],
     "word": "壞",
     "pinyin": "huài",
     "meaning": "壊れる、悪い、傷んでいる",
@@ -4213,7 +4213,7 @@
     }
   },
   {
-    "number": 384,
+    "number": [0, 384],
     "word": "不錯",
     "pinyin": "búcuò",
     "meaning": "すばらしい、間違いない",
@@ -4224,7 +4224,7 @@
     }
   },
   {
-    "number": 385,
+    "number": [0, 385],
     "word": "重要",
     "pinyin": "zhòngyào",
     "meaning": "重要である、大切である",
@@ -4235,7 +4235,7 @@
     }
   },
   {
-    "number": 386,
+    "number": [0, 386],
     "word": "安靜",
     "pinyin": "ānjìng",
     "meaning": "静かである、平穏である",
@@ -4246,7 +4246,7 @@
     }
   },
   {
-    "number": 387,
+    "number": [0, 387],
     "word": "年輕",
     "pinyin": "niánqīng",
     "meaning": "若い",
@@ -4257,7 +4257,7 @@
     }
   },
   {
-    "number": 388,
+    "number": [0, 388],
     "word": "老",
     "pinyin": "lǎo",
     "meaning": "老いた、古い、経験を積んだ、もとの",
@@ -4268,7 +4268,7 @@
     }
   },
   {
-    "number": 389,
+    "number": [0, 389],
     "word": "可愛",
     "pinyin": "kě'ài",
     "meaning": "かわいい",
@@ -4279,7 +4279,7 @@
     }
   },
   {
-    "number": 390,
+    "number": [0, 390],
     "word": "緊張",
     "pinyin": "jǐnzhāng",
     "meaning": "緊張している",
@@ -4290,7 +4290,7 @@
     }
   },
   {
-    "number": 391,
+    "number": [0, 391],
     "word": "舒服",
     "pinyin": "shūfú",
     "meaning": "快適である、心地よい",
@@ -4301,7 +4301,7 @@
     }
   },
   {
-    "number": 392,
+    "number": [0, 392],
     "word": "希望",
     "pinyin": "xīwàng",
     "meaning": "望む、希望する",
@@ -4312,7 +4312,7 @@
     }
   },
   {
-    "number": 393,
+    "number": [0, 393],
     "word": "歡迎",
     "pinyin": "huānyíng",
     "meaning": "歓迎する",
@@ -4323,7 +4323,7 @@
     }
   },
   {
-    "number": 394,
+    "number": [0, 394],
     "word": "記得",
     "pinyin": "jìdé",
     "meaning": "覚えている",
@@ -4334,7 +4334,7 @@
     }
   },
   {
-    "number": 395,
+    "number": [0, 395],
     "word": "一定",
     "pinyin": "yīdìng",
     "meaning": "必ず、きっと、絶対に",
@@ -4345,7 +4345,7 @@
     }
   },
   {
-    "number": 396,
+    "number": [0, 396],
     "word": "決定",
     "pinyin": "juédìng",
     "meaning": "決定",
@@ -4356,7 +4356,7 @@
     }
   },
   {
-    "number": 397,
+    "number": [0, 397],
     "word": "注意",
     "pinyin": "zhùyì",
     "meaning": "注意する、気をつける",
@@ -4367,7 +4367,7 @@
     }
   },
   {
-    "number": 398,
+    "number": [0, 398],
     "word": "跑步",
     "pinyin": "pǎobù",
     "meaning": "走る、ジョギングする",
@@ -4378,7 +4378,7 @@
     }
   },
   {
-    "number": 399,
+    "number": [0, 399],
     "word": "騎",
     "pinyin": "qí",
     "meaning": "またがる、またがって乗る",
@@ -4389,7 +4389,7 @@
     }
   },
   {
-    "number": 400,
+    "number": [0, 400],
     "word": "踢",
     "pinyin": "tī",
     "meaning": "蹴る",
@@ -4400,7 +4400,7 @@
     }
   },
   {
-    "number": 401,
+    "number": [0, 401],
     "word": "關",
     "pinyin": "guān",
     "meaning": "閉まる、閉める、閉じ込める、スイッチを切る",
@@ -4411,7 +4411,7 @@
     }
   },
   {
-    "number": 402,
+    "number": [0, 402],
     "word": "回答",
     "pinyin": "huídá",
     "meaning": "答える",
@@ -4422,7 +4422,7 @@
     }
   },
   {
-    "number": 403,
+    "number": [0, 403],
     "word": "寄",
     "pinyin": "jì",
     "meaning": "郵送する、預ける",
@@ -4433,7 +4433,7 @@
     }
   },
   {
-    "number": 404,
+    "number": [0, 404],
     "word": "接",
     "pinyin": "jiē",
     "meaning": "迎える、接する、つなぐ、受ける、続ける",
@@ -4444,7 +4444,7 @@
     }
   },
   {
-    "number": 405,
+    "number": [0, 405],
     "word": "過",
     "pinyin": "guò",
     "meaning": "過ぎる、通過する、過ごす、超過する",
@@ -4455,7 +4455,7 @@
     }
   },
   {
-    "number": 406,
+    "number": [0, 406],
     "word": "游泳",
     "pinyin": "yóuyǒng",
     "meaning": "泳ぐ",
@@ -4466,7 +4466,7 @@
     }
   },
   {
-    "number": 407,
+    "number": [0, 407],
     "word": "幫忙",
     "pinyin": "bāngmáng",
     "meaning": "手伝う",
@@ -4477,7 +4477,7 @@
     }
   },
   {
-    "number": 408,
+    "number": [0, 408],
     "word": "電子郵件",
     "pinyin": "diànzǐ yóujiàn",
     "meaning": "電子メール",
@@ -4488,7 +4488,7 @@
     }
   },
   {
-    "number": 409,
+    "number": [0, 409],
     "word": "冷氣機",
     "pinyin": "lěngqìjī",
     "meaning": "クーラー",
@@ -4499,7 +4499,7 @@
     }
   },
   {
-    "number": 410,
+    "number": [0, 410],
     "word": "報紙",
     "pinyin": "bàozhǐ",
     "meaning": "新聞",
@@ -4510,7 +4510,7 @@
     }
   },
   {
-    "number": 411,
+    "number": [0, 411],
     "word": "禮物",
     "pinyin": "lǐwù",
     "meaning": "贈り物、プレゼント",
@@ -4521,7 +4521,7 @@
     }
   },
   {
-    "number": 412,
+    "number": [0, 412],
     "word": "信封",
     "pinyin": "xìnfēng",
     "meaning": "封筒",
@@ -4532,7 +4532,7 @@
     }
   },
   {
-    "number": 413,
+    "number": [0, 413],
     "word": "地圖",
     "pinyin": "dìtú",
     "meaning": "地図",
@@ -4543,7 +4543,7 @@
     }
   },
   {
-    "number": 414,
+    "number": [0, 414],
     "word": "眼鏡",
     "pinyin": "yǎnjìng",
     "meaning": "眼鏡",
@@ -4554,7 +4554,7 @@
     }
   },
   {
-    "number": 415,
+    "number": [0, 415],
     "word": "襪子",
     "pinyin": "wàzi",
     "meaning": "靴下",
@@ -4565,7 +4565,7 @@
     }
   },
   {
-    "number": 416,
+    "number": [0, 416],
     "word": "裙子",
     "pinyin": "qúnzi",
     "meaning": "スカート",
@@ -4576,7 +4576,7 @@
     }
   },
   {
-    "number": 417,
+    "number": [0, 417],
     "word": "顏色",
     "pinyin": "yánsè",
     "meaning": "色",
@@ -4587,7 +4587,7 @@
     }
   },
   {
-    "number": 418,
+    "number": [0, 418],
     "word": "黃色",
     "pinyin": "huángsè",
     "meaning": "黄色",
@@ -4598,7 +4598,7 @@
     }
   },
   {
-    "number": 419,
+    "number": [0, 419],
     "word": "白色",
     "pinyin": "báisè",
     "meaning": "白",
@@ -4609,7 +4609,7 @@
     }
   },
   {
-    "number": 420,
+    "number": [0, 420],
     "word": "電梯",
     "pinyin": "diàntī",
     "meaning": "エレベーター",
@@ -4620,7 +4620,7 @@
     }
   },
   {
-    "number": 421,
+    "number": [0, 421],
     "word": "房間",
     "pinyin": "fángjiān",
     "meaning": "部屋",
@@ -4631,7 +4631,7 @@
     }
   },
   {
-    "number": 422,
+    "number": [0, 422],
     "word": "廚房",
     "pinyin": "chúfáng",
     "meaning": "台所",
@@ -4642,7 +4642,7 @@
     }
   },
   {
-    "number": 423,
+    "number": [0, 423],
     "word": "洗手間",
     "pinyin": "xǐshǒujiān",
     "meaning": "バスルーム",
@@ -4653,7 +4653,7 @@
     }
   },
   {
-    "number": 424,
+    "number": [0, 424],
     "word": "廁所",
     "pinyin": "cèsuǒ",
     "meaning": "バスルーム",
@@ -4664,7 +4664,7 @@
     }
   },
   {
-    "number": 425,
+    "number": [0, 425],
     "word": "窗戶",
     "pinyin": "chuānghù",
     "meaning": "ウィンドウ",
@@ -4675,7 +4675,7 @@
     }
   },
   {
-    "number": 426,
+    "number": [0, 426],
     "word": "家具",
     "pinyin": "jiājù",
     "meaning": "家具",
@@ -4686,7 +4686,7 @@
     }
   },
   {
-    "number": 427,
+    "number": [0, 427],
     "word": "椅子",
     "pinyin": "yǐzi",
     "meaning": "椅子",
@@ -4697,7 +4697,7 @@
     }
   },
   {
-    "number": 428,
+    "number": [0, 428],
     "word": "桌子",
     "pinyin": "zhuōzi",
     "meaning": "テーブル",
@@ -4708,7 +4708,7 @@
     }
   },
   {
-    "number": 429,
+    "number": [0, 429],
     "word": "沙發",
     "pinyin": "shāfā",
     "meaning": "ソファー",
@@ -4719,7 +4719,7 @@
     }
   },
   {
-    "number": 430,
+    "number": [0, 430],
     "word": "床",
     "pinyin": "chuáng",
     "meaning": "ベッド",
@@ -4730,7 +4730,7 @@
     }
   },
   {
-    "number": 431,
+    "number": [0, 431],
     "word": "休息",
     "pinyin": "xiūxí",
     "meaning": "休む",
@@ -4741,7 +4741,7 @@
     }
   },
   {
-    "number": 432,
+    "number": [0, 432],
     "word": "結婚",
     "pinyin": "jiéhūn",
     "meaning": "結婚する",
@@ -4752,7 +4752,7 @@
     }
   },
   {
-    "number": 433,
+    "number": [0, 433],
     "word": "晚會",
     "pinyin": "wǎnhuì",
     "meaning": "夜会、パーティー",
@@ -4763,7 +4763,7 @@
     }
   },
   {
-    "number": 434,
+    "number": [0, 434],
     "word": "不客氣",
     "pinyin": "búkèqì",
     "meaning": "どういたしまして",
@@ -4774,7 +4774,7 @@
     }
   },
   {
-    "number": 435,
+    "number": [0, 435],
     "word": "小學",
     "pinyin": "xiǎoxué",
     "meaning": "小学校",
@@ -4785,7 +4785,7 @@
     }
   },
   {
-    "number": 436,
+    "number": [0, 436],
     "word": "上學",
     "pinyin": "shàngxué",
     "meaning": "登校する、入学する",
@@ -4796,7 +4796,7 @@
     }
   },
   {
-    "number": 437,
+    "number": [0, 437],
     "word": "教室",
     "pinyin": "jiàoshì",
     "meaning": "教室",
@@ -4807,7 +4807,7 @@
     }
   },
   {
-    "number": 438,
+    "number": [0, 438],
     "word": "語言",
     "pinyin": "yǔyán",
     "meaning": "言語、言葉",
@@ -4818,7 +4818,7 @@
     }
   },
   {
-    "number": 439,
+    "number": [0, 439],
     "word": "華語",
     "pinyin": "huáyǔ",
     "meaning": "華語",
@@ -4829,7 +4829,7 @@
     }
   },
   {
-    "number": 440,
+    "number": [0, 440],
     "word": "華文",
     "pinyin": "huáwén",
     "meaning": "華語",
@@ -4840,7 +4840,7 @@
     }
   },
   {
-    "number": 441,
+    "number": [0, 441],
     "word": "科學",
     "pinyin": "kēxué",
     "meaning": "科学",
@@ -4851,7 +4851,7 @@
     }
   },
   {
-    "number": 442,
+    "number": [0, 442],
     "word": "作業",
     "pinyin": "zuòyè",
     "meaning": "宿題、作業",
@@ -4862,7 +4862,7 @@
     }
   },
   {
-    "number": 443,
+    "number": [0, 443],
     "word": "功課",
     "pinyin": "gōngkè",
     "meaning": "宿題",
@@ -4873,7 +4873,7 @@
     }
   },
   {
-    "number": 444,
+    "number": [0, 444],
     "word": "黑板",
     "pinyin": "hēibǎn",
     "meaning": "黒板",
@@ -4884,7 +4884,7 @@
     }
   },
   {
-    "number": 445,
+    "number": [0, 445],
     "word": "課本",
     "pinyin": "kèběn",
     "meaning": "教科書",
@@ -4895,7 +4895,7 @@
     }
   },
   {
-    "number": 446,
+    "number": [0, 446],
     "word": "句子",
     "pinyin": "jùzi",
     "meaning": "文",
@@ -4906,7 +4906,7 @@
     }
   },
   {
-    "number": 447,
+    "number": [0, 447],
     "word": "讀書",
     "pinyin": "dúshū",
     "meaning": "本を読む、勉強する",
@@ -4917,7 +4917,7 @@
     }
   },
   {
-    "number": 448,
+    "number": [0, 448],
     "word": "上班",
     "pinyin": "shàngbān",
     "meaning": "出勤する、仕事をする",
@@ -4928,7 +4928,7 @@
     }
   },
   {
-    "number": 449,
+    "number": [0, 449],
     "word": "請假",
     "pinyin": "qǐngjià",
     "meaning": "休みを取る、休む",
@@ -4939,7 +4939,7 @@
     }
   },
   {
-    "number": 450,
+    "number": [0, 450],
     "word": "辦公室",
     "pinyin": "bàngōngshì",
     "meaning": "オフィス",
@@ -4950,7 +4950,7 @@
     }
   },
   {
-    "number": 451,
+    "number": [0, 451],
     "word": "同事",
     "pinyin": "tóngshì",
     "meaning": "同僚",
@@ -4961,7 +4961,7 @@
     }
   },
   {
-    "number": 452,
+    "number": [0, 452],
     "word": "工廠",
     "pinyin": "gōngchǎng",
     "meaning": "工場",
@@ -4972,7 +4972,7 @@
     }
   },
   {
-    "number": 453,
+    "number": [0, 453],
     "word": "工人",
     "pinyin": "gōngrén",
     "meaning": "労働者",
@@ -4983,7 +4983,7 @@
     }
   },
   {
-    "number": 454,
+    "number": [0, 454],
     "word": "司機",
     "pinyin": "sījī",
     "meaning": "運転手",
@@ -4994,7 +4994,7 @@
     }
   },
   {
-    "number": 455,
+    "number": [0, 455],
     "word": "護士",
     "pinyin": "hùshì",
     "meaning": "看護師",
@@ -5005,7 +5005,7 @@
     }
   },
   {
-    "number": 456,
+    "number": [0, 456],
     "word": "食物",
     "pinyin": "shíwù",
     "meaning": "食べ物",
@@ -5016,7 +5016,7 @@
     }
   },
   {
-    "number": 457,
+    "number": [0, 457],
     "word": "包子",
     "pinyin": "bāozi",
     "meaning": "蒸しパン",
@@ -5027,7 +5027,7 @@
     }
   },
   {
-    "number": 458,
+    "number": [0, 458],
     "word": "餃子",
     "pinyin": "jiǎozi",
     "meaning": "団子",
@@ -5038,7 +5038,7 @@
     }
   },
   {
-    "number": 459,
+    "number": [0, 459],
     "word": "麵",
     "pinyin": "miàn",
     "meaning": "麺類",
@@ -5049,7 +5049,7 @@
     }
   },
   {
-    "number": 460,
+    "number": [0, 460],
     "word": "湯",
     "pinyin": "tāng",
     "meaning": "スープ",
@@ -5060,7 +5060,7 @@
     }
   },
   {
-    "number": 461,
+    "number": [0, 461],
     "word": "蛋",
     "pinyin": "dàn",
     "meaning": "卵",
@@ -5071,7 +5071,7 @@
     }
   },
   {
-    "number": 462,
+    "number": [0, 462],
     "word": "麵包",
     "pinyin": "miànbāo",
     "meaning": "パン",
@@ -5082,7 +5082,7 @@
     }
   },
   {
-    "number": 463,
+    "number": [0, 463],
     "word": "巧克力",
     "pinyin": "qiǎokèlì",
     "meaning": "チョコレート",
@@ -5093,7 +5093,7 @@
     }
   },
   {
-    "number": 464,
+    "number": [0, 464],
     "word": "蛋糕",
     "pinyin": "dàngāo",
     "meaning": "ケーキ",
@@ -5104,7 +5104,7 @@
     }
   },
   {
-    "number": 465,
+    "number": [0, 465],
     "word": "水果",
     "pinyin": "shuǐguǒ",
     "meaning": "フルーツ",
@@ -5115,7 +5115,7 @@
     }
   },
   {
-    "number": 466,
+    "number": [0, 466],
     "word": "香蕉",
     "pinyin": "xiāngjiāo",
     "meaning": "バナナ",
@@ -5126,7 +5126,7 @@
     }
   },
   {
-    "number": 467,
+    "number": [0, 467],
     "word": "飲料",
     "pinyin": "yǐnliào",
     "meaning": "飲み物",
@@ -5137,7 +5137,7 @@
     }
   },
   {
-    "number": 468,
+    "number": [0, 468],
     "word": "牛奶",
     "pinyin": "niúnǎi",
     "meaning": "牛乳",
@@ -5148,7 +5148,7 @@
     }
   },
   {
-    "number": 469,
+    "number": [0, 469],
     "word": "果汁",
     "pinyin": "guǒzhī",
     "meaning": "ジュース",
@@ -5159,7 +5159,7 @@
     }
   },
   {
-    "number": 470,
+    "number": [0, 470],
     "word": "餓",
     "pinyin": "è",
     "meaning": "お腹が空いている",
@@ -5170,7 +5170,7 @@
     }
   },
   {
-    "number": 471,
+    "number": [0, 471],
     "word": "渴",
     "pinyin": "kě",
     "meaning": "喉が乾いている",
@@ -5181,7 +5181,7 @@
     }
   },
   {
-    "number": 472,
+    "number": [0, 472],
     "word": "甜",
     "pinyin": "tián",
     "meaning": "甘い",
@@ -5192,7 +5192,7 @@
     }
   },
   {
-    "number": 473,
+    "number": [0, 473],
     "word": "菜單",
     "pinyin": "càidān",
     "meaning": "メニュー",
@@ -5203,7 +5203,7 @@
     }
   },
   {
-    "number": 474,
+    "number": [0, 474],
     "word": "碗",
     "pinyin": "wǎn",
     "meaning": "ボウル",
@@ -5214,7 +5214,7 @@
     }
   },
   {
-    "number": 475,
+    "number": [0, 475],
     "word": "盤子",
     "pinyin": "pánzi",
     "meaning": "皿",
@@ -5225,7 +5225,7 @@
     }
   },
   {
-    "number": 476,
+    "number": [0, 476],
     "word": "杯子",
     "pinyin": "bēizi",
     "meaning": "カップ",
@@ -5236,7 +5236,7 @@
     }
   },
   {
-    "number": 477,
+    "number": [0, 477],
     "word": "老闆/老板",
     "pinyin": "lǎobǎn",
     "meaning": "店主、経営者",
@@ -5247,7 +5247,7 @@
     }
   },
   {
-    "number": 478,
+    "number": [0, 478],
     "word": "電影院",
     "pinyin": "diànyǐngyuàn",
     "meaning": "映画館",
@@ -5258,7 +5258,7 @@
     }
   },
   {
-    "number": 479,
+    "number": [0, 479],
     "word": "表演",
     "pinyin": "biǎoyǎn",
     "meaning": "演技、パフォーマンス",
@@ -5269,7 +5269,7 @@
     }
   },
   {
-    "number": 480,
+    "number": [0, 480],
     "word": "足球",
     "pinyin": "zúqiú",
     "meaning": "サッカー",
@@ -5280,7 +5280,7 @@
     }
   },
   {
-    "number": 481,
+    "number": [0, 481],
     "word": "籃球",
     "pinyin": "lánqiú",
     "meaning": "バスケットボール",
@@ -5291,7 +5291,7 @@
     }
   },
   {
-    "number": 482,
+    "number": [0, 482],
     "word": "網球",
     "pinyin": "wǎngqiú",
     "meaning": "テニス",
@@ -5302,7 +5302,7 @@
     }
   },
   {
-    "number": 483,
+    "number": [0, 483],
     "word": "棒球",
     "pinyin": "bàngqiú",
     "meaning": "野球",
@@ -5313,7 +5313,7 @@
     }
   },
   {
-    "number": 484,
+    "number": [0, 484],
     "word": "比賽",
     "pinyin": "bǐsài",
     "meaning": "試合、競技、競争する",
@@ -5324,7 +5324,7 @@
     }
   },
   {
-    "number": 485,
+    "number": [0, 485],
     "word": "輸",
     "pinyin": "shū",
     "meaning": "負ける、輸送する、入力する",
@@ -5335,7 +5335,7 @@
     }
   },
   {
-    "number": 486,
+    "number": [0, 486],
     "word": "贏",
     "pinyin": "yíng",
     "meaning": "勝つ",
@@ -5346,7 +5346,7 @@
     }
   },
   {
-    "number": 487,
+    "number": [0, 487],
     "word": "上網",
     "pinyin": "shàngwǎng",
     "meaning": "インターネットを使う",
@@ -5357,7 +5357,7 @@
     }
   },
   {
-    "number": 488,
+    "number": [0, 488],
     "word": "旅行",
     "pinyin": "lǚxíng",
     "meaning": "旅行する",
@@ -5368,7 +5368,7 @@
     }
   },
   {
-    "number": 489,
+    "number": [0, 489],
     "word": "參觀",
     "pinyin": "cānguān",
     "meaning": "見学する、参観する",
@@ -5379,7 +5379,7 @@
     }
   },
   {
-    "number": 490,
+    "number": [0, 490],
     "word": "照相機",
     "pinyin": "zhàoxiàngjī",
     "meaning": "カメラ",
@@ -5390,7 +5390,7 @@
     }
   },
   {
-    "number": 491,
+    "number": [0, 491],
     "word": "照相",
     "pinyin": "zhàoxiàng",
     "meaning": "写真を撮る",
@@ -5401,7 +5401,7 @@
     }
   },
   {
-    "number": 492,
+    "number": [0, 492],
     "word": "圖片",
     "pinyin": "túpiàn",
     "meaning": "図、絵、写真",
@@ -5412,7 +5412,7 @@
     }
   },
   {
-    "number": 493,
+    "number": [0, 493],
     "word": "畫兒",
     "pinyin": "huàr",
     "meaning": "絵画",
@@ -5423,7 +5423,7 @@
     }
   },
   {
-    "number": 494,
+    "number": [0, 494],
     "word": "腳踏車",
     "pinyin": "jiǎotàchē",
     "meaning": "自転車",
@@ -5434,7 +5434,7 @@
     }
   },
   {
-    "number": 495,
+    "number": [0, 495],
     "word": "自行車",
     "pinyin": "zìxíngchē",
     "meaning": "自転車",
@@ -5445,7 +5445,7 @@
     }
   },
   {
-    "number": 496,
+    "number": [0, 496],
     "word": "計程車",
     "pinyin": "jìchéngchē",
     "meaning": "タクシー",
@@ -5456,7 +5456,7 @@
     }
   },
   {
-    "number": 497,
+    "number": [0, 497],
     "word": "火車",
     "pinyin": "huǒchē",
     "meaning": "電車",
@@ -5467,7 +5467,7 @@
     }
   },
   {
-    "number": 498,
+    "number": [0, 498],
     "word": "車站",
     "pinyin": "chēzhàn",
     "meaning": "駅",
@@ -5478,7 +5478,7 @@
     }
   },
   {
-    "number": 499,
+    "number": [0, 499],
     "word": "飛機",
     "pinyin": "fēijī",
     "meaning": "飛行機",
@@ -5489,7 +5489,7 @@
     }
   },
   {
-    "number": 500,
+    "number": [0, 500],
     "word": "機場",
     "pinyin": "jīchǎng",
     "meaning": "空港",
@@ -5500,7 +5500,7 @@
     }
   },
   {
-    "number": 501,
+    "number": [0, 501],
     "word": "馬路",
     "pinyin": "mǎlù",
     "meaning": "道",
@@ -5511,7 +5511,7 @@
     }
   },
   {
-    "number": 502,
+    "number": [0, 502],
     "word": "十字路口",
     "pinyin": "shízìlùkǒu",
     "meaning": "交差点",
@@ -5522,7 +5522,7 @@
     }
   },
   {
-    "number": 503,
+    "number": [0, 503],
     "word": "小心",
     "pinyin": "xiǎoxīn",
     "meaning": "注意深い",
@@ -5533,7 +5533,7 @@
     }
   },
   {
-    "number": 504,
+    "number": [0, 504],
     "word": "風景",
     "pinyin": "fēngjǐng",
     "meaning": "風景",
@@ -5544,7 +5544,7 @@
     }
   },
   {
-    "number": 505,
+    "number": [0, 505],
     "word": "太陽",
     "pinyin": "tàiyáng",
     "meaning": "太陽",
@@ -5555,7 +5555,7 @@
     }
   },
   {
-    "number": 506,
+    "number": [0, 506],
     "word": "湖",
     "pinyin": "hú",
     "meaning": "湖",
@@ -5566,7 +5566,7 @@
     }
   },
   {
-    "number": 507,
+    "number": [0, 507],
     "word": "下雨",
     "pinyin": "xiàyǔ",
     "meaning": "雨が降る",
@@ -5577,7 +5577,7 @@
     }
   },
   {
-    "number": 508,
+    "number": [0, 508],
     "word": "下雪",
     "pinyin": "xiàxuě",
     "meaning": "雪が降る",
@@ -5588,7 +5588,7 @@
     }
   },
   {
-    "number": 509,
+    "number": [0, 509],
     "word": "馬",
     "pinyin": "mǎ",
     "meaning": "馬",
@@ -5599,7 +5599,7 @@
     }
   },
   {
-    "number": 510,
+    "number": [0, 510],
     "word": "鳥",
     "pinyin": "niǎo",
     "meaning": "鳥",
@@ -5610,7 +5610,7 @@
     }
   },
   {
-    "number": 511,
+    "number": [0, 511],
     "word": "貓",
     "pinyin": "māo",
     "meaning": "猫",
@@ -5621,7 +5621,7 @@
     }
   },
   {
-    "number": 512,
+    "number": [0, 512],
     "word": "雞",
     "pinyin": "jī",
     "meaning": "チキン",
