@@ -80,7 +80,8 @@ function chooseWeightedIndex() {
     const rec = resultsData[keyForWord(word)];
     let accuracy = 0;
     if (rec && rec.history && rec.history.length > 0) {
-      const total = rec.history.length;
+      // const total = rec.history.length;
+      const total = 20;
       const sum = rec.history.reduce((a, b) => a + b, 0);
       accuracy = Math.round((sum / total) * 100);
     }
