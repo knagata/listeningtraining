@@ -2854,9 +2854,9 @@
     "pinyin": "fànguǎn",
     "meaning": "レストラン",
     "example": {
-      "text": "這家北京飯館很有名。",
-      "pinyin": "Zhè jiā Běijīng fànguǎn hěn yǒumíng.",
-      "translation": "この北京料理店はとても有名です。"
+      "text": "這家北平飯館很有名。",
+      "pinyin": "Zhè jiā Běipíng fànguǎn hěn yǒumíng.",
+      "translation": "この北平料理店はとても有名です。"
     }
   },
   {
@@ -3627,6 +3627,2008 @@
       "text": "往台東的列車即將到達。",
       "pinyin": "Wǎng Táidōng de lièchē jíjiāng dàodá.",
       "translation": "もうすぐ台東行きの電車が到着します。"
+    }
+  },
+  {
+    "number": 331,
+    "word": "男生",
+    "pinyin": "nánshēng",
+    "meaning": "男性",
+    "example": {
+      "text": "男生宿舍在一號樓後面。",
+      "pinyin": "nánshēng sùshè zài yī hào lóu hòumiàn.",
+      "translation": "男子寮は1号館の裏手にあります。"
+    }
+  },
+  {
+    "number": 332,
+    "word": "女生",
+    "pinyin": "nǚshēng",
+    "meaning": "女性",
+    "example": {
+      "text": "女生廁所總是有人排隊。",
+      "pinyin": "nǚshēng cèsuǒ zǒng shì yǒu rén páiduì.",
+      "translation": "女子トイレはいつも行列です。"
+    }
+  },
+  {
+    "number": 333,
+    "word": "小孩",
+    "pinyin": "xiǎohái",
+    "meaning": "子供",
+    "example": {
+      "text": "你的小孩很會說話。",
+      "pinyin": "nǐ de xiǎohái hěn huì shuōhuà.",
+      "translation": "あなたのお子さんはとてもおしゃべりです。"
+    }
+  },
+  {
+    "number": 334,
+    "word": "家人",
+    "pinyin": "jiārén",
+    "meaning": "家族",
+    "example": {
+      "text": "我家人都在台灣。",
+      "pinyin": "wǒ jiārén dōu zài Táiwān.",
+      "translation": "私の家族は全員台湾にいます。"
+    }
+  },
+  {
+    "number": 335,
+    "word": "姓名",
+    "pinyin": "xìngmíng",
+    "meaning": "名前",
+    "example": {
+      "text": "請寫下你的姓名。",
+      "pinyin": "qǐng xiě xià nǐ de xìngmíng.",
+      "translation": "あなたの名前を書いてください。"
+    }
+  },
+  {
+    "number": 336,
+    "word": "千",
+    "pinyin": "qiān",
+    "meaning": "千",
+    "example": {
+      "text": "我只有一千塊。",
+      "pinyin": "wǒ zhǐ yǒu yì qiān kuài.",
+      "translation": "私は1000元しか持っていません。"
+    }
+  },
+  {
+    "number": 337,
+    "word": "萬",
+    "pinyin": "wàn",
+    "meaning": "万",
+    "example": {
+      "text": "一本書要一萬塊算貴嗎？",
+      "pinyin": "yì běn shū yào yí wàn kuài suàn guì ma?",
+      "translation": "本一冊1万円は高いでしょうか？"
+    }
+  },
+  {
+    "number": 338,
+    "word": "樓",
+    "pinyin": "lóu",
+    "meaning": "階",
+    "example": {
+      "text": "妳們公司在幾樓？",
+      "pinyin": "nǐmen gōngsī zài jǐ lóu?",
+      "translation": "あなたの会社は何階にありますか?"
+    }
+  },
+  {
+    "number": 339,
+    "word": "公斤",
+    "pinyin": "gōngjīn",
+    "meaning": "キログラム",
+    "example": {
+      "text": "公斤和台斤不一樣。",
+      "pinyin": "gōngjīn hé táijīn bù yíyàng.",
+      "translation": "公斤と台斤は同じではありません。"
+    }
+  },
+  {
+    "number": 340,
+    "word": "片",
+    "pinyin": "piàn/piān",
+    "meaning": "平らな形のものやかけらを数える",
+    "example": {
+      "text": "這一片沙灘好美。",
+      "pinyin": "zhè yí piàn shātān hǎo měi.",
+      "translation": "このビーチはとても美しいです。"
+    }
+  },
+  {
+    "number": 341,
+    "word": "一半",
+    "pinyin": "yībàn",
+    "meaning": "半分",
+    "example": {
+      "text": "我們一人一半。",
+      "pinyin": "wǒmen yì rén yí bàn.",
+      "translation": "わたしたちで半分こしよう。"
+    }
+  },
+  {
+    "number": 342,
+    "word": "新年",
+    "pinyin": "xīnnián",
+    "meaning": "新年",
+    "example": {
+      "text": "新年快樂。",
+      "pinyin": "xīnnián kuàilè.",
+      "translation": "あけましておめでとう。"
+    }
+  },
+  {
+    "number": 343,
+    "word": "春天",
+    "pinyin": "chūntiān",
+    "meaning": "春",
+    "example": {
+      "text": "春天我們去陽明山看櫻花。",
+      "pinyin": "chūntiān wǒmen qù Yángmíngshān kàn yīnghuā.",
+      "translation": "春には陽明山へ桜を見に行きます。"
+    }
+  },
+  {
+    "number": 344,
+    "word": "夏天",
+    "pinyin": "xiàtiān",
+    "meaning": "夏",
+    "example": {
+      "text": "我夏天愛吃芒果冰。",
+      "pinyin": "wǒ xiàtiān ài chī mángguǒ bīng.",
+      "translation": "夏はマンゴーアイスを食べるのが大好きです。"
+    }
+  },
+  {
+    "number": 345,
+    "word": "秋天",
+    "pinyin": "qiūtiān",
+    "meaning": "秋",
+    "example": {
+      "text": "秋天的阿里山可以看楓葉。",
+      "pinyin": "qiūtiān de Ālǐshān kěyǐ kàn fēngyè.",
+      "translation": "秋には阿里山の紅葉が見られます。"
+    }
+  },
+  {
+    "number": 346,
+    "word": "冬天",
+    "pinyin": "dōngtiān",
+    "meaning": "冬",
+    "example": {
+      "text": "有人冬天喜歡吃羊肉爐。",
+      "pinyin": "yǒu rén dōngtiān xǐhuān chī yángròulú.",
+      "translation": "冬にヤギ鍋を食べるのが好きな人もいます。"
+    }
+  },
+  {
+    "number": 347,
+    "word": "小時",
+    "pinyin": "xiǎoshí",
+    "meaning": "時間",
+    "example": {
+      "text": "飛機還要幾個小時才到。",
+      "pinyin": "fēijī hái yào jǐ ge xiǎoshí cái dào.",
+      "translation": "飛行機はあと数時間でようやく到着します。"
+    }
+  },
+  {
+    "number": 348,
+    "word": "點鐘",
+    "pinyin": "diǎnzhōng",
+    "meaning": "〜時",
+    "example": {
+      "text": "明天九點鐘開會。",
+      "pinyin": "míngtiān jiǔ diǎnzhōng kāihuì.",
+      "translation": "明日は9時に会議があります。"
+    }
+  },
+  {
+    "number": 349,
+    "word": "分鐘",
+    "pinyin": "fēnzhōng",
+    "meaning": "～分、〜分間",
+    "example": {
+      "text": "等我三分鐘。",
+      "pinyin": "děng wǒ sān fēnzhōng.",
+      "translation": "3分待ってください。"
+    }
+  },
+  {
+    "number": 350,
+    "word": "久",
+    "pinyin": "jiǔ",
+    "meaning": "長い、久しい",
+    "example": {
+      "text": "好久不見。",
+      "pinyin": "hǎojiǔ bú jiàn.",
+      "translation": "長い間会っていません。"
+    }
+  },
+  {
+    "number": 351,
+    "word": "有時候",
+    "pinyin": "yǒushíhòu",
+    "meaning": "時々",
+    "example": {
+      "text": "有時候我早上吃鹹豆漿。",
+      "pinyin": "yǒu shíhòu wǒ zǎoshang chī xiándòujiāng.",
+      "translation": "朝、塩味の豆乳を食べることもあります。"
+    }
+  },
+  {
+    "number": 352,
+    "word": "在",
+    "pinyin": "zài",
+    "meaning": "〜している",
+    "example": {
+      "text": "妹妹在打工。",
+      "pinyin": "mèimei zài dǎgōng.",
+      "translation": "私の妹はパートタイムで働いています。"
+    }
+  },
+  {
+    "number": 353,
+    "word": "對面",
+    "pinyin": "duìmiàn",
+    "meaning": "向かい、真正面",
+    "example": {
+      "text": "飯店的對面就有夜市。",
+      "pinyin": "fàndiàn de duìmiàn jiù yǒu yèshì.",
+      "translation": "ホテルの向かいにはナイトマーケットがあります。"
+    }
+  },
+  {
+    "number": 354,
+    "word": "裡面",
+    "pinyin": "lǐmiàn",
+    "meaning": "中、内側",
+    "example": {
+      "text": "行李箱裡面有什麼？",
+      "pinyin": "xínglǐxiāng lǐmiàn yǒu shénme?",
+      "translation": "スーツケースの中には何が入っていますか？"
+    }
+  },
+  {
+    "number": 355,
+    "word": "國家",
+    "pinyin": "guójiā",
+    "meaning": "国家",
+    "example": {
+      "text": "我想去很多國家。",
+      "pinyin": "wǒ xiǎng qù hěn duō guójiā.",
+      "translation": "たくさんの国に行きたいです。"
+    }
+  },
+  {
+    "number": 356,
+    "word": "城市",
+    "pinyin": "chéngshì",
+    "meaning": "都市",
+    "example": {
+      "text": "台南是一個老城市。",
+      "pinyin": "Táinán shì yí ge lǎo chéngshì.",
+      "translation": "台南は古い街です。"
+    }
+  },
+  {
+    "number": 357,
+    "word": "街",
+    "pinyin": "jiē",
+    "meaning": "街、通り",
+    "example": {
+      "text": "鹿港的老街非常有趣。",
+      "pinyin": "Lùgǎng de lǎojiē fēicháng yǒuqù.",
+      "translation": "鹿港の古い街並みはとても興味深いです。"
+    }
+  },
+  {
+    "number": 358,
+    "word": "海邊",
+    "pinyin": "hǎibiān",
+    "meaning": "海辺、海岸",
+    "example": {
+      "text": "海邊的風有鹹味。",
+      "pinyin": "hǎibiān de fēng yǒu xiánwèi.",
+      "translation": "海辺の風は塩辛い匂いがする。"
+    }
+  },
+  {
+    "number": 359,
+    "word": "公園",
+    "pinyin": "gōngyuán",
+    "meaning": "公園",
+    "example": {
+      "text": "玉山國家公園有美麗的高山風景。",
+      "pinyin": "Yùshān Guójiā Gōngyuán yǒu měilì de gāoshān fēngjǐng.",
+      "translation": "玉山国家公園には美しい高山の景色があります。"
+    }
+  },
+  {
+    "number": 360,
+    "word": "郵局",
+    "pinyin": "yóujú",
+    "meaning": "郵便局",
+    "example": {
+      "text": "我要去郵局寄信。",
+      "pinyin": "wǒ yào qù yóujú jì xìn.",
+      "translation": "手紙を出すために郵便局へ行きます。"
+    }
+  },
+  {
+    "number": 361,
+    "word": "銀行",
+    "pinyin": "yínháng",
+    "meaning": "銀行",
+    "example": {
+      "text": "我想去銀行換新台幣。",
+      "pinyin": "wǒ xiǎng qù yínháng huàn xīn Táibì.",
+      "translation": "新台湾ドルを両替するために銀行に行きたいです。"
+    }
+  },
+  {
+    "number": 362,
+    "word": "警察",
+    "pinyin": "jǐngchá",
+    "meaning": "警察",
+    "example": {
+      "text": "她先生是警察。",
+      "pinyin": "tā xiānshēng shì jǐngchá.",
+      "translation": "彼女の夫は警察官です。"
+    }
+  },
+  {
+    "number": 363,
+    "word": "飯店",
+    "pinyin": "fàndiàn",
+    "meaning": "ホテル、レストラン",
+    "example": {
+      "text": "你訂飯店了嗎？",
+      "pinyin": "nǐ dìng fàndiàn le ma?",
+      "translation": "ホテルは予約しましたか？"
+    }
+  },
+  {
+    "number": 364,
+    "word": "旅館",
+    "pinyin": "lǚguǎn",
+    "meaning": "旅館、ホテル",
+    "example": {
+      "text": "你住過日本的旅館嗎？",
+      "pinyin": "nǐ zhù guò Rìběn de lǚguǎn ma?",
+      "translation": "日本の旅館に泊まったことがありますか？"
+    }
+  },
+  {
+    "number": 365,
+    "word": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning": "店、店舗",
+    "example": {
+      "text": "這是一家網路商店。",
+      "pinyin": "zhè shì yī jiā wǎnglù shāngdiàn.",
+      "translation": "こちらはオンラインストアです。"
+    }
+  },
+  {
+    "number": 366,
+    "word": "店",
+    "pinyin": "diàn",
+    "meaning": "店",
+    "example": {
+      "text": "這家店賣台灣滷肉飯。",
+      "pinyin": "zhè jiā diàn mài Táiwān lǔròufàn.",
+      "translation": "台湾魯肉飯を販売しているお店です。"
+    }
+  },
+  {
+    "number": 367,
+    "word": "樓上",
+    "pinyin": "lóushàng",
+    "meaning": "上の階",
+    "example": {
+      "text": "樓上有自動販賣機。",
+      "pinyin": "lóushàng yǒu zìdòng fànmàijī.",
+      "translation": "上階には自動販売機があります。"
+    }
+  },
+  {
+    "number": 368,
+    "word": "樓下",
+    "pinyin": "lóuxià",
+    "meaning": "階下",
+    "example": {
+      "text": "樓下有室內游泳池。",
+      "pinyin": "lóuxià yǒu shìnèi yóuyǒngchí.",
+      "translation": "階下には屋内スイミングプールがあります。"
+    }
+  },
+  {
+    "number": 369,
+    "word": "頭",
+    "pinyin": "tóu",
+    "meaning": "頭",
+    "example": {
+      "text": "他對我點點頭。",
+      "pinyin": "tā duì wǒ diǎndiǎn tóu.",
+      "translation": "彼は私にうなずきました。"
+    }
+  },
+  {
+    "number": 370,
+    "word": "頭髮",
+    "pinyin": "tóufà",
+    "meaning": "髪",
+    "example": {
+      "text": "你剪頭髮了嗎？",
+      "pinyin": "nǐ jiǎn tóufǎ le ma?",
+      "translation": "髪を切りましたか？"
+    }
+  },
+  {
+    "number": 371,
+    "word": "耳朵",
+    "pinyin": "ěrduo",
+    "meaning": "耳",
+    "example": {
+      "text": "兔子的耳朵很長。",
+      "pinyin": "tùzi de ěrduo hěn cháng.",
+      "translation": "ウサギの耳はとても長いです。"
+    }
+  },
+  {
+    "number": 372,
+    "word": "手指頭",
+    "pinyin": "shǒuzhǐtou",
+    "meaning": "指",
+    "example": {
+      "text": "用手指在空中寫字。",
+      "pinyin": "yòng shǒuzhǐ zài kōngzhōng xiězì.",
+      "translation": "指で空中に字を書いてください。"
+    }
+  },
+  {
+    "number": 373,
+    "word": "肚子",
+    "pinyin": "dùzi",
+    "meaning": "腹部",
+    "example": {
+      "text": "吃太多，我的肚子不舒服。",
+      "pinyin": "chī tài duō, wǒ de dùzi bù shūfú.",
+      "translation": "食べすぎて、私のお腹は調子が悪いです。"
+    }
+  },
+  {
+    "number": 374,
+    "word": "健康",
+    "pinyin": "jiànkāng",
+    "meaning": "健康",
+    "example": {
+      "text": "祝你健康快樂。",
+      "pinyin": "zhù nǐ jiànkāng kuàilè.",
+      "translation": "あなたの健康と幸福を祈ります。"
+    }
+  },
+  {
+    "number": 375,
+    "word": "生病",
+    "pinyin": "shēngbìng",
+    "meaning": "病気になる",
+    "example": {
+      "text": "她生病了，今天在家休息。",
+      "pinyin": "tā shēngbìng le, jīntiān zài jiā xiūxí.",
+      "translation": "彼女は病気で今日は家で休んでいます。"
+    }
+  },
+  {
+    "number": 376,
+    "word": "感冒",
+    "pinyin": "gǎnmào",
+    "meaning": "風邪をひく",
+    "example": {
+      "text": "天冷了，不要感冒了。",
+      "pinyin": "tiān lěng le, bùyào gǎnmào le.",
+      "translation": "寒いです、風邪引かないようにね。"
+    }
+  },
+  {
+    "number": 377,
+    "word": "受傷",
+    "pinyin": "shòushāng",
+    "meaning": "怪我をする",
+    "example": {
+      "text": "這隻小狗受傷了。",
+      "pinyin": "zhè zhī xiǎogǒu shòushāng le.",
+      "translation": "子犬が怪我をしています。"
+    }
+  },
+  {
+    "number": 378,
+    "word": "痛",
+    "pinyin": "tòng",
+    "meaning": "痛い",
+    "example": {
+      "text": "我肚子痛，要去廁所。",
+      "pinyin": "wǒ dùzi tòng, yào qù cèsuǒ.",
+      "translation": "お腹が痛いのでトイレに行きたいです。"
+    }
+  },
+  {
+    "number": 379,
+    "word": "胖",
+    "pinyin": "pàng",
+    "meaning": "太っている",
+    "example": {
+      "text": "你不胖，不需要減肥。",
+      "pinyin": "nǐ bù pàng, bù xūyào jiǎnféi.",
+      "translation": "あなたは太っていないので、体重を減らす必要はありません。"
+    }
+  },
+  {
+    "number": 380,
+    "word": "瘦",
+    "pinyin": "shòu",
+    "meaning": "痩せている、脂肪が少ない",
+    "example": {
+      "text": "太胖也不好，太瘦也不好。",
+      "pinyin": "tài pàng yě bù hǎo, tài shòu yě bù hǎo.",
+      "translation": "太りすぎてもダメですし、痩せすぎてもダメです。"
+    }
+  },
+  {
+    "number": 381,
+    "word": "矮",
+    "pinyin": "ǎi",
+    "meaning": "背の低い",
+    "example": {
+      "text": "不要説我矮，我還會長高。",
+      "pinyin": "bùyào shuō wǒ ǎi, wǒ hái huì zhǎnggāo.",
+      "translation": "背が低いと言わないで。私はまだ背が高くなります。"
+    }
+  },
+  {
+    "number": 382,
+    "word": "短",
+    "pinyin": "duǎn",
+    "meaning": "短い",
+    "example": {
+      "text": "我的手指頭很短。",
+      "pinyin": "wǒ de shǒuzhǐtou hěn duǎn.",
+      "translation": "私の指はとても短いです。"
+    }
+  },
+  {
+    "number": 383,
+    "word": "壞",
+    "pinyin": "huài",
+    "meaning": "壊れる、悪い、傷んでいる",
+    "example": {
+      "text": "我的眼鏡壞了。",
+      "pinyin": "wǒ de yǎnjìng huài le.",
+      "translation": "メガネが壊れてしまいました。"
+    }
+  },
+  {
+    "number": 384,
+    "word": "不錯",
+    "pinyin": "búcuò",
+    "meaning": "すばらしい、間違いない",
+    "example": {
+      "text": "你這件旗袍看起來很不錯。",
+      "pinyin": "nǐ zhè jiàn qípáo kàn qǐlái hěn búcuò.",
+      "translation": "あなたのチャイナドレスはとても素敵に見えます。"
+    }
+  },
+  {
+    "number": 385,
+    "word": "重要",
+    "pinyin": "zhòngyào",
+    "meaning": "重要である、大切である",
+    "example": {
+      "text": "這件事很重要。",
+      "pinyin": "zhè jiàn shì hěn zhòngyào.",
+      "translation": "この問題は重要です。"
+    }
+  },
+  {
+    "number": 386,
+    "word": "安靜",
+    "pinyin": "ānjìng",
+    "meaning": "静かである、平穏である",
+    "example": {
+      "text": "晚上這裡很安靜。",
+      "pinyin": "wǎnshàng zhèlǐ hěn ānjìng.",
+      "translation": "ここは夜は静かです。"
+    }
+  },
+  {
+    "number": 387,
+    "word": "年輕",
+    "pinyin": "niánqīng",
+    "meaning": "若い",
+    "example": {
+      "text": "你看起來真年輕。",
+      "pinyin": "nǐ kàn qǐlái zhēn niánqīng.",
+      "translation": "とても若く見えますね。"
+    }
+  },
+  {
+    "number": 388,
+    "word": "老",
+    "pinyin": "lǎo",
+    "meaning": "老いた、古い、経験を積んだ、もとの",
+    "example": {
+      "text": "我們是老朋友。",
+      "pinyin": "wǒmen shì lǎo péngyǒu.",
+      "translation": "私たちは古い友人です。"
+    }
+  },
+  {
+    "number": 389,
+    "word": "可愛",
+    "pinyin": "kě'ài",
+    "meaning": "かわいい",
+    "example": {
+      "text": "你的孩子很可愛。",
+      "pinyin": "nǐ de háizi hěn kě'ài.",
+      "translation": "あなたの子どもは可愛いです。"
+    }
+  },
+  {
+    "number": 390,
+    "word": "緊張",
+    "pinyin": "jǐnzhāng",
+    "meaning": "緊張している",
+    "example": {
+      "text": "考試前我很容易緊張。",
+      "pinyin": "kǎoshì qián wǒ hěn róngyì jǐnzhāng.",
+      "translation": "私は試験の前に緊張しやすいです。"
+    }
+  },
+  {
+    "number": 391,
+    "word": "舒服",
+    "pinyin": "shūfú",
+    "meaning": "快適である、心地よい",
+    "example": {
+      "text": "今天的天氣和舒服。",
+      "pinyin": "jīntiān de tiānqì hěn shūfú.",
+      "translation": "今日の気候は快適です。"
+    }
+  },
+  {
+    "number": 392,
+    "word": "希望",
+    "pinyin": "xīwàng",
+    "meaning": "望む、希望する",
+    "example": {
+      "text": "老師希望我們都考上大學。",
+      "pinyin": "lǎoshī xīwàng wǒmen dōu kǎoshàng dàxué.",
+      "translation": "先生はわたしたちがみんな大学に合格することを望んでいます。"
+    }
+  },
+  {
+    "number": 393,
+    "word": "歡迎",
+    "pinyin": "huānyíng",
+    "meaning": "歓迎する",
+    "example": {
+      "text": "歡迎你來台灣。",
+      "pinyin": "huānyíng nǐ lái Táiwān.",
+      "translation": "台湾へようこそ。"
+    }
+  },
+  {
+    "number": 394,
+    "word": "記得",
+    "pinyin": "jìdé",
+    "meaning": "覚えている",
+    "example": {
+      "text": "你記得我嗎？",
+      "pinyin": "nǐ jìde wǒ ma?",
+      "translation": "私を覚えていますか？"
+    }
+  },
+  {
+    "number": 395,
+    "word": "一定",
+    "pinyin": "yīdìng",
+    "meaning": "必ず、きっと、絶対に",
+    "example": {
+      "text": "你明天一定要來。",
+      "pinyin": "nǐ míngtiān yīdìng yào lái.",
+      "translation": "あなたは明日必ず来なければなりません。"
+    }
+  },
+  {
+    "number": 396,
+    "word": "決定",
+    "pinyin": "juédìng",
+    "meaning": "決定",
+    "example": {
+      "text": "這是我的決定。",
+      "pinyin": "zhè shì wǒ de juédìng.",
+      "translation": "それは私の決断です。"
+    }
+  },
+  {
+    "number": 397,
+    "word": "注意",
+    "pinyin": "zhùyì",
+    "meaning": "注意する、気をつける",
+    "example": {
+      "text": "注意不要忘了您的隨身物品。",
+      "pinyin": "zhùyì bùyào wàng le nín de suíshēn wùpǐn.",
+      "translation": "持ち物を忘れないように注意してください。"
+    }
+  },
+  {
+    "number": 398,
+    "word": "跑步",
+    "pinyin": "pǎobù",
+    "meaning": "走る、ジョギングする",
+    "example": {
+      "text": "他每天早上跑步。",
+      "pinyin": "tā měitiān zǎoshàng pǎobù.",
+      "translation": "彼は毎朝走ります。"
+    }
+  },
+  {
+    "number": 399,
+    "word": "騎",
+    "pinyin": "qí",
+    "meaning": "またがる、またがって乗る",
+    "example": {
+      "text": "你會騎機車嗎？",
+      "pinyin": "nǐ huì qí jīchē ma?",
+      "translation": "オートバイに乗れますか？"
+    }
+  },
+  {
+    "number": 400,
+    "word": "踢",
+    "pinyin": "tī",
+    "meaning": "蹴る",
+    "example": {
+      "text": "不要踢我的椅子。",
+      "pinyin": "bùyào tī wǒ de yǐzi.",
+      "translation": "私の椅子を蹴らないでください。"
+    }
+  },
+  {
+    "number": 401,
+    "word": "關",
+    "pinyin": "guān",
+    "meaning": "閉まる、閉める、閉じ込める、スイッチを切る",
+    "example": {
+      "text": "這家速食店二十四小時不關門。",
+      "pinyin": "zhè jiā sùshídiàn èrshísì xiǎoshí bù guānmén.",
+      "translation": "このファーストフード レストランは 24 時間営業です。"
+    }
+  },
+  {
+    "number": 402,
+    "word": "回答",
+    "pinyin": "huídá",
+    "meaning": "答える",
+    "example": {
+      "text": "我想一想再回答你。",
+      "pinyin": "wǒ xiǎng yī xiǎng zài huídá nǐ.",
+      "translation": "私はちょっと考えてからあなたに答えます。"
+    }
+  },
+  {
+    "number": 403,
+    "word": "寄",
+    "pinyin": "jì",
+    "meaning": "郵送する、預ける",
+    "example": {
+      "text": "我把東西寄給你。",
+      "pinyin": "wǒ bǎ dōngxī jì gěi nǐ.",
+      "translation": "私はあなたに品物を郵送します。"
+    }
+  },
+  {
+    "number": 404,
+    "word": "接",
+    "pinyin": "jiē",
+    "meaning": "迎える、接する、つなぐ、受ける、続ける",
+    "example": {
+      "text": "明天我去飯店接你。",
+      "pinyin": "míngtiān wǒ qù fàndiàn jiē nǐ.",
+      "translation": "明日ホテルまでお迎えに上がります。"
+    }
+  },
+  {
+    "number": 405,
+    "word": "過",
+    "pinyin": "guò",
+    "meaning": "過ぎる、通過する、過ごす、超過する",
+    "example": {
+      "text": "我過十分鐘後叫你。",
+      "pinyin": "wǒ guò shí fēnzhōng hòu jiào nǐ.",
+      "translation": "10分経ったらあなたを呼びます。"
+    }
+  },
+  {
+    "number": 406,
+    "word": "游泳",
+    "pinyin": "yóuyǒng",
+    "meaning": "泳ぐ",
+    "example": {
+      "text": "金魚在浴缸裡游泳。",
+      "pinyin": "jīnyú zài yùgāng lǐ yóuyǒng.",
+      "translation": "金魚が水槽の中で泳いでいます。"
+    }
+  },
+  {
+    "number": 407,
+    "word": "幫忙",
+    "pinyin": "bāngmáng",
+    "meaning": "手伝う",
+    "example": {
+      "text": "需要幫忙嗎？",
+      "pinyin": "xūyào bāngmáng ma?",
+      "translation": "助けが必要ですか?"
+    }
+  },
+  {
+    "number": 408,
+    "word": "電子郵件",
+    "pinyin": "diànzǐ yóujiàn",
+    "meaning": "電子メール",
+    "example": {
+      "text": "電子郵件也可以說成電郵。",
+      "pinyin": "diànzǐ yóujiàn yě kěyǐ shuō chéng diànyóu.",
+      "translation": "電子郵件は電郵ということもできます。"
+    }
+  },
+  {
+    "number": 409,
+    "word": "冷氣機",
+    "pinyin": "lěngqìjī",
+    "meaning": "クーラー",
+    "example": {
+      "text": "冷氣開了嗎？",
+      "pinyin": "lěngqì kāi le ma?",
+      "translation": "クーラーをつけましたか？"
+    }
+  },
+  {
+    "number": 410,
+    "word": "報紙",
+    "pinyin": "bàozhǐ",
+    "meaning": "新聞",
+    "example": {
+      "text": "這裡有日文報紙嗎？",
+      "pinyin": "zhèlǐ yǒu Rìwén bàozhǐ ma?",
+      "translation": "ここに日本の新聞はありますか?"
+    }
+  },
+  {
+    "number": 411,
+    "word": "禮物",
+    "pinyin": "lǐwù",
+    "meaning": "贈り物、プレゼント",
+    "example": {
+      "text": "這是要送給媽媽的禮物。",
+      "pinyin": "zhè shì yào sòng gěi māma de lǐwù.",
+      "translation": "これはお母さんへ贈るプレゼントです。"
+    }
+  },
+  {
+    "number": 412,
+    "word": "信封",
+    "pinyin": "xìnfēng",
+    "meaning": "封筒",
+    "example": {
+      "text": "這個信封上寫什麼？",
+      "pinyin": "zhè ge xìnfēng shàng xiě shénme?",
+      "translation": "この封筒には何が書いてありますか?"
+    }
+  },
+  {
+    "number": 413,
+    "word": "地圖",
+    "pinyin": "dìtú",
+    "meaning": "地図",
+    "example": {
+      "text": "我不太會看地圖。",
+      "pinyin": "wǒ bù tài huì kàn dìtú.",
+      "translation": "私は地図を読むのがあまり得意ではありません。"
+    }
+  },
+  {
+    "number": 414,
+    "word": "眼鏡",
+    "pinyin": "yǎnjìng",
+    "meaning": "眼鏡",
+    "example": {
+      "text": "這副太陽眼鏡很好看。",
+      "pinyin": "zhè fù tàiyáng yǎnjìng hěn hǎokàn.",
+      "translation": "このサングラスはとても素敵です。"
+    }
+  },
+  {
+    "number": 415,
+    "word": "襪子",
+    "pinyin": "wàzi",
+    "meaning": "靴下",
+    "example": {
+      "text": "我的襪子破了。",
+      "pinyin": "wǒ de wàzi pò le.",
+      "translation": "靴下が破れてしまいました。"
+    }
+  },
+  {
+    "number": 416,
+    "word": "裙子",
+    "pinyin": "qúnzi",
+    "meaning": "スカート",
+    "example": {
+      "text": "這件裙子太短了。",
+      "pinyin": "zhè jiàn qúnzi tài duǎn le.",
+      "translation": "このスカートは短すぎます。"
+    }
+  },
+  {
+    "number": 417,
+    "word": "顏色",
+    "pinyin": "yánsè",
+    "meaning": "色",
+    "example": {
+      "text": "我喜歡你頭髮的顏色。",
+      "pinyin": "wǒ xǐhuān nǐ tóufǎ de yánsè.",
+      "translation": "あなたの髪の色が好きです。"
+    }
+  },
+  {
+    "number": 418,
+    "word": "黃色",
+    "pinyin": "huángsè",
+    "meaning": "黄色",
+    "example": {
+      "text": "台灣的計程車是黃色的。",
+      "pinyin": "Táiwān de jìchéngchē shì huángsè de.",
+      "translation": "台湾のタクシーは黄色です。"
+    }
+  },
+  {
+    "number": 419,
+    "word": "白色",
+    "pinyin": "báisè",
+    "meaning": "白",
+    "example": {
+      "text": "奶奶的頭髮是白色的。",
+      "pinyin": "nǎinai de tóufǎ shì báisè de.",
+      "translation": "おばあちゃんの髪は白いです。"
+    }
+  },
+  {
+    "number": 420,
+    "word": "電梯",
+    "pinyin": "diàntī",
+    "meaning": "エレベーター",
+    "example": {
+      "text": "這裡沒有電梯。",
+      "pinyin": "zhèlǐ méiyǒu diàntī.",
+      "translation": "ここにはエレベーターがありません。"
+    }
+  },
+  {
+    "number": 421,
+    "word": "房間",
+    "pinyin": "fángjiān",
+    "meaning": "部屋",
+    "example": {
+      "text": "這個房子有三個房間。",
+      "pinyin": "zhè ge fángzi yǒu sān ge fángjiān.",
+      "translation": "その家には部屋が3つあります。"
+    }
+  },
+  {
+    "number": 422,
+    "word": "廚房",
+    "pinyin": "chúfáng",
+    "meaning": "台所",
+    "example": {
+      "text": "爸爸在廚房。",
+      "pinyin": "bàba zài chúfáng.",
+      "translation": "お父さんはキッチンにいます。"
+    }
+  },
+  {
+    "number": 423,
+    "word": "洗手間",
+    "pinyin": "xǐshǒujiān",
+    "meaning": "バスルーム",
+    "example": {
+      "text": "我要去一下洗手間。",
+      "pinyin": "wǒ yào qù yíxià xǐshǒujiān.",
+      "translation": "ちょっとトイレにいってきます。"
+    }
+  },
+  {
+    "number": 424,
+    "word": "廁所",
+    "pinyin": "cèsuǒ",
+    "meaning": "バスルーム",
+    "example": {
+      "text": "廁所在哪裡？",
+      "pinyin": "cèsuǒ zài nǎlǐ?",
+      "translation": "化粧室はどこですか？"
+    }
+  },
+  {
+    "number": 425,
+    "word": "窗戶",
+    "pinyin": "chuānghù",
+    "meaning": "ウィンドウ",
+    "example": {
+      "text": "把窗戶關上。",
+      "pinyin": "bǎ chuānghù guān shàng.",
+      "translation": "窓を閉めてください。"
+    }
+  },
+  {
+    "number": 426,
+    "word": "家具",
+    "pinyin": "jiājù",
+    "meaning": "家具",
+    "example": {
+      "text": "我剛搬家，還沒有買家具。",
+      "pinyin": "wǒ gāng bānjiā, hái méiyǒu mǎi jiājù.",
+      "translation": "引っ越してきたばかりでまだ家具を買っていません。"
+    }
+  },
+  {
+    "number": 427,
+    "word": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "椅子",
+    "example": {
+      "text": "搬兩把椅子過來。",
+      "pinyin": "bān liǎng bǎ yǐzi guòlái.",
+      "translation": "椅子を２脚持ってきてください。"
+    }
+  },
+  {
+    "number": 428,
+    "word": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning": "テーブル",
+    "example": {
+      "text": "你的手機在桌子上。",
+      "pinyin": "nǐ de shǒujī zài zhuōzi shàng.",
+      "translation": "あなたの携帯電話はテーブルの上にあります。"
+    }
+  },
+  {
+    "number": 429,
+    "word": "沙發",
+    "pinyin": "shāfā",
+    "meaning": "ソファー",
+    "example": {
+      "text": "我想要一個舒服的沙發。",
+      "pinyin": "wǒ xiǎng yào yí gè shūfú de shāfā.",
+      "translation": "座り心地の良いソファが欲しい。"
+    }
+  },
+  {
+    "number": 430,
+    "word": "床",
+    "pinyin": "chuáng",
+    "meaning": "ベッド",
+    "example": {
+      "text": "貓在床上睡覺。",
+      "pinyin": "māo zài chuáng shàng shuìjiào.",
+      "translation": "猫はベッドで寝ています。"
+    }
+  },
+  {
+    "number": 431,
+    "word": "休息",
+    "pinyin": "xiūxí",
+    "meaning": "休む",
+    "example": {
+      "text": "你什麼時候休息？",
+      "pinyin": "nǐ shénme shíhou xiūxí?",
+      "translation": "いつ休みますか？"
+    }
+  },
+  {
+    "number": 432,
+    "word": "結婚",
+    "pinyin": "jiéhūn",
+    "meaning": "結婚する",
+    "example": {
+      "text": "結婚五十年叫金婚。",
+      "pinyin": "jiéhūn wǔshí nián jiào jīnhūn.",
+      "translation": "結婚50年を金婚式といいます。"
+    }
+  },
+  {
+    "number": 433,
+    "word": "晚會",
+    "pinyin": "wǎnhuì",
+    "meaning": "夜会、パーティー",
+    "example": {
+      "text": "今天的晚會人很多。",
+      "pinyin": "jīntiān de wǎnhuì rén hěn duō.",
+      "translation": "今日のパーティーにはたくさんの人がいます。"
+    }
+  },
+  {
+    "number": 434,
+    "word": "不客氣",
+    "pinyin": "búkèqì",
+    "meaning": "どういたしまして",
+    "example": {
+      "text": "謝謝。不客氣。",
+      "pinyin": "xièxiè. bú kèqì.",
+      "translation": "ありがとう。どういたしまして。"
+    }
+  },
+  {
+    "number": 435,
+    "word": "小學",
+    "pinyin": "xiǎoxué",
+    "meaning": "小学校",
+    "example": {
+      "text": "你兒子要上哪個小學？",
+      "pinyin": "nǐ érzi yào shàng nǎ ge xiǎoxué?",
+      "translation": "あなたの息子さんはどこの小学校に通うことになりますか？"
+    }
+  },
+  {
+    "number": 436,
+    "word": "上學",
+    "pinyin": "shàngxué",
+    "meaning": "登校する、入学する",
+    "example": {
+      "text": "你今天幾點上學？",
+      "pinyin": "nǐ jīntiān jǐ diǎn shàngxué?",
+      "translation": "今日は何時に学校に行きますか？"
+    }
+  },
+  {
+    "number": 437,
+    "word": "教室",
+    "pinyin": "jiàoshì",
+    "meaning": "教室",
+    "example": {
+      "text": "音樂教室在三樓。",
+      "pinyin": "yīnyuè jiàoshì zài sān lóu.",
+      "translation": "音楽教室は3階にあります。"
+    }
+  },
+  {
+    "number": 438,
+    "word": "語言",
+    "pinyin": "yǔyán",
+    "meaning": "言語、言葉",
+    "example": {
+      "text": "你會說幾種語言？",
+      "pinyin": "nǐ huì shuō jǐ zhǒng yǔyán?",
+      "translation": "何ヶ国語を話せますか?"
+    }
+  },
+  {
+    "number": 439,
+    "word": "華語",
+    "pinyin": "huáyǔ",
+    "meaning": "華語",
+    "example": {
+      "text": "我會說華語。",
+      "pinyin": "wǒ huì shuō Huáyǔ.",
+      "translation": "私は中国語を話すことができます。"
+    }
+  },
+  {
+    "number": 440,
+    "word": "華文",
+    "pinyin": "huáwén",
+    "meaning": "華語",
+    "example": {
+      "text": "她寫華文小說。",
+      "pinyin": "tā xiě Huáwén xiǎoshuō.",
+      "translation": "彼女は中国の小説を書いています。"
+    }
+  },
+  {
+    "number": 441,
+    "word": "科學",
+    "pinyin": "kēxué",
+    "meaning": "科学",
+    "example": {
+      "text": "語言學也是一種科學。",
+      "pinyin": "yǔyánxué yě shì yì zhǒng kēxué.",
+      "translation": "言語学も科学です。"
+    }
+  },
+  {
+    "number": 442,
+    "word": "作業",
+    "pinyin": "zuòyè",
+    "meaning": "宿題、作業",
+    "example": {
+      "text": "小學生作業都那麼多嗎？",
+      "pinyin": "xiǎoxuéshēng zuòyè dōu nàme duō ma?",
+      "translation": "小学生って宿題そんなにたくさんあるの？"
+    }
+  },
+  {
+    "number": 443,
+    "word": "功課",
+    "pinyin": "gōngkè",
+    "meaning": "宿題",
+    "example": {
+      "text": "你功課寫完了嗎？",
+      "pinyin": "nǐ gōngkè xiě wán le ma?",
+      "translation": "宿題はもう終わりましたか？"
+    }
+  },
+  {
+    "number": 444,
+    "word": "黑板",
+    "pinyin": "hēibǎn",
+    "meaning": "黒板",
+    "example": {
+      "text": "黑板上的字太小，我看不清楚。",
+      "pinyin": "hēibǎn shàng de zì tài xiǎo, wǒ kàn bù qīngchǔ.",
+      "translation": "黒板の字が小さすぎてよく見えません。"
+    }
+  },
+  {
+    "number": 445,
+    "word": "課本",
+    "pinyin": "kèběn",
+    "meaning": "教科書",
+    "example": {
+      "text": "這是華文課本。",
+      "pinyin": "zhè shì Huáwén kèběn.",
+      "translation": "これは中国語の教科書です。"
+    }
+  },
+  {
+    "number": 446,
+    "word": "句子",
+    "pinyin": "jùzi",
+    "meaning": "文",
+    "example": {
+      "text": "這個句子是什麼意思？",
+      "pinyin": "zhè ge jùzi shì shénme yìsi?",
+      "translation": "この文はどういう意味ですか?"
+    }
+  },
+  {
+    "number": 447,
+    "word": "讀書",
+    "pinyin": "dúshū",
+    "meaning": "本を読む、勉強する",
+    "example": {
+      "text": "弟弟喜歡讀書。",
+      "pinyin": "dìdi xǐhuān dúshū.",
+      "translation": "私の弟は読書が好きです。"
+    }
+  },
+  {
+    "number": 448,
+    "word": "上班",
+    "pinyin": "shàngbān",
+    "meaning": "出勤する、仕事をする",
+    "example": {
+      "text": "我一個星期上班六天。",
+      "pinyin": "wǒ yí ge xīngqī shàngbān liù tiān.",
+      "translation": "私は週に6日働いています。"
+    }
+  },
+  {
+    "number": 449,
+    "word": "請假",
+    "pinyin": "qǐngjià",
+    "meaning": "休みを取る、休む",
+    "example": {
+      "text": "明天我想請假一天。",
+      "pinyin": "míngtiān wǒ xiǎng qǐngjià yì tiān.",
+      "translation": "明日は休みたいです。"
+    }
+  },
+  {
+    "number": 450,
+    "word": "辦公室",
+    "pinyin": "bàngōngshì",
+    "meaning": "オフィス",
+    "example": {
+      "text": "董事長現在不在辦公室。",
+      "pinyin": "dǒngshìzhǎng xiànzài bù zài bàngōngshì.",
+      "translation": "社長は今オフィスにいません。"
+    }
+  },
+  {
+    "number": 451,
+    "word": "同事",
+    "pinyin": "tóngshì",
+    "meaning": "同僚",
+    "example": {
+      "text": "阿輝伯是我的同事。",
+      "pinyin": "Āhuī bó shì wǒ de tóngshì.",
+      "translation": "阿輝おじさんは私の同僚です。"
+    }
+  },
+  {
+    "number": 452,
+    "word": "工廠",
+    "pinyin": "gōngchǎng",
+    "meaning": "工場",
+    "example": {
+      "text": "這附近有很多工廠/",
+      "pinyin": "zhè fùjìn yǒu hěn duō gōngchǎng.",
+      "translation": "このあたりには工場がたくさんあります/"
+    }
+  },
+  {
+    "number": 453,
+    "word": "工人",
+    "pinyin": "gōngrén",
+    "meaning": "労働者",
+    "example": {
+      "text": "這家工廠有兩千個工人。",
+      "pinyin": "zhè jiā gōngchǎng yǒu liǎngqiān gè gōngrén.",
+      "translation": "この工場には 2,000 人の労働者がいます。"
+    }
+  },
+  {
+    "number": 454,
+    "word": "司機",
+    "pinyin": "sījī",
+    "meaning": "運転手",
+    "example": {
+      "text": "這位公車司機很熱心。",
+      "pinyin": "zhè wèi gōngchē sījī hěn rèxīn.",
+      "translation": "バスの運転手さんはとても熱心でした。"
+    }
+  },
+  {
+    "number": 455,
+    "word": "護士",
+    "pinyin": "hùshì",
+    "meaning": "看護師",
+    "example": {
+      "text": "我想當護士。",
+      "pinyin": "wǒ xiǎng dāng hùshì.",
+      "translation": "看護師になりたいです。"
+    }
+  },
+  {
+    "number": 456,
+    "word": "食物",
+    "pinyin": "shíwù",
+    "meaning": "食べ物",
+    "example": {
+      "text": "不要浪費食物。",
+      "pinyin": "bùyào làngfèi shíwù.",
+      "translation": "食べ物を無駄にしないでください。"
+    }
+  },
+  {
+    "number": 457,
+    "word": "包子",
+    "pinyin": "bāozi",
+    "meaning": "蒸しパン",
+    "example": {
+      "text": "這家的包子很棒。",
+      "pinyin": "zhè jiā de bāozi hěn bàng.",
+      "translation": "ここの包子はすばらしいです。"
+    }
+  },
+  {
+    "number": 458,
+    "word": "餃子",
+    "pinyin": "jiǎozi",
+    "meaning": "団子",
+    "example": {
+      "text": "這裡的餃子很好吃。",
+      "pinyin": "zhèlǐ de jiǎozi hěn hǎochī.",
+      "translation": "ここの餃子は美味しいです。"
+    }
+  },
+  {
+    "number": 459,
+    "word": "麵",
+    "pinyin": "miàn",
+    "meaning": "麺類",
+    "example": {
+      "text": "你喜歡吃飯還是吃麵。",
+      "pinyin": "nǐ xǐhuān chī fàn háishì chī miàn.",
+      "translation": "あなたはご飯が好きですか、それとも麺が好きですか？"
+    }
+  },
+  {
+    "number": 460,
+    "word": "湯",
+    "pinyin": "tāng",
+    "meaning": "スープ",
+    "example": {
+      "text": "雞湯對身體很好。",
+      "pinyin": "jītāng duì shēntǐ hěn hǎo.",
+      "translation": "鶏がらスープは体にとても良いです。"
+    }
+  },
+  {
+    "number": 461,
+    "word": "蛋",
+    "pinyin": "dàn",
+    "meaning": "卵",
+    "example": {
+      "text": "姐姐愛吃皮蛋豆腐。",
+      "pinyin": "jiějie ài chī pí dàn dòufǔ.",
+      "translation": "姉は皮蛋豆腐が好きです。"
+    }
+  },
+  {
+    "number": 462,
+    "word": "麵包",
+    "pinyin": "miànbāo",
+    "meaning": "パン",
+    "example": {
+      "text": "你吃過台灣的蔥麵包嗎？",
+      "pinyin": "nǐ chīguò Táiwān de cōng miànbāo ma?",
+      "translation": "台湾のネギパンを食べたことがありますか？"
+    }
+  },
+  {
+    "number": 463,
+    "word": "巧克力",
+    "pinyin": "qiǎokèlì",
+    "meaning": "チョコレート",
+    "example": {
+      "text": "這個巧克力是在屏東做的。",
+      "pinyin": "zhè ge qiǎokèlì shì zài Píngdōng zuò de.",
+      "translation": "このチョコレートは屏東で作られています。"
+    }
+  },
+  {
+    "number": 464,
+    "word": "蛋糕",
+    "pinyin": "dàngāo",
+    "meaning": "ケーキ",
+    "example": {
+      "text": "巧克力蛋糕是我的做愛。",
+      "pinyin": "qiǎokèlì dàngāo shì wǒ de zuì ài.",
+      "translation": "チョコレートケーキは私の大好物です。"
+    }
+  },
+  {
+    "number": 465,
+    "word": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning": "フルーツ",
+    "example": {
+      "text": "番茄是水果還是蔬菜？",
+      "pinyin": "fānqié shì shuǐguǒ háishì shūcài?",
+      "translation": "トマトは果物ですか、それとも野菜ですか?"
+    }
+  },
+  {
+    "number": 466,
+    "word": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "meaning": "バナナ",
+    "example": {
+      "text": "台灣香蕉很好吃。",
+      "pinyin": "Táiwān xiāngjiāo hěn hǎochī.",
+      "translation": "台湾バナナは美味しいです。"
+    }
+  },
+  {
+    "number": 467,
+    "word": "飲料",
+    "pinyin": "yǐnliào",
+    "meaning": "飲み物",
+    "example": {
+      "text": "這個飲料叫菊花茶。",
+      "pinyin": "zhè ge yǐnliào jiào júhuā chá.",
+      "translation": "この飲み物は菊茶と呼ばれています。"
+    }
+  },
+  {
+    "number": 468,
+    "word": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaning": "牛乳",
+    "example": {
+      "text": "草莓牛奶很好喝。",
+      "pinyin": "cǎoméi niúnǎi hěn hǎo hē.",
+      "translation": "いちごミルクが美味しいです。"
+    }
+  },
+  {
+    "number": 469,
+    "word": "果汁",
+    "pinyin": "guǒzhī",
+    "meaning": "ジュース",
+    "example": {
+      "text": "早上我喜歡自己打果汁喝。",
+      "pinyin": "zǎoshàng wǒ xǐhuān zìjǐ dǎ guǒzhī hē.",
+      "translation": "私は朝に自分でジュースを作って飲むのが好きです。"
+    }
+  },
+  {
+    "number": 470,
+    "word": "餓",
+    "pinyin": "è",
+    "meaning": "お腹が空いている",
+    "example": {
+      "text": "我餓了，想吃泡麵。",
+      "pinyin": "wǒ è le, xiǎng chī pàomiàn.",
+      "translation": "お腹が空いたのでインスタントラーメンを食べたいです。"
+    }
+  },
+  {
+    "number": 471,
+    "word": "渴",
+    "pinyin": "kě",
+    "meaning": "喉が乾いている",
+    "example": {
+      "text": "你口渴了嗎？",
+      "pinyin": "nǐ kǒukě le ma?",
+      "translation": "喉が渇きましたか？"
+    }
+  },
+  {
+    "number": 472,
+    "word": "甜",
+    "pinyin": "tián",
+    "meaning": "甘い",
+    "example": {
+      "text": "荔枝很甜。",
+      "pinyin": "lìzhī hěn tián.",
+      "translation": "ライチはとても甘いです。"
+    }
+  },
+  {
+    "number": 473,
+    "word": "菜單",
+    "pinyin": "càidān",
+    "meaning": "メニュー",
+    "example": {
+      "text": "老闆，有沒有菜單？",
+      "pinyin": "lǎobǎn, yǒu méiyǒu càidān?",
+      "translation": "すみません、メニューはありますか？"
+    }
+  },
+  {
+    "number": 474,
+    "word": "碗",
+    "pinyin": "wǎn",
+    "meaning": "ボウル",
+    "example": {
+      "text": "這個碗是木頭做的。",
+      "pinyin": "zhè ge wǎn shì mùtou zuò de.",
+      "translation": "このボウルは木でできています。"
+    }
+  },
+  {
+    "number": 475,
+    "word": "盤子",
+    "pinyin": "pánzi",
+    "meaning": "皿",
+    "example": {
+      "text": "你洗盤子了嗎？",
+      "pinyin": "nǐ xǐ pánzi le ma?",
+      "translation": "あなたは皿を洗いましたか？"
+    }
+  },
+  {
+    "number": 476,
+    "word": "杯子",
+    "pinyin": "bēizi",
+    "meaning": "カップ",
+    "example": {
+      "text": "這是中國茶的杯子。",
+      "pinyin": "zhè shì Zhōngguó chá de bēizi.",
+      "translation": "こちらは中国のティーカップです。"
+    }
+  },
+  {
+    "number": 477,
+    "word": "老闆/老板",
+    "pinyin": "lǎobǎn",
+    "meaning": "店主、経営者",
+    "example": {
+      "text": "老闆，我要兩碗大腸麵線。",
+      "pinyin": "lǎobǎn, wǒ yào liǎng wǎn dàcháng miànxiàn.",
+      "translation": "すみません、大腸麺線を2つください。"
+    }
+  },
+  {
+    "number": 478,
+    "word": "電影院",
+    "pinyin": "diànyǐngyuàn",
+    "meaning": "映画館",
+    "example": {
+      "text": "你去過台北之家電影院嗎？",
+      "pinyin": "nǐ qùguò Táiběi zhī jiā diànyǐngyuàn ma?",
+      "translation": "台湾之家の映画館に行ったことがありますか？"
+    }
+  },
+  {
+    "number": 479,
+    "word": "表演",
+    "pinyin": "biǎoyǎn",
+    "meaning": "演技、パフォーマンス",
+    "example": {
+      "text": "我今天有表演課。",
+      "pinyin": "wǒ jīntiān yǒu biǎoyǎn kè.",
+      "translation": "今日は演技の授業があります。"
+    }
+  },
+  {
+    "number": 480,
+    "word": "足球",
+    "pinyin": "zúqiú",
+    "meaning": "サッカー",
+    "example": {
+      "text": "他很愛看世界杯足球賽。",
+      "pinyin": "tā hěn ài kàn Shìjièbēi zúqiúsài.",
+      "translation": "彼はワールドカップのサッカーの試合を見るのが大好きです。"
+    }
+  },
+  {
+    "number": 481,
+    "word": "籃球",
+    "pinyin": "lánqiú",
+    "meaning": "バスケットボール",
+    "example": {
+      "text": "他是大學籃球明星。",
+      "pinyin": "tā shì dàxué lánqiú míngxīng.",
+      "translation": "彼は大学バスケットボールのスターです。"
+    }
+  },
+  {
+    "number": 482,
+    "word": "網球",
+    "pinyin": "wǎngqiú",
+    "meaning": "テニス",
+    "example": {
+      "text": "她網球打得很好。",
+      "pinyin": "tā wǎngqiú dǎ de hěn hǎo.",
+      "translation": "彼女はとても上手にテニスをします。"
+    }
+  },
+  {
+    "number": 483,
+    "word": "棒球",
+    "pinyin": "bàngqiú",
+    "meaning": "野球",
+    "example": {
+      "text": "他以後想打職業棒球比賽。",
+      "pinyin": "tā yǐhòu xiǎng dǎ zhíyè bàngqiú bǐsài.",
+      "translation": "彼は今後プロ野球の試合に出たいです。"
+    }
+  },
+  {
+    "number": 484,
+    "word": "比賽",
+    "pinyin": "bǐsài",
+    "meaning": "試合、競技、競争する",
+    "example": {
+      "text": "早點睡，明天有比賽。",
+      "pinyin": "zǎodiǎn shuì, míngtiān yǒu bǐsài.",
+      "translation": "明日は試合があるので早く寝てください。"
+    }
+  },
+  {
+    "number": 485,
+    "word": "輸",
+    "pinyin": "shū",
+    "meaning": "負ける、輸送する、入力する",
+    "example": {
+      "text": "愛情裡沒有輸贏。",
+      "pinyin": "àiqíng lǐ méiyǒu shū-yíng.",
+      "translation": "恋愛に勝ち負けはありません。"
+    }
+  },
+  {
+    "number": 486,
+    "word": "贏",
+    "pinyin": "yíng",
+    "meaning": "勝つ",
+    "example": {
+      "text": "中華隊贏了嗎？",
+      "pinyin": "Zhōnghuá duì yíng le ma?",
+      "translation": "中国チームは勝ちましたか？"
+    }
+  },
+  {
+    "number": 487,
+    "word": "上網",
+    "pinyin": "shàngwǎng",
+    "meaning": "インターネットを使う",
+    "example": {
+      "text": "這個速食店提供上網服務。",
+      "pinyin": "zhè ge sùshídiàn tígōng shàngwǎng fúwù.",
+      "translation": "このファーストフード店ではインターネットサービスを提供しています。"
+    }
+  },
+  {
+    "number": 488,
+    "word": "旅行",
+    "pinyin": "lǚxíng",
+    "meaning": "旅行する",
+    "example": {
+      "text": "這個夏天我要去澎湖旅行。",
+      "pinyin": "zhè ge xiàtiān wǒ yào qù Pénghú lǚxíng.",
+      "translation": "この夏澎湖へ旅行する予定です。"
+    }
+  },
+  {
+    "number": 489,
+    "word": "參觀",
+    "pinyin": "cānguān",
+    "meaning": "見学する、参観する",
+    "example": {
+      "text": "明天我們去宜蘭參觀威士忌工廠。",
+      "pinyin": "míngtiān wǒmen qù Yílán cānguān Wēishìjì gōngchǎng.",
+      "translation": "明日は宜蘭へ行き、ウィスキー工場を訪問します。"
+    }
+  },
+  {
+    "number": 490,
+    "word": "照相機",
+    "pinyin": "zhàoxiàngjī",
+    "meaning": "カメラ",
+    "example": {
+      "text": "這台照相機是新買的。",
+      "pinyin": "zhè tái zhàoxiàngjī shì xīn mǎi de.",
+      "translation": "このカメラは新しく買ったものです。"
+    }
+  },
+  {
+    "number": 491,
+    "word": "照相",
+    "pinyin": "zhàoxiàng",
+    "meaning": "写真を撮る",
+    "example": {
+      "text": "可以幫我們照相嗎？",
+      "pinyin": "kěyǐ bāng wǒmen zhàoxiàng ma?",
+      "translation": "写真を撮ってもらえますか？"
+    }
+  },
+  {
+    "number": 492,
+    "word": "圖片",
+    "pinyin": "túpiàn",
+    "meaning": "図、絵、写真",
+    "example": {
+      "text": "小貓的圖片很可愛。",
+      "pinyin": "xiǎo māo de túpiàn hěn kě'ài.",
+      "translation": "子猫の写真は可愛いです。"
+    }
+  },
+  {
+    "number": 493,
+    "word": "畫兒",
+    "pinyin": "huàr",
+    "meaning": "絵画",
+    "example": {
+      "text": "故宮博物院有很多名畫。",
+      "pinyin": "Gùgōng Bówùyuàn yǒu hěn duō mínghuà.",
+      "translation": "故宮博物院には有名な絵画がたくさんあります。"
+    }
+  },
+  {
+    "number": 494,
+    "word": "腳踏車",
+    "pinyin": "jiǎotàchē",
+    "meaning": "自転車",
+    "example": {
+      "text": "我騎腳踏車上課。",
+      "pinyin": "wǒ qí jiǎotàchē shàngkè.",
+      "translation": "私は自転車に乗って授業に行きます。"
+    }
+  },
+  {
+    "number": 495,
+    "word": "自行車",
+    "pinyin": "zìxíngchē",
+    "meaning": "自転車",
+    "example": {
+      "text": "台灣的自行車很有名。",
+      "pinyin": "Táiwān de zìxíngchē hěn yǒumíng.",
+      "translation": "台湾の自転車はとても有名です。"
+    }
+  },
+  {
+    "number": 496,
+    "word": "計程車",
+    "pinyin": "jìchéngchē",
+    "meaning": "タクシー",
+    "example": {
+      "text": "從這裡坐計程車去。",
+      "pinyin": "cóng zhèlǐ zuò jìchéngchē qù.",
+      "translation": "ここからタクシーに乗ります。"
+    }
+  },
+  {
+    "number": 497,
+    "word": "火車",
+    "pinyin": "huǒchē",
+    "meaning": "電車",
+    "example": {
+      "text": "你可以坐火車到新竹吃米粉。",
+      "pinyin": "nǐ kěyǐ zuò huǒchē dào Xīnzhú chī mǐfěn.",
+      "translation": "電車で新竹まで行き、ビーフンを食べることができます。"
+    }
+  },
+  {
+    "number": 498,
+    "word": "車站",
+    "pinyin": "chēzhàn",
+    "meaning": "駅",
+    "example": {
+      "text": "車站附近有什麼好吃的餐廳？",
+      "pinyin": "chēzhàn fùjìn yǒu shénme hǎochī de cāntīng?",
+      "translation": "駅の近くにおいしいレストランはありますか？"
+    }
+  },
+  {
+    "number": 499,
+    "word": "飛機",
+    "pinyin": "fēijī",
+    "meaning": "飛行機",
+    "example": {
+      "text": "從台北坐飛機到台東很方便。",
+      "pinyin": "cóng Táiběi zuò fēijī dào Táidōng hěn fāngbiàn.",
+      "translation": "台北から台東へは飛行機で行くのがとても便利です。"
+    }
+  },
+  {
+    "number": 500,
+    "word": "機場",
+    "pinyin": "jīchǎng",
+    "meaning": "空港",
+    "example": {
+      "text": "這是去機場的巴士嗎？",
+      "pinyin": "zhè shì qù jīchǎng de bāshì ma?",
+      "translation": "これは空港行きのバスですか？"
+    }
+  },
+  {
+    "number": 501,
+    "word": "馬路",
+    "pinyin": "mǎlù",
+    "meaning": "道",
+    "example": {
+      "text": "過馬路要注意來車。",
+      "pinyin": "guò mǎlù yào zhùyì láichē.",
+      "translation": "道路をわたるときは車が来るのに注意しなければいけません。"
+    }
+  },
+  {
+    "number": 502,
+    "word": "十字路口",
+    "pinyin": "shízìlùkǒu",
+    "meaning": "交差点",
+    "example": {
+      "text": "開車經過十字路口要小心。",
+      "pinyin": "kāichē jīngguò shízì lùkǒu yào xiǎoxīn.",
+      "translation": "交差点を通過するときは注意してください。"
+    }
+  },
+  {
+    "number": 503,
+    "word": "小心",
+    "pinyin": "xiǎoxīn",
+    "meaning": "注意深い",
+    "example": {
+      "text": "路上小心。",
+      "pinyin": "lùshàng xiǎoxīn.",
+      "translation": "道中お気をつけて。"
+    }
+  },
+  {
+    "number": 504,
+    "word": "風景",
+    "pinyin": "fēngjǐng",
+    "meaning": "風景",
+    "example": {
+      "text": "台灣的最美的風景是人。",
+      "pinyin": "Táiwān de zuì měi de fēngjǐng shì rén.",
+      "translation": "台湾で最も美しい風景は人々です。"
+    }
+  },
+  {
+    "number": 505,
+    "word": "太陽",
+    "pinyin": "tàiyáng",
+    "meaning": "太陽",
+    "example": {
+      "text": "今天太陽很大。",
+      "pinyin": "jīntiān tàiyáng hěn dà.",
+      "translation": "今日は太陽が大きいです。"
+    }
+  },
+  {
+    "number": 506,
+    "word": "湖",
+    "pinyin": "hú",
+    "meaning": "湖",
+    "example": {
+      "text": "澄清湖在高雄。",
+      "pinyin": "Chéngqīng Hú zài Gāoxióng.",
+      "translation": "澄清湖は高雄にあります。"
+    }
+  },
+  {
+    "number": 507,
+    "word": "下雨",
+    "pinyin": "xiàyǔ",
+    "meaning": "雨が降る",
+    "example": {
+      "text": "下雨了。",
+      "pinyin": "xiàyǔ le.",
+      "translation": "雨が降ってきました。"
+    }
+  },
+  {
+    "number": 508,
+    "word": "下雪",
+    "pinyin": "xiàxuě",
+    "meaning": "雪が降る",
+    "example": {
+      "text": "今年還沒開始下雪。",
+      "pinyin": "jīnnián hái méi kāishǐ xiàxuě.",
+      "translation": "今年はまだ雪が降り始めていません。"
+    }
+  },
+  {
+    "number": 509,
+    "word": "馬",
+    "pinyin": "mǎ",
+    "meaning": "馬",
+    "example": {
+      "text": "那裡有賽馬場。",
+      "pinyin": "nàlǐ yǒu sàimǎchǎng.",
+      "translation": "そこに競馬場があります。"
+    }
+  },
+  {
+    "number": 510,
+    "word": "鳥",
+    "pinyin": "niǎo",
+    "meaning": "鳥",
+    "example": {
+      "text": "這隻鳥會算命。",
+      "pinyin": "zhè zhī niǎo huì suànmìng.",
+      "translation": "この鳥は占いができます。"
+    }
+  },
+  {
+    "number": 511,
+    "word": "貓",
+    "pinyin": "māo",
+    "meaning": "猫",
+    "example": {
+      "text": "他養了一隻流浪貓。",
+      "pinyin": "tā yǎng le yì zhī liúlàng māo.",
+      "translation": "彼は野良猫を飼っています。"
+    }
+  },
+  {
+    "number": 512,
+    "word": "雞",
+    "pinyin": "jī",
+    "meaning": "チキン",
+    "example": {
+      "text": "雞生蛋，還是蛋生雞？",
+      "pinyin": "jī shēng dàn, háishì dàn shēng jī?",
+      "translation": "鶏が先か、卵が先か？"
     }
   }
 ]
