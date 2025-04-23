@@ -3742,7 +3742,7 @@
   {
     "number": [0, 341],
     "word": "一半",
-    "pinyin": "yībàn",
+    "pinyin": "yíbàn",
     "meaning": "半分",
     "example": {
       "text": "我們一人一半。",
@@ -4061,7 +4061,7 @@
   {
     "number": [0, 370],
     "word": "頭髮",
-    "pinyin": "tóufà",
+    "pinyin": "tóufǎ",
     "meaning": "髪",
     "example": {
       "text": "你剪頭髮了嗎？",
@@ -4292,11 +4292,11 @@
   {
     "number": [0, 391],
     "word": "舒服",
-    "pinyin": "shūfú",
+    "pinyin": "shūfu",
     "meaning": "快適である、心地よい",
     "example": {
       "text": "今天的天氣和舒服。",
-      "pinyin": "jīntiān de tiānqì hěn shūfú.",
+      "pinyin": "jīntiān de tiānqì hěn shūfu.",
       "translation": "今日の気候は快適です。"
     }
   },
@@ -4325,7 +4325,7 @@
   {
     "number": [0, 394],
     "word": "記得",
-    "pinyin": "jìdé",
+    "pinyin": "jìde",
     "meaning": "覚えている",
     "example": {
       "text": "你記得我嗎？",
@@ -4336,11 +4336,11 @@
   {
     "number": [0, 395],
     "word": "一定",
-    "pinyin": "yīdìng",
+    "pinyin": "yídìng",
     "meaning": "必ず、きっと、絶対に",
     "example": {
       "text": "你明天一定要來。",
-      "pinyin": "nǐ míngtiān yīdìng yào lái.",
+      "pinyin": "nǐ míngtiān yídìng yào lái.",
       "translation": "あなたは明日必ず来なければなりません。"
     }
   },
@@ -5011,7 +5011,7 @@
     "meaning": "食べ物",
     "example": {
       "text": "不要浪費食物。",
-      "pinyin": "bùyào làngfèi shíwù.",
+      "pinyin": "búyào làngfèi shíwù.",
       "translation": "食べ物を無駄にしないでください。"
     }
   },
