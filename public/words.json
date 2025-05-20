@@ -4295,7 +4295,7 @@
     "pinyin": "shūfu",
     "meaning": "快適である、心地よい",
     "example": {
-      "text": "今天的天氣和舒服。",
+      "text": "今天的天氣很舒服。",
       "pinyin": "jīntiān de tiānqì hěn shūfu.",
       "translation": "今日の気候は快適です。"
     }
@@ -4362,7 +4362,7 @@
     "meaning": "注意する、気をつける",
     "example": {
       "text": "注意不要忘了您的隨身物品。",
-      "pinyin": "zhùyì bùyào wàng le nín de suíshēn wùpǐn.",
+      "pinyin": "zhùyì búyào wàng le nín de suíshēn wùpǐn.",
       "translation": "持ち物を忘れないように注意してください。"
     }
   },
@@ -5098,7 +5098,7 @@
     "pinyin": "dàngāo",
     "meaning": "ケーキ",
     "example": {
-      "text": "巧克力蛋糕是我的做愛。",
+      "text": "巧克力蛋糕是我的最愛。",
       "pinyin": "qiǎokèlì dàngāo shì wǒ de zuì ài.",
       "translation": "チョコレートケーキは私の大好物です。"
     }
@@ -5538,8 +5538,8 @@
     "pinyin": "fēngjǐng",
     "meaning": "風景",
     "example": {
-      "text": "台灣的最美的風景是人。",
-      "pinyin": "Táiwān de zuì měi de fēngjǐng shì rén.",
+      "text": "台灣最美的風景是人。",
+      "pinyin": "Táiwān zuì měi de fēngjǐng shì rén.",
       "translation": "台湾で最も美しい風景は人々です。"
     }
   },
