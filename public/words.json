@@ -5630,5 +5630,5406 @@
       "pinyin": "jī shēng dàn, háishì dàn shēng jī?",
       "translation": "鶏が先か、卵が先か？"
     }
+  },
+  {
+    "number": [0, 513],
+    "word": "這些",
+    "pinyin": "zhè xiē",
+    "meaning": "これらの",
+    "example": {
+      "text": "這些是什麼資料？",
+      "pinyin": "zhè xiē shì shén me zī liào?",
+      "translation": "これはどのような情報ですか？"
+    }
+  },
+  {
+    "number": [0, 514],
+    "word": "那些",
+    "pinyin": "nà xiē",
+    "meaning": "それらの",
+    "example": {
+      "text": "那些都是我的書。",
+      "pinyin": "nà xiē dōu shì wǒ de shū.",
+      "translation": "それらは私の本です。"
+    }
+  },
+  {
+    "number": [0, 515],
+    "word": "這麼",
+    "pinyin": "zhè me",
+    "meaning": "こんなに、このように、こういうふうに",
+    "example": {
+      "text": "胡椒餅怎麼這麼好吃。",
+      "pinyin": "hú jiāo bǐng zěn me zhè me hǎo chī.",
+      "translation": "胡椒餅はどうしてこんなに美味しいんだろう。"
+    }
+  },
+  {
+    "number": [0, 516],
+    "word": "那麼",
+    "pinyin": "nà me",
+    "meaning": "そんなに、あんなに、そんなふうに、あんなふうに、それでは、ならば",
+    "example": {
+      "text": "那麼，接下來請校長給大家說句話。",
+      "pinyin": "nà me, jiē xià lái qǐng xiào zhǎng gěi dà jiā shuō jù huà.",
+      "translation": "さて、校長先生から皆さんに一言お願いします。"
+    }
+  },
+  {
+    "number": [0, 517],
+    "word": "沒有",
+    "pinyin": "méi yǒu",
+    "meaning": "〜していない、〜でない",
+    "example": {
+      "text": "他沒有去過高美濕地。",
+      "pinyin": "tā méi yǒu qù guò Gāo měi shī dì.",
+      "translation": "彼は高美湿地に行ったことがない。"
+    }
+  },
+  {
+    "number": [0, 518],
+    "word": "怎麼了",
+    "pinyin": "zěn me le",
+    "meaning": "どうしたの",
+    "example": {
+      "text": "你怎麼了？",
+      "pinyin": "nǐ zěn me le?",
+      "translation": "どうしたの？"
+    }
+  },
+  {
+    "number": [0, 519],
+    "word": "怎麼辦",
+    "pinyin": "zěn me bàn",
+    "meaning": "どうしよう",
+    "example": {
+      "text": "這件事我該怎麼辦呢。",
+      "pinyin": "zhè jiàn shì wǒ gāi zěn me bàn ne?",
+      "translation": "この件について私は何をすべきでしょうか?"
+    }
+  },
+  {
+    "number": [0, 520],
+    "word": "不好意思",
+    "pinyin": "bù hǎo yi si",
+    "meaning": "申し訳ない、きまりが悪い、恥ずかしい",
+    "example": {
+      "text": "不好意思，我剛好有事不能參加。",
+      "pinyin": "bù hǎo yì si, wǒ gāng hǎo yǒu shì bù néng cān jiā.",
+      "translation": "申し訳ありませんが、ちょっと用事があって出席できません。"
+    }
+  },
+  {
+    "number": [0, 521],
+    "word": "為了",
+    "pinyin": "wèi le",
+    "meaning": "〜のために",
+    "example": {
+      "text": "父母為了小孩努力工作。",
+      "pinyin": "fù mǔ wèi le xiǎo hái nǔ lì gōng zuò.",
+      "translation": "親は子供のために一生懸命働きます。"
+    }
+  },
+  {
+    "number": [0, 522],
+    "word": "自己",
+    "pinyin": "zì jǐ",
+    "meaning": "自分、〜自身、自己",
+    "example": {
+      "text": "先把自己的工作做好。",
+      "pinyin": "xiān bǎ zì jǐ de gōng zuò zuò hǎo.",
+      "translation": "まずは自分の仕事をやりなさい。"
+    }
+  },
+  {
+    "number": [0, 523],
+    "word": "別人",
+    "pinyin": "bié rén",
+    "meaning": "他の人",
+    "example": {
+      "text": "不要管別人怎麼想。",
+      "pinyin": "bú yào guǎn bié rén zěn me xiǎng.",
+      "translation": "他人がどう思うかは気にしないでください。"
+    }
+  },
+  {
+    "number": [0, 524],
+    "word": "男人",
+    "pinyin": "nán rén",
+    "meaning": "男性",
+    "example": {
+      "text": "男人在一起喜歡說當兵的事。",
+      "pinyin": "nán rén zài yì qǐ xǐ huān shuō dāng bīng de shì.",
+      "translation": "男たちが集まると、軍隊での勤務について話すのが好きです。"
+    }
+  },
+  {
+    "number": [0, 525],
+    "word": "女人",
+    "pinyin": "nǚ rén",
+    "meaning": "女性",
+    "example": {
+      "text": "女人在一起都很熱鬧。",
+      "pinyin": "nǚ rén zài yì qǐ dōu hěn rè nào.",
+      "translation": "女性は一緒にいるととても活発になります。"
+    }
+  },
+  {
+    "number": [0, 526],
+    "word": "大人",
+    "pinyin": "dà rén",
+    "meaning": "大人",
+    "example": {
+      "text": "大人有時候也像小孩子一樣。",
+      "pinyin": "dà rén yǒu shí hou yě xiàng xiǎo hái zi yí yàng.",
+      "translation": "大人も時々子供のようになる。"
+    }
+  },
+  {
+    "number": [0, 527],
+    "word": "老人",
+    "pinyin": "lǎo rén",
+    "meaning": "老人",
+    "example": {
+      "text": "老人們常常談健康話題。",
+      "pinyin": "lǎo rén men cháng cháng tán jiàn kāng huà tí.",
+      "translation": "老人たちは健康についてよく話します。"
+    }
+  },
+  {
+    "number": [0, 528],
+    "word": "父親",
+    "pinyin": "fù qīn",
+    "meaning": "父親",
+    "example": {
+      "text": "我的父親會彈吉他。",
+      "pinyin": "wǒ de fù qīn huì tán jí tā.",
+      "translation": "私の父はギターを弾きます。"
+    }
+  },
+  {
+    "number": [0, 529],
+    "word": "母親",
+    "pinyin": "mǔ qīn",
+    "meaning": "母親",
+    "example": {
+      "text": "我的母親每個星期五打掃廚房。",
+      "pinyin": "wǒ de mǔ qīn měi gè xīng qī wǔ dǎ sǎo chú fáng.",
+      "translation": "私の母は毎週金曜日に台所を掃除します。"
+    }
+  },
+  {
+    "number": [0, 530],
+    "word": "父母",
+    "pinyin": "fù mǔ",
+    "meaning": "両親",
+    "example": {
+      "text": "你父母都在大阪生活嗎？",
+      "pinyin": "nǐ fù mǔ dōu zài Dà bǎn shēng huó ma?",
+      "translation": "ご両親は二人とも大阪に住んでいますか？"
+    }
+  },
+  {
+    "number": [0, 531],
+    "word": "爺爺",
+    "pinyin": "yé ye",
+    "meaning": "祖父",
+    "example": {
+      "text": "徐爺爺每個星期三去學國畫。",
+      "pinyin": "Xú yé ye měi gè xīng qī sān qù xué guó huà.",
+      "translation": "徐おじいさんは毎週水曜日に中国絵画を習いに行きます。"
+    }
+  },
+  {
+    "number": [0, 532],
+    "word": "奶奶",
+    "pinyin": "nǎi nai",
+    "meaning": "祖母",
+    "example": {
+      "text": "劉奶奶早上到公園打太極拳。",
+      "pinyin": "Liú nǎi nai zǎo shàng dào gōng yuán dǎ tài jí quán.",
+      "translation": "劉おばあちゃんは朝、太極拳を練習するために公園に行きます。"
+    }
+  },
+  {
+    "number": [0, 533],
+    "word": "家庭",
+    "pinyin": "jiā tíng",
+    "meaning": "家族",
+    "example": {
+      "text": "現代家庭的人口不那麼多。",
+      "pinyin": "xiàn dài jiā tíng de rén kǒu bù nà me duō.",
+      "translation": "現代の家族はそれほど多くの人で構成されていません。"
+    }
+  },
+  {
+    "number": [0, 534],
+    "word": "關係",
+    "pinyin": "guān xì",
+    "meaning": "関係",
+    "example": {
+      "text": "他們一家人關係很好。",
+      "pinyin": "tā men yī jiā rén guān xì hěn hǎo.",
+      "translation": "彼らは非常に良い家族関係を築いています。"
+    }
+  },
+  {
+    "number": [0, 535],
+    "word": "年紀",
+    "pinyin": "nián jì",
+    "meaning": "年齢",
+    "example": {
+      "text": "他有了一點年紀。",
+      "pinyin": "tā yǒu le yī diǎn nián jì.",
+      "translation": "彼は少し年を取っています。"
+    }
+  },
+  {
+    "number": [0, 536],
+    "word": "位",
+    "pinyin": "wèi",
+    "meaning": "〜名",
+    "example": {
+      "text": "今天有幾位客人？",
+      "pinyin": "jīn tiān yǒu jǐ wèi kè rén?",
+      "translation": "今日は何人ゲストがいらっしゃいますか？"
+    }
+  },
+  {
+    "number": [0, 537],
+    "word": "口",
+    "pinyin": "kǒu",
+    "meaning": "（口のある器物を数える）",
+    "example": {
+      "text": "那是一口井。",
+      "pinyin": "nà shì yī kǒu jǐng.",
+      "translation": "それは井戸です。"
+    }
+  },
+  {
+    "number": [0, 538],
+    "word": "班",
+    "pinyin": "bān",
+    "meaning": "（交通機関の発着回数や便、人やグループを数える）",
+    "example": {
+      "text": "因為颱風的關係，這班飛機停飛了。",
+      "pinyin": "yīn wèi tái fēng de guān xì, zhè bān fēi jī tíng fēi le.",
+      "translation": "この飛行は台風のため欠航となりました。"
+    }
+  },
+  {
+    "number": [0, 539],
+    "word": "隻",
+    "pinyin": "zhī",
+    "meaning": "〜匹",
+    "example": {
+      "text": "這隻狗是電影明星。",
+      "pinyin": "zhè zhī gǒu shì diàn yǐng míng xīng.",
+      "translation": "この犬は映画スターです。"
+    }
+  },
+  {
+    "number": [0, 540],
+    "word": "條",
+    "pinyin": "tiáo",
+    "meaning": "〜本、〜匹",
+    "example": {
+      "text": "這條魚要用蒸的還是炸的？",
+      "pinyin": "zhè tiáo yú yào yòng zhēng de hái shì zhá de?",
+      "translation": "この魚は蒸した方が良いでしょうか、それとも揚げた方が良いでしょうか？"
+    }
+  },
+  {
+    "number": [0, 541],
+    "word": "包",
+    "pinyin": "bāo",
+    "meaning": "（包まれたものや袋を数える）",
+    "example": {
+      "text": "給我一包科學麵。",
+      "pinyin": "gěi wǒ yī bāo kē xué miàn.",
+      "translation": "科学面を1つください。"
+    }
+  },
+  {
+    "number": [0, 542],
+    "word": "間",
+    "pinyin": "jiān",
+    "meaning": "（部屋を数える）",
+    "example": {
+      "text": "這一間是美容院不是花店。",
+      "pinyin": "zhè yī jiān shì měi róng yuàn bù shì huā diàn.",
+      "translation": "ここは花屋ではなく美容院です。"
+    }
+  },
+  {
+    "number": [0, 543],
+    "word": "枝",
+    "pinyin": "zhī",
+    "meaning": "〜本（細長いものを数える）",
+    "example": {
+      "text": "你有幾枝毛筆？",
+      "pinyin": "nǐ yǒu jǐ zhī máo bǐ?",
+      "translation": "あなたは筆を何本持っていますか？"
+    }
+  },
+  {
+    "number": [0, 544],
+    "word": "種",
+    "pinyin": "zhǒng / zhòng",
+    "meaning": "〜種類",
+    "example": {
+      "text": "這家火鍋店有很多種醬料。",
+      "pinyin": "zhè jiā huǒ guō diàn yǒu hěn duō zhǒng jiàng liào.",
+      "translation": "この火鍋レストランにはたくさんの種類のソースがあります。"
+    }
+  },
+  {
+    "number": [0, 545],
+    "word": "遍",
+    "pinyin": "biàn",
+    "meaning": "〜回",
+    "example": {
+      "text": "讓我們在複習一遍第五課。",
+      "pinyin": "ràng wǒ men zài fù xí yī biàn dì wǔ kè.",
+      "translation": "レッスン5をもう一度復習しましょう。"
+    }
+  },
+  {
+    "number": [0, 546],
+    "word": "度",
+    "pinyin": "dù",
+    "meaning": "〜度、〜回",
+    "example": {
+      "text": "我兒子昨天晚上發燒到三十九度。",
+      "pinyin": "wǒ ér zi zuó tiān wǎn shàng fā shāo dào sān shí jiǔ dù.",
+      "translation": "息子は昨夜39度の熱がありました。"
+    }
+  },
+  {
+    "number": [0, 547],
+    "word": "公里",
+    "pinyin": "gōng lǐ",
+    "meaning": "〜km",
+    "example": {
+      "text": "台北到高雄大約三百五十公里。",
+      "pinyin": "Tái běi dào Gāo xióng dàyuē sān bǎi wǔ shí gōng lǐ.",
+      "translation": "台北から高雄までは約350キロです。"
+    }
+  },
+  {
+    "number": [0, 548],
+    "word": "日期",
+    "pinyin": "rì qī",
+    "meaning": "日付、期日",
+    "example": {
+      "text": "這個日期是正確的嗎？",
+      "pinyin": "zhè gè rì qī shì zhèng què de ma?",
+      "translation": "この日付は正しいですか?"
+    }
+  },
+  {
+    "number": [0, 549],
+    "word": "春",
+    "pinyin": "chūn",
+    "meaning": "春",
+    "example": {
+      "text": "春節是一大重要節日。",
+      "pinyin": "chūn jié shì yī dà zhòng yào jié rì.",
+      "translation": "春節は大切なお祭りです。"
+    }
+  },
+  {
+    "number": [0, 550],
+    "word": "夏",
+    "pinyin": "xià",
+    "meaning": "夏",
+    "example": {
+      "text": "北海道的夏天很涼快。",
+      "pinyin": "Běi hǎi dào de xià tiān hěn liáng kuai.",
+      "translation": "北海道の夏はとても涼しいです。"
+    }
+  },
+  {
+    "number": [0, 551],
+    "word": "秋",
+    "pinyin": "qiū",
+    "meaning": "秋",
+    "example": {
+      "text": "今年中秋節要烤肉嗎？",
+      "pinyin": "jīn nián zhōng qiū jié yào kǎo ròu ma?",
+      "translation": "今年の中秋節にバーベキューをやるんですか？"
+    }
+  },
+  {
+    "number": [0, 552],
+    "word": "冬",
+    "pinyin": "dōng",
+    "meaning": "冬",
+    "example": {
+      "text": "他就像是冬天的太陽。",
+      "pinyin": "tā jiù xiàng shì dōng tiān de tài yáng.",
+      "translation": "彼は冬の太陽のような存在だ。"
+    }
+  },
+  {
+    "number": [0, 553],
+    "word": "前天",
+    "pinyin": "qián tiān",
+    "meaning": "一昨日",
+    "example": {
+      "text": "前天我去美術館參觀。",
+      "pinyin": "qián tiān wǒ qù měi shù guǎn cān guān.",
+      "translation": "一昨日美術館へ行きました。"
+    }
+  },
+  {
+    "number": [0, 554],
+    "word": "後天",
+    "pinyin": "hòu tiān",
+    "meaning": "明後日",
+    "example": {
+      "text": "後天他就要回國了。",
+      "pinyin": "hòu tiān tā jiù yào huí guó le.",
+      "translation": "彼は明後日帰宅するだろう。"
+    }
+  },
+  {
+    "number": [0, 555],
+    "word": "禮拜",
+    "pinyin": "lǐ bài",
+    "meaning": "週間、週、曜日",
+    "example": {
+      "text": "一個禮拜有七天。",
+      "pinyin": "yī gè lǐ bài yǒu qī tiān.",
+      "translation": "一週間には7日あります。"
+    }
+  },
+  {
+    "number": [0, 556],
+    "word": "禮拜天",
+    "pinyin": "lǐ bài tiān",
+    "meaning": "日曜日",
+    "example": {
+      "text": "這個禮拜天我呀出差。",
+      "pinyin": "zhè gè lǐ bài tiān wǒ yā chū chāi.",
+      "translation": "今週の日曜日は出張です。"
+    }
+  },
+  {
+    "number": [0, 557],
+    "word": "時間",
+    "pinyin": "shí jiān",
+    "meaning": "時間",
+    "example": {
+      "text": "你現在有時間嗎？",
+      "pinyin": "nǐ xiàn zài yǒu shí jiān ma?",
+      "translation": "今、時間ありますか？"
+    }
+  },
+  {
+    "number": [0, 558],
+    "word": "晚",
+    "pinyin": "wǎn",
+    "meaning": "夕方、夜",
+    "example": {
+      "text": "今晚你有什麼計畫？",
+      "pinyin": "jīn wǎn nǐ yǒu shén me jì huà?",
+      "translation": "今晩の予定は何ですか？"
+    }
+  },
+  {
+    "number": [0, 559],
+    "word": "夜",
+    "pinyin": "yè",
+    "meaning": "夜",
+    "example": {
+      "text": "今夜的月亮很圓。",
+      "pinyin": "jīn yè de yuè liàng hěn yuán.",
+      "translation": "今夜の月はとても丸いですね。"
+    }
+  },
+  {
+    "number": [0, 560],
+    "word": "鐘頭",
+    "pinyin": "zhōng tóu",
+    "meaning": "〜時間",
+    "example": {
+      "text": "看這部電影要兩個鐘頭。",
+      "pinyin": "kàn zhè bù diàn yǐng yào liǎng gè zhōng tóu.",
+      "translation": "この映画を見るのに2時間かかります。"
+    }
+  },
+  {
+    "number": [0, 561],
+    "word": "從前",
+    "pinyin": "cóng qián",
+    "meaning": "以前、これまで",
+    "example": {
+      "text": "從前這裡是水田。",
+      "pinyin": "cóng qián zhè lǐ shì shuǐ tián.",
+      "translation": "ここはかつて水田でした。"
+    }
+  },
+  {
+    "number": [0, 562],
+    "word": "一會",
+    "pinyin": "yí huì",
+    "meaning": "すぐ、ほんのしばらく",
+    "example": {
+      "text": "俊傑一會就來。",
+      "pinyin": "jùn jié yí huì jiù lái.",
+      "translation": "ジュンジエはもうすぐここに来ます。"
+    }
+  },
+  {
+    "number": [0, 563],
+    "word": "不久",
+    "pinyin": "bù jiǔ",
+    "meaning": "間もないとき",
+    "example": {
+      "text": "詩涵才剛來不久。",
+      "pinyin": "shī hán cái gāng lái bù jiǔ.",
+      "translation": "詩涵はさっき来たばかりです。"
+    }
+  },
+  {
+    "number": [0, 564],
+    "word": "後來",
+    "pinyin": "hòu lái",
+    "meaning": "それから、あとになって",
+    "example": {
+      "text": "後來他怎麼了？",
+      "pinyin": "hòu lái tā zěn me le?",
+      "translation": "その後彼に何が起こったのでしょうか？"
+    }
+  },
+  {
+    "number": [0, 565],
+    "word": "最近",
+    "pinyin": "zuì jìn",
+    "meaning": "最近、このごろ",
+    "example": {
+      "text": "你最近過得好嗎？",
+      "pinyin": "nǐ zuì jìn guò de hǎo ma?",
+      "translation": "最近はどうですか？"
+    }
+  },
+  {
+    "number": [0, 566],
+    "word": "最後",
+    "pinyin": "zuì hòu",
+    "meaning": "最後、いちばんあと",
+    "example": {
+      "text": "最後一天我們要去故宮博物院。",
+      "pinyin": "zuì hòu yī tiān wǒ men yào qù Gù gōng Bó wù yuàn.",
+      "translation": "最終日は故宮博物院に行きます。"
+    }
+  },
+  {
+    "number": [0, 567],
+    "word": "邊",
+    "pinyin": "biān",
+    "meaning": "そば、周辺",
+    "example": {
+      "text": "他們站在門邊說話。",
+      "pinyin": "tā men zhàn zài mén biān shuō huà.",
+      "translation": "彼らはドアのそばに立って話をした。"
+    }
+  },
+  {
+    "number": [0, 568],
+    "word": "這邊",
+    "pinyin": "zhè biān",
+    "meaning": "ここ、こちら、そこ、そちら",
+    "example": {
+      "text": "這邊的人都很好客。",
+      "pinyin": "zhè biān de rén dōu hěn hǎo kè.",
+      "translation": "ここの人々はとても親切です。"
+    }
+  },
+  {
+    "number": [0, 569],
+    "word": "那邊",
+    "pinyin": "nà biān",
+    "meaning": "そこ、そちら、あそこ、あちら",
+    "example": {
+      "text": "那邊暫停開放。",
+      "pinyin": "nà biān zàn tíng kāi fàng.",
+      "translation": "そこは一時的に閉鎖されています。"
+    }
+  },
+  {
+    "number": [0, 570],
+    "word": "左",
+    "pinyin": "zuǒ",
+    "meaning": "左",
+    "example": {
+      "text": "請往左轉。",
+      "pinyin": "qǐng wǎng zuǒ zhuǎn.",
+      "translation": "左に曲がってください。"
+    }
+  },
+  {
+    "number": [0, 571],
+    "word": "右",
+    "pinyin": "yòu",
+    "meaning": "右",
+    "example": {
+      "text": "請向右側通行。",
+      "pinyin": "qǐng xiàng yòu cè tōng xíng.",
+      "translation": "右側を走行してください。"
+    }
+  },
+  {
+    "number": [0, 572],
+    "word": "裡",
+    "pinyin": "lǐ",
+    "meaning": "中、内",
+    "example": {
+      "text": "你口袋裡有什麼？",
+      "pinyin": "nǐ kǒu dài lǐ yǒu shén me?",
+      "translation": "あなたのポケットには何が入ってますか？"
+    }
+  },
+  {
+    "number": [0, 573],
+    "word": "方向",
+    "pinyin": "fāng xiàng",
+    "meaning": "方向",
+    "example": {
+      "text": "這個方向看不到富士山。",
+      "pinyin": "zhè gè fāng xiàng kàn bù dào Fù shì shān.",
+      "translation": "この方向からは富士山は見えません。"
+    }
+  },
+  {
+    "number": [0, 574],
+    "word": "東",
+    "pinyin": "dōng",
+    "meaning": "東",
+    "example": {
+      "text": "你知道孔明借東風的故事嗎？",
+      "pinyin": "nǐ zhī dào Kǒng míng jiè Dōng fēng de gù shì ma?",
+      "translation": "孔明が東風を借りたという話をご存知ですか？"
+    }
+  },
+  {
+    "number": [0, 575],
+    "word": "東部",
+    "pinyin": "dōng bù",
+    "meaning": "東部",
+    "example": {
+      "text": "我想開車去台灣東部看朋友。",
+      "pinyin": "wǒ xiǎng kāi chē qù Tái wān dōng bù kàn péng yǒu.",
+      "translation": "友達に会いに台湾東部までドライブに行きたいです。"
+    }
+  },
+  {
+    "number": [0, 576],
+    "word": "東邊",
+    "pinyin": "dōng biān",
+    "meaning": "東側",
+    "example": {
+      "text": "太陽從東邊出來。",
+      "pinyin": "tài yáng cóng dōng biān chū lái.",
+      "translation": "太陽は東から昇ります。"
+    }
+  },
+  {
+    "number": [0, 577],
+    "word": "西",
+    "pinyin": "xī",
+    "meaning": "西",
+    "example": {
+      "text": "這是一種西洋料理。",
+      "pinyin": "zhè shì yī zhǒng Xī yáng liào lǐ.",
+      "translation": "これは西洋料理です。"
+    }
+  },
+  {
+    "number": [0, 578],
+    "word": "西部",
+    "pinyin": "xī bù",
+    "meaning": "西部",
+    "example": {
+      "text": "台灣的西部有平原。",
+      "pinyin": "Tái wān de xī bù yǒu píng yuán.",
+      "translation": "台湾の西部には平原があります。"
+    }
+  },
+  {
+    "number": [0, 579],
+    "word": "西邊",
+    "pinyin": "xī biān",
+    "meaning": "西側",
+    "example": {
+      "text": "小河流向西邊。",
+      "pinyin": "xiǎo hé liú xiàng xī biān.",
+      "translation": "小川は西に向かって流れている。"
+    }
+  },
+  {
+    "number": [0, 580],
+    "word": "南",
+    "pinyin": "nán",
+    "meaning": "南",
+    "example": {
+      "text": "他是路痴，分不清東西南北。",
+      "pinyin": "tā shì lù chī, fēn bù qīng Dōng Xī Nán Běi.",
+      "translation": "彼は方向音痴で、東と西、南と北の区別がつきません。"
+    }
+  },
+  {
+    "number": [0, 581],
+    "word": "南部",
+    "pinyin": "nán bù",
+    "meaning": "南部",
+    "example": {
+      "text": "他是南部人。",
+      "pinyin": "tā shì nán bù rén.",
+      "translation": "彼は南部出身です。"
+    }
+  },
+  {
+    "number": [0, 582],
+    "word": "南邊",
+    "pinyin": "nán biān",
+    "meaning": "南側",
+    "example": {
+      "text": "南邊的房間比較溫暖。",
+      "pinyin": "nán biān de fáng jiān bǐ jiào wēn nuǎn.",
+      "translation": "南向きの部屋は暖かいです。"
+    }
+  },
+  {
+    "number": [0, 583],
+    "word": "北",
+    "pinyin": "běi",
+    "meaning": "北",
+    "example": {
+      "text": "這裡可以吃得到北方菜。",
+      "pinyin": "zhè lǐ kě yǐ chī dé dào běi fāng cài.",
+      "translation": "ここでは北部の料理を食べることができます。"
+    }
+  },
+  {
+    "number": [0, 584],
+    "word": "北部",
+    "pinyin": "běi bù",
+    "meaning": "北部",
+    "example": {
+      "text": "北部的天氣比較冷。",
+      "pinyin": "běi bù de tiān qì bǐ jiào lěng.",
+      "translation": "北部では天気は寒いです。"
+    }
+  },
+  {
+    "number": [0, 585],
+    "word": "北邊",
+    "pinyin": "běi biān",
+    "meaning": "北側",
+    "example": {
+      "text": "北邊的大樓是音樂廳。",
+      "pinyin": "běi biān de dà lóu shì yīn yuè tīng.",
+      "translation": "北側の建物はコンサートホールです。"
+    }
+  },
+  {
+    "number": [0, 586],
+    "word": "向",
+    "pinyin": "xiàng",
+    "meaning": "に向かって",
+    "example": {
+      "text": "向東望去，就是太平洋。",
+      "pinyin": "xiàng dōng wàng qù, jiù shì Tài píng yáng.",
+      "translation": "東を見ると太平洋が見えます。"
+    }
+  },
+  {
+    "number": [0, 587],
+    "word": "地址",
+    "pinyin": "dì zhǐ",
+    "meaning": "住所",
+    "example": {
+      "text": "你忘了寫地址。",
+      "pinyin": "nǐ wàng le xiě dì zhǐ.",
+      "translation": "住所を書き忘れました。"
+    }
+  },
+  {
+    "number": [0, 588],
+    "word": "世界",
+    "pinyin": "shì jiè",
+    "meaning": "世界",
+    "example": {
+      "text": "這個世界真小啊。",
+      "pinyin": "zhè gè shì jiè zhēn xiǎo a.",
+      "translation": "世界は狭いですね。"
+    }
+  },
+  {
+    "number": [0, 589],
+    "word": "國",
+    "pinyin": "guó",
+    "meaning": "国",
+    "example": {
+      "text": "你是哪國人？",
+      "pinyin": "nǐ shì nǎ guó rén?",
+      "translation": "どこの国から来ましたか?"
+    }
+  },
+  {
+    "number": [0, 590],
+    "word": "外國",
+    "pinyin": "wài guó",
+    "meaning": "外国",
+    "example": {
+      "text": "這裡有很多外國的遊客。",
+      "pinyin": "zhè lǐ yǒu hěn duō wài guó de yóu kè.",
+      "translation": "ここには外国人観光客がたくさんいます。"
+    }
+  },
+  {
+    "number": [0, 591],
+    "word": "市",
+    "pinyin": "shì",
+    "meaning": "市",
+    "example": {
+      "text": "淑芬什麼時候離開花蓮市？",
+      "pinyin": "shū fēn shén me shí hou lí kāi Huā lián shì?",
+      "translation": "樹芬はいつ花蓮市を出発しますか？"
+    }
+  },
+  {
+    "number": [0, 592],
+    "word": "鄉下",
+    "pinyin": "xiāng xià",
+    "meaning": "田舎",
+    "example": {
+      "text": "鄉下的土地比較大。",
+      "pinyin": "xiāng xià de tǔ dì bǐ jiào dà.",
+      "translation": "田舎の土地の方が広いです。"
+    }
+  },
+  {
+    "number": [0, 593],
+    "word": "書店",
+    "pinyin": "shū diàn",
+    "meaning": "書店",
+    "example": {
+      "text": "台灣有二十四小時書店。",
+      "pinyin": "Táiwān yǒu èr shí sì xiǎoshí shūdiàn.",
+      "translation": "台湾には24時間営業の書店があります。"
+    }
+  },
+  {
+    "number": [0, 594],
+    "word": "教堂",
+    "pinyin": "jiào táng",
+    "meaning": "教会",
+    "example": {
+      "text": "太星期天早上都教堂坐禮拜。",
+      "pinyin": "tài xīngqítiān zǎoshang dōu jiàotáng zuò lǐbài.",
+      "translation": "私は毎週日曜日の朝に教会に行きます。"
+    }
+  },
+  {
+    "number": [0, 595],
+    "word": "橋",
+    "pinyin": "qiáo",
+    "meaning": "橋",
+    "example": {
+      "text": "咱們坐捷運去碧潭看看吊橋。",
+      "pinyin": "zánmen zuò jiéyùn qù Bìtán kànkan diàoqiáo.",
+      "translation": "MRTに乗って碧潭まで行き、吊り橋を見に行きましょう。"
+    }
+  },
+  {
+    "number": [0, 596],
+    "word": "臉",
+    "pinyin": "liǎn",
+    "meaning": "顔",
+    "example": {
+      "text": "你臉上有東西。",
+      "pinyin": "nǐ liǎn shàng yǒu dōng xī.",
+      "translation": "顔に何か付いてるよ。"
+    }
+  },
+  {
+    "number": [0, 597],
+    "word": "鼻子",
+    "pinyin": "bí zi",
+    "meaning": "鼻",
+    "example": {
+      "text": "弟弟的鼻子很高。",
+      "pinyin": "dìdi de bí zi hěn gāo.",
+      "translation": "私の兄はとても鼻が高いです。"
+    }
+  },
+  {
+    "number": [0, 598],
+    "word": "嘴巴",
+    "pinyin": "zuǐ ba",
+    "meaning": "口、頬",
+    "example": {
+      "text": "他張開嘴巴唱了幾句。",
+      "pinyin": "tā zhāng kāi zuǐ ba chàng le jǐ jù.",
+      "translation": "彼は口を開けて少し歌った。"
+    }
+  },
+  {
+    "number": [0, 599],
+    "word": "脖子",
+    "pinyin": "bó zi",
+    "meaning": "首",
+    "example": {
+      "text": "肩膀很痠，順便按摩一下脖子。",
+      "pinyin": "jiān bǎng hěn suān, shùn biàn àn mó yī xià bó zi.",
+      "translation": "肩が痛いので、ついでにちょっと首をマッサージします。"
+    }
+  },
+  {
+    "number": [0, 600],
+    "word": "背",
+    "pinyin": "bèi",
+    "meaning": "背中",
+    "example": {
+      "text": "奶奶輕輕拍孫子的背。",
+      "pinyin": "nǎi nai qīng qīng pāi sūn zi de bèi.",
+      "translation": "おばあちゃんは孫の背中を優しくたたきました。"
+    }
+  },
+  {
+    "number": [0, 601],
+    "word": "腿",
+    "pinyin": "tuǐ",
+    "meaning": "脚",
+    "example": {
+      "text": "俊宏昨天運動過度，今天大腿痠痛。",
+      "pinyin": "Jùnhóng zuó tiān yùn dòng guò dù, jīn tiān dà tuǐ suān tòng.",
+      "translation": "俊宏は昨日運動しすぎて、今日太ももが痛いです。"
+    }
+  },
+  {
+    "number": [0, 602],
+    "word": "腳",
+    "pinyin": "jiǎo",
+    "meaning": "足",
+    "example": {
+      "text": "爺爺的腳很長。",
+      "pinyin": "yéye de jiǎo hěn cháng.",
+      "translation": "おじいちゃんの足はとても長いです。"
+    }
+  },
+  {
+    "number": [0, 603],
+    "word": "健康",
+    "pinyin": "jiàn kāng",
+    "meaning": "健康",
+    "example": {
+      "text": "老師很注意身體健康。",
+      "pinyin": "lǎo shī hěn zhù yì shēn tǐ jiàn kāng.",
+      "translation": "先生は健康にとても気をつけています。"
+    }
+  },
+  {
+    "number": [0, 604],
+    "word": "病",
+    "pinyin": "bìng",
+    "meaning": "病気",
+    "example": {
+      "text": "那種病很少見。",
+      "pinyin": "nà zhǒng bìng hěn shǎo jiàn.",
+      "translation": "その病気は珍しい。"
+    }
+  },
+  {
+    "number": [0, 605],
+    "word": "咳嗽",
+    "pinyin": "ké sòu",
+    "meaning": "咳",
+    "example": {
+      "text": "他咳嗽了好幾天。",
+      "pinyin": "tā késòu le hǎo jǐ tiān.",
+      "translation": "彼は数日間咳をしていた。"
+    }
+  },
+  {
+    "number": [0, 606],
+    "word": "發燒",
+    "pinyin": "fā shāo",
+    "meaning": "熱",
+    "example": {
+      "text": "我發燒了。",
+      "pinyin": "wǒ fā shāo le.",
+      "translation": "熱があります。"
+    }
+  },
+  {
+    "number": [0, 607],
+    "word": "疼",
+    "pinyin": "téng",
+    "meaning": "痛み",
+    "example": {
+      "text": "春嬌常常頭疼。",
+      "pinyin": "Chūnjiāo cháng cháng tóu téng.",
+      "translation": "春嬌はよく頭痛がします。"
+    }
+  },
+  {
+    "number": [0, 608],
+    "word": "病人",
+    "pinyin": "bìng rén",
+    "meaning": "忍耐強い",
+    "example": {
+      "text": "美玲要照顧病人。",
+      "pinyin": "Měilíng yào zhào gù bìngrén.",
+      "translation": "メイリンは患者の世話をしなければなりません。"
+    }
+  },
+  {
+    "number": [0, 609],
+    "word": "救護車",
+    "pinyin": "jiù hù chē",
+    "meaning": "救急車",
+    "example": {
+      "text": "他受傷了，趕快先叫救護車。",
+      "pinyin": "tā shòu shāng le, gǎn kuài xiān jiào jiù hù chē.",
+      "translation": "彼は怪我をしています。すぐに救急車を呼んでください。"
+    }
+  },
+  {
+    "number": [0, 610],
+    "word": "救命",
+    "pinyin": "jiù mìng",
+    "meaning": "ヘルプ",
+    "example": {
+      "text": "救命！",
+      "pinyin": "jiù mìng!",
+      "translation": "助けて！"
+    }
+  },
+  {
+    "number": [0, 611],
+    "word": "掛號",
+    "pinyin": "guà hào",
+    "meaning": "登録済み",
+    "example": {
+      "text": "八點開始掛號。",
+      "pinyin": "bā diǎn kāi shǐ guà hào.",
+      "translation": "受付は8時から開始します。"
+    }
+  },
+  {
+    "number": [0, 612],
+    "word": "看病",
+    "pinyin": "kàn bìng",
+    "meaning": "診察する、診察を受ける",
+    "example": {
+      "text": "下午去診所看病。",
+      "pinyin": "xià wǔ qù zhěn suǒ kàn bìng.",
+      "translation": "午後に診察を受けるためにクリニックへ行きました。"
+    }
+  },
+  {
+    "number": [0, 613],
+    "word": "藥房",
+    "pinyin": "yào fáng",
+    "meaning": "薬局",
+    "example": {
+      "text": "請到藥房買藥。",
+      "pinyin": "qǐng dào yào fáng mǎi yào.",
+      "translation": "薬を買うには薬局へ行ってください。"
+    }
+  },
+  {
+    "number": [0, 614],
+    "word": "恢復",
+    "pinyin": "huī fù",
+    "meaning": "回復する",
+    "example": {
+      "text": "志明身體恢復的很好。",
+      "pinyin": "Zhì míng shēn tǐ huī fù de hěn hǎo.",
+      "translation": "志明は順調に回復した。"
+    }
+  },
+  {
+    "number": [0, 615],
+    "word": "保險",
+    "pinyin": "bǎo xiǎn",
+    "meaning": "保険",
+    "example": {
+      "text": "你有健康保險嗎？",
+      "pinyin": "nǐ yǒu jiàn kāng bǎo xiǎn ma?",
+      "translation": "健康保険に加入していますか？"
+    }
+  },
+  {
+    "number": [0, 616],
+    "word": "牙刷",
+    "pinyin": "yá shuā",
+    "meaning": "歯ブラシ",
+    "example": {
+      "text": "孩子正在學用牙刷刷牙。",
+      "pinyin": "hái zi zhèng zài xué yòng yá shuā shuā yá.",
+      "translation": "子供は歯ブラシを使って歯を磨くことを学んでいます。"
+    }
+  },
+  {
+    "number": [0, 617],
+    "word": "早",
+    "pinyin": "zǎo",
+    "meaning": "早い",
+    "example": {
+      "text": "你來的太早了，店還沒開。",
+      "pinyin": "nǐ lái de tài zǎo le, diàn hái méi kāi.",
+      "translation": "早く来すぎました、店はまだ開いていません。"
+    }
+  },
+  {
+    "number": [0, 618],
+    "word": "輕",
+    "pinyin": "qīng",
+    "meaning": "軽い",
+    "example": {
+      "text": "你體重太輕，要多吃一點。",
+      "pinyin": "nǐ tǐ zhòng tài qīng, yào duō chī yī diǎn.",
+      "translation": "あなたは体重が少なすぎます。もっと食べたほうがいいですよ。"
+    }
+  },
+  {
+    "number": [0, 619],
+    "word": "重",
+    "pinyin": "zhòng",
+    "meaning": "重い",
+    "example": {
+      "text": "行李太重了。",
+      "pinyin": "xíng lǐ tài zhòng le.",
+      "translation": "荷物が重すぎます。"
+    }
+  },
+  {
+    "number": [0, 620],
+    "word": "舊",
+    "pinyin": "jiù",
+    "meaning": "古い",
+    "example": {
+      "text": "舊的東西不一定不好。",
+      "pinyin": "jiù de dōng xi bú yí dìng bù hǎo.",
+      "translation": "古いものが必ずしも悪いというわけではありません。"
+    }
+  },
+  {
+    "number": [0, 621],
+    "word": "好",
+    "pinyin": "hǎo",
+    "meaning": "よい、優れている、仲が良い",
+    "example": {
+      "text": "阿西是一個好人。",
+      "pinyin": "Ā xī shì yī gè hǎo rén.",
+      "translation": "アシはいい人です。"
+    }
+  },
+  {
+    "number": [0, 622],
+    "word": "美",
+    "pinyin": "měi",
+    "meaning": "美しい",
+    "example": {
+      "text": "太魯閣國家公園有很美的風景。",
+      "pinyin": "Tà lǔ gé guó jiā gōng yuán yǒu hěn měi de fēng jǐng.",
+      "translation": "太魯閣国家公園は景色が美しいです。"
+    }
+  },
+  {
+    "number": [0, 623],
+    "word": "美麗",
+    "pinyin": "měi lì",
+    "meaning": "美しい",
+    "example": {
+      "text": "文雄有一個美麗的太太。",
+      "pinyin": "Wén xióng yǒu yī gè měi lì de tài tai.",
+      "translation": "文雄には美しい妻がいます。"
+    }
+  },
+  {
+    "number": [0, 624],
+    "word": "圓",
+    "pinyin": "yuán",
+    "meaning": "丸い、行き届いた、円満である",
+    "example": {
+      "text": "小丸子的臉很圓。",
+      "pinyin": "xiǎo wán zi de liǎn hěn yuán.",
+      "translation": "ちびまる子ちゃんの顔はとても丸いです。"
+    }
+  },
+  {
+    "number": [0, 625],
+    "word": "涼快",
+    "pinyin": "liáng kuài",
+    "meaning": "涼しい",
+    "example": {
+      "text": "山區比平地涼快。",
+      "pinyin": "shān qū bǐ píng dì liáng kuai.",
+      "translation": "山岳地帯は平地よりも涼しいです。"
+    }
+  },
+  {
+    "number": [0, 626],
+    "word": "暖和",
+    "pinyin": "nuǎn huo",
+    "meaning": "暖かい",
+    "example": {
+      "text": "明天寒流到來，穿暖和一點。",
+      "pinyin": "míng tiān hán liú dào lái, chuān nuǎn huo yī diǎn.",
+      "translation": "明日は寒冷前線が来るので暖かい服装をしてください。"
+    }
+  },
+  {
+    "number": [0, 627],
+    "word": "溫暖",
+    "pinyin": "wēn nuǎn",
+    "meaning": "温かい",
+    "example": {
+      "text": "父母努力給我們一個溫暖的家。",
+      "pinyin": "fù mǔ nǔ lì gěi wǒ men yī gè wēn nuǎn de jiā.",
+      "translation": "両親は私たちに温かい家庭を与えるために一生懸命働いています。"
+    }
+  },
+  {
+    "number": [0, 628],
+    "word": "乾",
+    "pinyin": "gān",
+    "meaning": "乾いている",
+    "example": {
+      "text": "梅雨季節衣服不容易乾。",
+      "pinyin": "méi yǔ jì jié yī fu bù róng yì gān.",
+      "translation": "梅雨の時期は洗濯物が乾きにくいです。"
+    }
+  },
+  {
+    "number": [0, 629],
+    "word": "乾淨",
+    "pinyin": "gān jìng",
+    "meaning": "きれいである",
+    "example": {
+      "text": "阿嬤每天把家裡打掃得很乾淨。",
+      "pinyin": "ā mā měi tiān bǎ jiā lǐ dǎ sǎo de hěn gān jìng.",
+      "translation": "おばあちゃんは毎日家をとてもきれいに掃除します。"
+    }
+  },
+  {
+    "number": [0, 630],
+    "word": "髒",
+    "pinyin": "zāng",
+    "meaning": "汚い",
+    "example": {
+      "text": "白色的衣服容易髒。",
+      "pinyin": "bái sè de yī fu róng yì zāng.",
+      "translation": "白い服は汚れやすいです。"
+    }
+  },
+  {
+    "number": [0, 631],
+    "word": "簡單",
+    "pinyin": "jiǎn dān",
+    "meaning": "単純である、簡単である",
+    "example": {
+      "text": "這是一個簡單的問題。",
+      "pinyin": "zhè shì yī gè jiǎn dān de wèn tí.",
+      "translation": "これは簡単な質問です。"
+    }
+  },
+  {
+    "number": [0, 632],
+    "word": "有用",
+    "pinyin": "yǒu yòng",
+    "meaning": "役に立つ、有用である",
+    "example": {
+      "text": "那個方法很有用。",
+      "pinyin": "nà gè fāng fǎ hěn yǒu yòng.",
+      "translation": "その方法は非常に便利です。"
+    }
+  },
+  {
+    "number": [0, 633],
+    "word": "危險",
+    "pinyin": "wēi xiǎn",
+    "meaning": "危険、危険である",
+    "example": {
+      "text": "牌子上寫著，危險，禁止游泳。",
+      "pinyin": "pái zi shàng xiě zhe, wēi xiǎn, jìn zhǐ yóu yǒng.",
+      "translation": "標識には「危険、遊泳禁止」と書いてありました。"
+    }
+  },
+  {
+    "number": [0, 634],
+    "word": "安全",
+    "pinyin": "ān quán",
+    "meaning": "安全、安全である",
+    "example": {
+      "text": "做好計劃在去旅行比較安全。",
+      "pinyin": "zuò hǎo jì huà zài qù lǚ xíng bǐ jiào ān quán.",
+      "translation": "旅行前にしっかり計画を立てたほうが安全です。"
+    }
+  },
+  {
+    "number": [0, 635],
+    "word": "對",
+    "pinyin": "duì",
+    "meaning": "正しい",
+    "example": {
+      "text": "對，你說的沒錯。",
+      "pinyin": "duì, nǐ shuō de méi cuò.",
+      "translation": "はい、その通りです。"
+    }
+  },
+  {
+    "number": [0, 636],
+    "word": "錯",
+    "pinyin": "cuò",
+    "meaning": "間違っている",
+    "example": {
+      "text": "關於這個問題，是我錯了。",
+      "pinyin": "guān yú zhè gè wèn tí, shì wǒ cuò le.",
+      "translation": "この問題に関しては、私は間違っていました。"
+    }
+  },
+  {
+    "number": [0, 637],
+    "word": "熱鬧",
+    "pinyin": "rènào",
+    "meaning": "にぎやかである",
+    "example": {
+      "text": "夜市總是很熱鬧。",
+      "pinyin": "yè shì zǒng shì hěn rè nào.",
+      "translation": "夜市はいつも賑わっています。"
+    }
+  },
+  {
+    "number": [0, 638],
+    "word": "吵",
+    "pinyin": "chǎo",
+    "meaning": "うるさい",
+    "example": {
+      "text": "寶寶在睡覺，不要吵。",
+      "pinyin": "bǎo bǎo zài shuì jiào, bú yào chǎo.",
+      "translation": "赤ちゃんは寝ています。音を立てないでください。"
+    }
+  },
+  {
+    "number": [0, 639],
+    "word": "有空",
+    "pinyin": "yǒu kòng",
+    "meaning": "時間がある、暇がある",
+    "example": {
+      "text": "你明天下午有空嗎？",
+      "pinyin": "nǐ míng tiān xià wǔ yǒu kòng ma?",
+      "translation": "明日の午後は空いていますか？"
+    }
+  },
+  {
+    "number": [0, 640],
+    "word": "滿",
+    "pinyin": "mǎn",
+    "meaning": "いっぱいにする、満たす",
+    "example": {
+      "text": "這家店經常客滿。",
+      "pinyin": "zhè jiā diàn jīng cháng kè mǎn.",
+      "translation": "この店はよく満員になります。"
+    }
+  },
+  {
+    "number": [0, 641],
+    "word": "飽",
+    "pinyin": "bǎo",
+    "meaning": "お腹がいっぱいである",
+    "example": {
+      "text": "今天吃得太飽了。",
+      "pinyin": "jīn tiān chī de tài bǎo le.",
+      "translation": "今日は食べ過ぎました。"
+    }
+  },
+  {
+    "number": [0, 642],
+    "word": "夠",
+    "pinyin": "gòu",
+    "meaning": "足りる、十分である",
+    "example": {
+      "text": "菜夠不夠？",
+      "pinyin": "cài gòu bú gòu?",
+      "translation": "食べ物は足りていますか？"
+    }
+  },
+  {
+    "number": [0, 643],
+    "word": "清楚",
+    "pinyin": "qīng chu",
+    "meaning": "はっきりしている、明瞭である",
+    "example": {
+      "text": "你很清楚這是怎麼一回事。",
+      "pinyin": "nǐ hěn qīng chu zhè shì zěn me yī huí shì.",
+      "translation": "あなたはこれが何であるかを正確に知っています。"
+    }
+  },
+  {
+    "number": [0, 644],
+    "word": "奇怪",
+    "pinyin": "qí guài",
+    "meaning": "奇妙である、不思議である",
+    "example": {
+      "text": "這件事情太奇怪了。",
+      "pinyin": "zhè jiàn shì qíng tài qí guài le.",
+      "translation": "とても奇妙ですね。"
+    }
+  },
+  {
+    "number": [0, 645],
+    "word": "客氣",
+    "pinyin": "kè qì",
+    "meaning": "礼儀正しい、謙虚である",
+    "example": {
+      "text": "你太客氣了。",
+      "pinyin": "nǐ tài kè qì le.",
+      "translation": "あなたは遠慮しすぎです。"
+    }
+  },
+  {
+    "number": [0, 646],
+    "word": "聰明",
+    "pinyin": "cōng míng",
+    "meaning": "賢い",
+    "example": {
+      "text": "這個小孩很聰明。",
+      "pinyin": "zhè gè xiǎo hái hěn cōng míng.",
+      "translation": "この子はとても賢いです。"
+    }
+  },
+  {
+    "number": [0, 647],
+    "word": "認真",
+    "pinyin": "rèn zhēn",
+    "meaning": "真剣である、真面目である",
+    "example": {
+      "text": "他隨便說說，你不要太認真。",
+      "pinyin": "tā suí biàn shuō shuō, nǐ bú yào tài rèn zhēn.",
+      "translation": "彼は好き勝手に言うので、真剣になりすぎないでください。"
+    }
+  },
+  {
+    "number": [0, 648],
+    "word": "勇敢",
+    "pinyin": "yǒng gǎn",
+    "meaning": "勇敢である",
+    "example": {
+      "text": "能說出事實，你真的很勇敢。",
+      "pinyin": "néng shuō chū shì shí, nǐ zhēn de hěn yǒng gǎn.",
+      "translation": "事実を話せるなんて、あなたはとても勇敢です。"
+    }
+  },
+  {
+    "number": [0, 649],
+    "word": "害羞",
+    "pinyin": "hài xiū",
+    "meaning": "恥ずかしがりである",
+    "example": {
+      "text": "美惠是一個害羞的小女孩。",
+      "pinyin": "Měi huì shì yī gè hài xiū de xiǎo nǚ hái.",
+      "translation": "美恵は照れ屋の女の子です。"
+    }
+  },
+  {
+    "number": [0, 650],
+    "word": "真",
+    "pinyin": "zhēn",
+    "meaning": "本当の、事実である",
+    "example": {
+      "text": "這是真的，相信我。",
+      "pinyin": "zhè shì zhēn de, xiāng xìn wǒ.",
+      "translation": "それは本当です、信じてください。"
+    }
+  },
+  {
+    "number": [0, 651],
+    "word": "特別",
+    "pinyin": "tè bié",
+    "meaning": "特別である",
+    "example": {
+      "text": "今天是特別的一天。",
+      "pinyin": "jīn tiān shì tè bié de yī tiān.",
+      "translation": "今日は特別な日です。"
+    }
+  },
+  {
+    "number": [0, 652],
+    "word": "一般",
+    "pinyin": "yì bān",
+    "meaning": "一般的である",
+    "example": {
+      "text": "這裡一般不對外公開。",
+      "pinyin": "zhè lǐ yī bān bú duì wài gōng kāi.",
+      "translation": "この場所は一般には公開されていません。"
+    }
+  },
+  {
+    "number": [0, 653],
+    "word": "不同",
+    "pinyin": "bù tóng",
+    "meaning": "違う",
+    "example": {
+      "text": "不同的國家有不同的習慣。",
+      "pinyin": "bù tóng de guó jiā yǒu bù tóng de xí guàn.",
+      "translation": "国によって習慣は異なります。"
+    }
+  },
+  {
+    "number": [0, 654],
+    "word": "差",
+    "pinyin": "chà",
+    "meaning": "劣っている、差がある",
+    "example": {
+      "text": "你還差得遠呢。",
+      "pinyin": "nǐ hái chà dé yuǎn ne.",
+      "translation": "まだまだですね。"
+    }
+  },
+  {
+    "number": [0, 655],
+    "word": "差不多",
+    "pinyin": "chà bu duō",
+    "meaning": "ほとんど同じである、差がない",
+    "example": {
+      "text": "你們兩個差不多高。",
+      "pinyin": "nǐ men liǎng gè chà bu duō gāo.",
+      "translation": "あなたたち二人は身長がほぼ同じですね。"
+    }
+  },
+  {
+    "number": [0, 656],
+    "word": "樣子",
+    "pinyin": "yàng zi",
+    "meaning": "様子、形、外観",
+    "example": {
+      "text": "今天你這個樣子好像要參加婚禮。",
+      "pinyin": "jīn tiān nǐ zhè gè yàng zi hǎo xiàng yào cān jiā hūn lǐ.",
+      "translation": "あなたの今日のその格好はまるで結婚式に出るみたいです。"
+    }
+  },
+  {
+    "number": [0, 657],
+    "word": "愉快",
+    "pinyin": "yú kuài",
+    "meaning": "楽しい、愉快である",
+    "example": {
+      "text": "祝你有個愉快的週末。",
+      "pinyin": "zhù nǐ yǒu gè yú kuài de zhōu mò.",
+      "translation": "良い週末を。"
+    }
+  },
+  {
+    "number": [0, 658],
+    "word": "開心",
+    "pinyin": "kāi xīn",
+    "meaning": "楽しい、うれしい",
+    "example": {
+      "text": "你為什麼不開心呢？",
+      "pinyin": "nǐ wèi shén me bù kāi xīn ne?",
+      "translation": "なぜ不機嫌なのですか？"
+    }
+  },
+  {
+    "number": [0, 659],
+    "word": "幸福",
+    "pinyin": "xìng fú",
+    "meaning": "幸福である、幸福",
+    "example": {
+      "text": "我覺得很幸福。",
+      "pinyin": "wǒ jué de hěn xìng fú.",
+      "translation": "とても幸せを感じます。"
+    }
+  },
+  {
+    "number": [0, 660],
+    "word": "滿意",
+    "pinyin": "mǎn yì",
+    "meaning": "満足している、気に入っている",
+    "example": {
+      "text": "我對於這個產品很滿意。",
+      "pinyin": "wǒ duì yú zhè gè chǎn pǐn hěn mǎn yì.",
+      "translation": "この製品にとても満足しています。"
+    }
+  },
+  {
+    "number": [0, 661],
+    "word": "感謝",
+    "pinyin": "gǎn xiè",
+    "meaning": "感謝する",
+    "example": {
+      "text": "感謝您的合作。",
+      "pinyin": "gǎn xiè nín de hé zuò.",
+      "translation": "ご協力ありがとうございます。"
+    }
+  },
+  {
+    "number": [0, 662],
+    "word": "擔心",
+    "pinyin": "dān xīn",
+    "meaning": "心配する",
+    "example": {
+      "text": "不要擔心，他已經是大人了。",
+      "pinyin": "bú yào dān xīn, tā yǐ jīng shì dà rén le.",
+      "translation": "心配しないでください、彼はもう大人です。"
+    }
+  },
+  {
+    "number": [0, 663],
+    "word": "生氣",
+    "pinyin": "shēng qì",
+    "meaning": "怒る",
+    "example": {
+      "text": "姐姐在生男朋友的氣。",
+      "pinyin": "jiě jie zài shēng nán péng you de qì.",
+      "translation": "私の妹は彼氏に腹を立てています。"
+    }
+  },
+  {
+    "number": [0, 664],
+    "word": "著急",
+    "pinyin": "zhāo jí",
+    "meaning": "焦っている、いらいらしている",
+    "example": {
+      "text": "不要著急，我們一起出去找他。",
+      "pinyin": "bú yào zháo jí, wǒ men yī qǐ chū qù zhǎo tā.",
+      "translation": "焦らないで、一緒に彼を探しに出かけましょう。"
+    }
+  },
+  {
+    "number": [0, 665],
+    "word": "辛苦",
+    "pinyin": "xīn kǔ",
+    "meaning": "つらい、苦しい",
+    "example": {
+      "text": "媽媽每天上班非常辛苦。",
+      "pinyin": "mā ma měi tiān shàng bān fēi cháng xīn kǔ.",
+      "translation": "母は毎日仕事がとても大変です。"
+    }
+  },
+  {
+    "number": [0, 666],
+    "word": "難過",
+    "pinyin": "nán guò",
+    "meaning": "つらい、悲しい、生活が苦しい",
+    "example": {
+      "text": "不要難過，明天會更好。",
+      "pinyin": "bú yào nán guò, míng tiān huì gèng hǎo.",
+      "translation": "悲しまないでください。明日はもっと良くなります。"
+    }
+  },
+  {
+    "number": [0, 667],
+    "word": "傷心",
+    "pinyin": "shāng xīn",
+    "meaning": "悲しむ",
+    "example": {
+      "text": "他正在為失戀而傷心。",
+      "pinyin": "tā zhèng zài wèi shī liàn ér shāng xīn.",
+      "translation": "彼は失恋して悲しんでいる。"
+    }
+  },
+  {
+    "number": [0, 668],
+    "word": "哭",
+    "pinyin": "kū",
+    "meaning": "泣く",
+    "example": {
+      "text": "他傷心的哭了。",
+      "pinyin": "tā shāng xīn de kū le.",
+      "translation": "彼は悲しくて泣きました。"
+    }
+  },
+  {
+    "number": [0, 669],
+    "word": "怕",
+    "pinyin": "pà",
+    "meaning": "恐れる",
+    "example": {
+      "text": "妹妹很怕鬼。",
+      "pinyin": "mèi mei hěn pà guǐ.",
+      "translation": "私の妹は幽霊がとても怖いです。"
+    }
+  },
+  {
+    "number": [0, 670],
+    "word": "可怕",
+    "pinyin": "kě pà",
+    "meaning": "恐ろしい",
+    "example": {
+      "text": "聽說返校這部電影很可怕。",
+      "pinyin": "tīng shuō fǎn xiào zhè bù diàn yǐng hěn kě pà.",
+      "translation": "返校とい映画はとても怖いそうです。"
+    }
+  },
+  {
+    "number": [0, 671],
+    "word": "無聊",
+    "pinyin": "wú liáo",
+    "meaning": "つまらない",
+    "example": {
+      "text": "那部連續劇實在太無聊了。",
+      "pinyin": "nà bù lián xù jù shí zài tài wú liáo le.",
+      "translation": "あの連続ドラマはとてもつまらない。"
+    }
+  },
+  {
+    "number": [0, 672],
+    "word": "可憐",
+    "pinyin": "kě lián",
+    "meaning": "かわいそうである",
+    "example": {
+      "text": "我不喜歡聽可憐的故事。",
+      "pinyin": "wǒ bù xǐ huān tīng kě lián de gù shì.",
+      "translation": "私はかわいそうな物語を聞くのは好きではありません。"
+    }
+  },
+  {
+    "number": [0, 673],
+    "word": "相信",
+    "pinyin": "xiāng xìn",
+    "meaning": "信じる",
+    "example": {
+      "text": "我相信你一定會通過這次考試。",
+      "pinyin": "wǒ xiāng xìn nǐ yí dìng huì tōng guò zhè cì kǎo shì.",
+      "translation": "君はこのテストに合格すると信じています。"
+    }
+  },
+  {
+    "number": [0, 674],
+    "word": "關心",
+    "pinyin": "guān xīn",
+    "meaning": "関心を持つ、気に掛ける",
+    "example": {
+      "text": "金龍特別關心我。",
+      "pinyin": "jīn lóng tè bié guān xīn wǒ.",
+      "translation": "金龍は私のことをとても大切に思ってくれています。"
+    }
+  },
+  {
+    "number": [0, 675],
+    "word": "認為",
+    "pinyin": "rèn wéi",
+    "meaning": "〜と思う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 676],
+    "word": "了解/瞭解",
+    "pinyin": "liǎo jiě",
+    "meaning": "理解する、知る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 677],
+    "word": "忘",
+    "pinyin": "wàng",
+    "meaning": "忘れる、覚えていない",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 678],
+    "word": "記",
+    "pinyin": "jì",
+    "meaning": "記憶する、書き留める",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 679],
+    "word": "發現",
+    "pinyin": "fā xiàn",
+    "meaning": "気づく、発見",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 680],
+    "word": "需要",
+    "pinyin": "xū yào",
+    "meaning": "必要としている、〜しなければならない",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 681],
+    "word": "應該",
+    "pinyin": "yīng gāi",
+    "meaning": "〜すべき、〜のはずだ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 682],
+    "word": "不用",
+    "pinyin": "bù yòng",
+    "meaning": "〜しなくてよい",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 683],
+    "word": "別",
+    "pinyin": "bié",
+    "meaning": "〜するな、〜してはいけない",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 684],
+    "word": "打算",
+    "pinyin": "dǎ suàn",
+    "meaning": "〜するつもりである",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 685],
+    "word": "願意",
+    "pinyin": "yuàn yì",
+    "meaning": "〜する気がある、〜したい",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 686],
+    "word": "心",
+    "pinyin": "xīn",
+    "meaning": "気持ち、心、心臓",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 687],
+    "word": "心情",
+    "pinyin": "xīn qíng",
+    "meaning": "気分、気持ち",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 688],
+    "word": "感覺",
+    "pinyin": "gǎn jué",
+    "meaning": "感覚、気持ち、〜と思う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 689],
+    "word": "興趣",
+    "pinyin": "xìng qù",
+    "meaning": "興味",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 690],
+    "word": "上",
+    "pinyin": "shàng",
+    "meaning": "登る、上がる、乗る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 691],
+    "word": "下",
+    "pinyin": "xià",
+    "meaning": "降りる、下る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 692],
+    "word": "出",
+    "pinyin": "chū",
+    "meaning": "出す、出る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 693],
+    "word": "出來",
+    "pinyin": "chū lái",
+    "meaning": "出てくる、現れる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 694],
+    "word": "進",
+    "pinyin": "jìn",
+    "meaning": "進む、入る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 695],
+    "word": "進去",
+    "pinyin": "jìn qù",
+    "meaning": "中に入る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 696],
+    "word": "回去",
+    "pinyin": "huí qù",
+    "meaning": "帰っていく、戻っていく",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 697],
+    "word": "起來",
+    "pinyin": "qǐ lái",
+    "meaning": "起き上がる、立つ、立ち上がる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 698],
+    "word": "出發",
+    "pinyin": "chū fā",
+    "meaning": "出発する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 699],
+    "word": "離開",
+    "pinyin": "lí kāi",
+    "meaning": "離れる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 700],
+    "word": "經過",
+    "pinyin": "jīng guò",
+    "meaning": "すぎる、経過する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 701],
+    "word": "過去",
+    "pinyin": "guò qù",
+    "meaning": "通り過ぎる、過ぎ去る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 702],
+    "word": "動",
+    "pinyin": "dòng",
+    "meaning": "動く、動かす",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 703],
+    "word": "停",
+    "pinyin": "tíng",
+    "meaning": "停止する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 704],
+    "word": "排隊",
+    "pinyin": "pái duì",
+    "meaning": "列に並ぶ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 705],
+    "word": "轉",
+    "pinyin": "zhuǎn",
+    "meaning": "変わる、変える、方向を変える",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 706],
+    "word": "出現",
+    "pinyin": "chū xiàn",
+    "meaning": "現れる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 707],
+    "word": "弄",
+    "pinyin": "nòng",
+    "meaning": "やる、する、いじる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 708],
+    "word": "幫",
+    "pinyin": "bāng",
+    "meaning": "手伝う、助ける",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 709],
+    "word": "打開",
+    "pinyin": "dǎ kāi",
+    "meaning": "開ける、開く、打開する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 710],
+    "word": "交",
+    "pinyin": "jiāo",
+    "meaning": "渡す、付き合う、交差する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 711],
+    "word": "收",
+    "pinyin": "shōu",
+    "meaning": "受け取る、集める、収穫する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 712],
+    "word": "借",
+    "pinyin": "jiè",
+    "meaning": "借りる、貸す",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 713],
+    "word": "租",
+    "pinyin": "zū",
+    "meaning": "賃貸しする、賃借りする",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 714],
+    "word": "搬",
+    "pinyin": "bān",
+    "meaning": "運ぶ、引っ越す",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 715],
+    "word": "掛",
+    "pinyin": "guà",
+    "meaning": "掛ける",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 716],
+    "word": "掉",
+    "pinyin": "diào",
+    "meaning": "なくす、落とす、落ちる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 717],
+    "word": "丟",
+    "pinyin": "diū",
+    "meaning": "なくす",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 718],
+    "word": "偷",
+    "pinyin": "tōu",
+    "meaning": "盗む",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 719],
+    "word": "試",
+    "pinyin": "shì",
+    "meaning": "試す",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 720],
+    "word": "戴",
+    "pinyin": "dài",
+    "meaning": "身につける",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 721],
+    "word": "裝",
+    "pinyin": "zhuāng",
+    "meaning": "扮装する、〜のふりをする",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 722],
+    "word": "躺",
+    "pinyin": "tǎng",
+    "meaning": "横になる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 723],
+    "word": "死",
+    "pinyin": "sǐ",
+    "meaning": "死ぬ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 724],
+    "word": "看見",
+    "pinyin": "kàn jiàn",
+    "meaning": "見かける",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 725],
+    "word": "算",
+    "pinyin": "suàn",
+    "meaning": "計算する、〜であるとみなす",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 726],
+    "word": "叫",
+    "pinyin": "jiào",
+    "meaning": "呼ぶ、叫ぶ、鳴く",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 727],
+    "word": "聽說",
+    "pinyin": "tīng shuō",
+    "meaning": "〜だそうだ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 728],
+    "word": "談",
+    "pinyin": "tán",
+    "meaning": "話す、議論する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 729],
+    "word": "講",
+    "pinyin": "jiǎng",
+    "meaning": "話す、説明する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 730],
+    "word": "講話",
+    "pinyin": "jiǎng huà",
+    "meaning": "話をする",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 731],
+    "word": "告訴",
+    "pinyin": "gào sù",
+    "meaning": "告げる、知らせる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 732],
+    "word": "通知",
+    "pinyin": "tōng zhī",
+    "meaning": "知らせる、通知",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 733],
+    "word": "討論",
+    "pinyin": "tǎo lùn",
+    "meaning": "話し合う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 734],
+    "word": "同意",
+    "pinyin": "tóng yì",
+    "meaning": "同意する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 735],
+    "word": "決定",
+    "pinyin": "jué dìng",
+    "meaning": "決める",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 736],
+    "word": "管理",
+    "pinyin": "guǎn lǐ",
+    "meaning": "管理する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 737],
+    "word": "檢查",
+    "pinyin": "jiǎn chá",
+    "meaning": "検査する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 738],
+    "word": "習慣",
+    "pinyin": "xí guàn",
+    "meaning": "慣れる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 739],
+    "word": "練習",
+    "pinyin": "liàn xí",
+    "meaning": "練習",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 740],
+    "word": "努力",
+    "pinyin": "nǔ lì",
+    "meaning": "努力する、〜するよう努める",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 741],
+    "word": "進步",
+    "pinyin": "jìn bù",
+    "meaning": "進歩する、進歩",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 742],
+    "word": "成功",
+    "pinyin": "chéng gōng",
+    "meaning": "成功する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 743],
+    "word": "見面",
+    "pinyin": "jiàn miàn",
+    "meaning": "会う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 744],
+    "word": "約",
+    "pinyin": "yuē",
+    "meaning": "約束する、誘う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 745],
+    "word": "慶祝",
+    "pinyin": "qìng zhù",
+    "meaning": "祝う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 746],
+    "word": "變",
+    "pinyin": "biàn",
+    "meaning": "変わる、変える",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 747],
+    "word": "發生",
+    "pinyin": "fā shēng",
+    "meaning": "発生する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 748],
+    "word": "結束",
+    "pinyin": "jié shù",
+    "meaning": "終わる、終える",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 749],
+    "word": "完",
+    "pinyin": "wán",
+    "meaning": "終わる、終える、なくなる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 750],
+    "word": "光",
+    "pinyin": "guāng",
+    "meaning": "〜しつくす",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 751],
+    "word": "影響",
+    "pinyin": "yǐng xiǎng",
+    "meaning": "影響する、影響",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 752],
+    "word": "傳真",
+    "pinyin": "chuán zhēn",
+    "meaning": "ファックス",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 753],
+    "word": "洗衣機",
+    "pinyin": "xǐ yī jī",
+    "meaning": "洗濯機",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 754],
+    "word": "冰箱",
+    "pinyin": "bīng xiāng",
+    "meaning": "冷蔵庫",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 755],
+    "word": "錢包",
+    "pinyin": "qián bāo",
+    "meaning": "財布",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 756],
+    "word": "鑰匙",
+    "pinyin": "yào shi",
+    "meaning": "鍵",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 757],
+    "word": "手錶",
+    "pinyin": "shǒu biǎo",
+    "meaning": "腕時計",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 758],
+    "word": "襯衫",
+    "pinyin": "chèn shān",
+    "meaning": "シャツ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 759],
+    "word": "毛衣",
+    "pinyin": "máo yī",
+    "meaning": "セーター",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 760],
+    "word": "牛仔褲",
+    "pinyin": "niú zǎi kù",
+    "meaning": "ジーンズ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 761],
+    "word": "內衣",
+    "pinyin": "nèi yī",
+    "meaning": "下着",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 762],
+    "word": "雨衣",
+    "pinyin": "yǔ yī",
+    "meaning": "レインコート",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 763],
+    "word": "大衣",
+    "pinyin": "dà yī",
+    "meaning": "ロングコート",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 764],
+    "word": "外套",
+    "pinyin": "wài tào",
+    "meaning": "コート",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 765],
+    "word": "帽子",
+    "pinyin": "mào zi",
+    "meaning": "帽子",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 766],
+    "word": "皮包",
+    "pinyin": "pí bāo",
+    "meaning": "革鞄",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 767],
+    "word": "流行",
+    "pinyin": "liú xíng",
+    "meaning": "流行する、広く伝わる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 768],
+    "word": "藍色",
+    "pinyin": "lán sè",
+    "meaning": "青",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 769],
+    "word": "綠色",
+    "pinyin": "lǜ sè",
+    "meaning": "緑",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 770],
+    "word": "紅色",
+    "pinyin": "hóng sè",
+    "meaning": "赤",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 771],
+    "word": "黑色",
+    "pinyin": "hēi sè",
+    "meaning": "黒",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 772],
+    "word": "明信片",
+    "pinyin": "míng xìn piàn",
+    "meaning": "はがき",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 773],
+    "word": "卡片",
+    "pinyin": "kǎ piàn",
+    "meaning": "カード",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 774],
+    "word": "盒子",
+    "pinyin": "hé zi",
+    "meaning": "箱",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 775],
+    "word": "網站",
+    "pinyin": "wǎng zhàn",
+    "meaning": "Webサイト",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 776],
+    "word": "雜誌",
+    "pinyin": "zá zhì",
+    "meaning": "雑誌",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 777],
+    "word": "新聞",
+    "pinyin": "xīn wén",
+    "meaning": "ニュース",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 778],
+    "word": "節目",
+    "pinyin": "jié mù",
+    "meaning": "番組",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 779],
+    "word": "政治",
+    "pinyin": "zhèng zhì",
+    "meaning": "政治",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 780],
+    "word": "消息",
+    "pinyin": "xiāo xi",
+    "meaning": "情報、ニュース、消息",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 781],
+    "word": "房租",
+    "pinyin": "fáng zū",
+    "meaning": "家賃",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 782],
+    "word": "出口",
+    "pinyin": "chū kǒu",
+    "meaning": "出口",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 783],
+    "word": "門口",
+    "pinyin": "mén kǒu",
+    "meaning": "出入口、門、玄関",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 784],
+    "word": "公寓",
+    "pinyin": "gōng yù",
+    "meaning": "アパート",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 785],
+    "word": "大樓",
+    "pinyin": "dà lóu",
+    "meaning": "ビル",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 786],
+    "word": "樓梯",
+    "pinyin": "lóu tī",
+    "meaning": "階段",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 787],
+    "word": "牆",
+    "pinyin": "qiáng",
+    "meaning": "壁",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 788],
+    "word": "燈",
+    "pinyin": "dēng",
+    "meaning": "ランプ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 789],
+    "word": "臥室",
+    "pinyin": "wò shì",
+    "meaning": "寝室",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 790],
+    "word": "浴室",
+    "pinyin": "yù shì",
+    "meaning": "バスルーム",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 791],
+    "word": "鄰居",
+    "pinyin": "lín jū",
+    "meaning": "近所の人",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 792],
+    "word": "活動",
+    "pinyin": "huó dòng",
+    "meaning": "活動、イベント",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 793],
+    "word": "舞會",
+    "pinyin": "wǔ huì",
+    "meaning": "ダンスパーティー",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 794],
+    "word": "座位",
+    "pinyin": "zuò wèi",
+    "meaning": "座席",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 795],
+    "word": "小偷",
+    "pinyin": "xiǎo tōu",
+    "meaning": "泥棒",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 796],
+    "word": "油",
+    "pinyin": "yóu",
+    "meaning": "油",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 797],
+    "word": "事",
+    "pinyin": "shì",
+    "meaning": "事柄、用事、出来事、事故",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 798],
+    "word": "事情",
+    "pinyin": "shì qíng",
+    "meaning": "事、事柄、用事",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 799],
+    "word": "辦法",
+    "pinyin": "bàn fǎ",
+    "meaning": "方法",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 800],
+    "word": "方法",
+    "pinyin": "fāng fǎ",
+    "meaning": "方法",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 801],
+    "word": "麻煩",
+    "pinyin": "má fan",
+    "meaning": "面倒、手間",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 802],
+    "word": "機會",
+    "pinyin": "jī huì",
+    "meaning": "機会",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 803],
+    "word": "可能",
+    "pinyin": "kě néng",
+    "meaning": "可能性、見込み",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 804],
+    "word": "解釋",
+    "pinyin": "jiě shì",
+    "meaning": "説明、解釈",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 805],
+    "word": "經驗",
+    "pinyin": "jīng yàn",
+    "meaning": "経験",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 806],
+    "word": "習慣",
+    "pinyin": "xí guàn",
+    "meaning": "習慣",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 807],
+    "word": "禮貌",
+    "pinyin": "lǐ mào",
+    "meaning": "礼儀、マナー",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 808],
+    "word": "出生",
+    "pinyin": "chū shēng",
+    "meaning": "生まれる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 809],
+    "word": "照顧",
+    "pinyin": "zhào gù",
+    "meaning": "世話をする",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 810],
+    "word": "聊天",
+    "pinyin": "liáo tiān",
+    "meaning": "世間話をする",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 811],
+    "word": "大聲",
+    "pinyin": "dà shēng",
+    "meaning": "声が大きい、大声",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 812],
+    "word": "聲音",
+    "pinyin": "shēng yīn",
+    "meaning": "声、音",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 813],
+    "word": "留言",
+    "pinyin": "liú yán",
+    "meaning": "伝言を残す",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 814],
+    "word": "散步",
+    "pinyin": "sàn bù",
+    "meaning": "散歩する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 815],
+    "word": "睡",
+    "pinyin": "shuì",
+    "meaning": "寝る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 816],
+    "word": "打掃",
+    "pinyin": "dǎ sǎo",
+    "meaning": "掃除する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 817],
+    "word": "剪",
+    "pinyin": "jiǎn",
+    "meaning": "切る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 818],
+    "word": "過年",
+    "pinyin": "guò nián",
+    "meaning": "旧正月や新年を迎える・祝う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 819],
+    "word": "同學",
+    "pinyin": "tóng xué",
+    "meaning": "同級生",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 820],
+    "word": "小學生",
+    "pinyin": "xiǎo xué shēng",
+    "meaning": "小学生",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 821],
+    "word": "大學生",
+    "pinyin": "dà xué shēng",
+    "meaning": "大学生",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 822],
+    "word": "教師",
+    "pinyin": "jiào shī",
+    "meaning": "教師",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 823],
+    "word": "校長",
+    "pinyin": "xiào zhǎng",
+    "meaning": "校長",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 824],
+    "word": "校園",
+    "pinyin": "xiào yuán",
+    "meaning": "キャンパス",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 825],
+    "word": "操場",
+    "pinyin": "cāo chǎng",
+    "meaning": "運動場",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 826],
+    "word": "學院",
+    "pinyin": "xué yuàn",
+    "meaning": "（3学部以下の）大学、学部",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 827],
+    "word": "學期",
+    "pinyin": "xué qī",
+    "meaning": "学期",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 828],
+    "word": "學費",
+    "pinyin": "xué fèi",
+    "meaning": "授業料",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 829],
+    "word": "成績",
+    "pinyin": "chéng jì",
+    "meaning": "成績",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 830],
+    "word": "班",
+    "pinyin": "bān",
+    "meaning": "クラス、組、勤務時間",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 831],
+    "word": "課",
+    "pinyin": "kè",
+    "meaning": "授業、教科、科目",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 832],
+    "word": "中文",
+    "pinyin": "zhōng wén",
+    "meaning": "中国語",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 833],
+    "word": "漢語",
+    "pinyin": "hàn yǔ",
+    "meaning": "中国語",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 834],
+    "word": "漢字",
+    "pinyin": "hàn zì",
+    "meaning": "漢字",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 835],
+    "word": "語法",
+    "pinyin": "yǔ fǎ",
+    "meaning": "文法",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 836],
+    "word": "文章",
+    "pinyin": "wén zhāng",
+    "meaning": "文章、論文、著作",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 837],
+    "word": "美術",
+    "pinyin": "měi shù",
+    "meaning": "美術",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 838],
+    "word": "藝術",
+    "pinyin": "yì shù",
+    "meaning": "芸術",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 839],
+    "word": "書法",
+    "pinyin": "shū fǎ",
+    "meaning": "書道",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 840],
+    "word": "文化",
+    "pinyin": "wén huà",
+    "meaning": "文化",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 841],
+    "word": "體育",
+    "pinyin": "tǐ yù",
+    "meaning": "体育、スポーツ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 842],
+    "word": "書桌",
+    "pinyin": "shū zhuō",
+    "meaning": "机",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 843],
+    "word": "字典",
+    "pinyin": "zì diǎn",
+    "meaning": "字書",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 844],
+    "word": "鉛筆",
+    "pinyin": "qiān bǐ",
+    "meaning": "鉛筆",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 845],
+    "word": "尺",
+    "pinyin": "chǐ",
+    "meaning": "定規",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 846],
+    "word": "毛筆",
+    "pinyin": "máo bǐ",
+    "meaning": "筆",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 847],
+    "word": "開學",
+    "pinyin": "kāi xué",
+    "meaning": "学校が始まる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 848],
+    "word": "放假",
+    "pinyin": "fàng jià",
+    "meaning": "休みになる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 849],
+    "word": "暑假",
+    "pinyin": "shǔ jià",
+    "meaning": "夏休み",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 850],
+    "word": "寒假",
+    "pinyin": "hán jià",
+    "meaning": "冬休み",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 851],
+    "word": "畢業",
+    "pinyin": "bì yè",
+    "meaning": "卒業する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 852],
+    "word": "教",
+    "pinyin": "jiāo",
+    "meaning": "教える",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 853],
+    "word": "教書",
+    "pinyin": "jiāo shū",
+    "meaning": "教える",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 854],
+    "word": "念/唸",
+    "pinyin": "niàn",
+    "meaning": "読む、音読する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 855],
+    "word": "遲到",
+    "pinyin": "chí dào",
+    "meaning": "遅刻する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 856],
+    "word": "職業",
+    "pinyin": "zhí yè",
+    "meaning": "職業",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 857],
+    "word": "經理",
+    "pinyin": "jīng lǐ",
+    "meaning": "マネージャー、経営者、社長、常務",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 858],
+    "word": "記者",
+    "pinyin": "jì zhě",
+    "meaning": "記者",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 859],
+    "word": "服務員",
+    "pinyin": "fú wù yuán",
+    "meaning": "ウエイター、従業員",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 860],
+    "word": "服務生",
+    "pinyin": "fú wù shēng",
+    "meaning": "ウエイター、従業員",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 861],
+    "word": "客人",
+    "pinyin": "kè rén",
+    "meaning": "お客さん",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 862],
+    "word": "顧客",
+    "pinyin": "gù kè",
+    "meaning": "顧客、クライアント",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 863],
+    "word": "服務",
+    "pinyin": "fú wù",
+    "meaning": "働く、勤務する、サービスする",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 864],
+    "word": "下班",
+    "pinyin": "xià bān",
+    "meaning": "仕事を終える",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 865],
+    "word": "開會",
+    "pinyin": "kāi huì",
+    "meaning": "会議をする、会議に参加する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 866],
+    "word": "報告",
+    "pinyin": "bào gào",
+    "meaning": "報告する、報告",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 867],
+    "word": "計畫/計劃",
+    "pinyin": "jì huà",
+    "meaning": "企画、計画する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 868],
+    "word": "宿舍",
+    "pinyin": "sù shè",
+    "meaning": "寮、宿舎",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 869],
+    "word": "餐",
+    "pinyin": "cān",
+    "meaning": "食事",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 870],
+    "word": "米",
+    "pinyin": "mǐ",
+    "meaning": "米",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 871],
+    "word": "點心",
+    "pinyin": "diǎn xīn",
+    "meaning": "おやつ、軽い食事",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 872],
+    "word": "牛排",
+    "pinyin": "niú pái",
+    "meaning": "ステーキ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 873],
+    "word": "漢堡",
+    "pinyin": "hàn bǎo",
+    "meaning": "ハンバーガー",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 874],
+    "word": "三明治",
+    "pinyin": "sān míng zhì",
+    "meaning": "サンドイッチ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 875],
+    "word": "青菜",
+    "pinyin": "qīng cài",
+    "meaning": "緑の野菜",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 876],
+    "word": "冰淇淋",
+    "pinyin": "bīng qí lín",
+    "meaning": "アイスクリーム",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 877],
+    "word": "餅乾",
+    "pinyin": "bǐng gān",
+    "meaning": "クッキー",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 878],
+    "word": "西瓜",
+    "pinyin": "xī guā",
+    "meaning": "スイカ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 879],
+    "word": "開水",
+    "pinyin": "kāi shuǐ",
+    "meaning": "沸騰したお湯",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 880],
+    "word": "紅茶",
+    "pinyin": "hóng chá",
+    "meaning": "紅茶",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 881],
+    "word": "啤酒",
+    "pinyin": "pí jiǔ",
+    "meaning": "ビール",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 882],
+    "word": "鹽",
+    "pinyin": "yán",
+    "meaning": "塩",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 883],
+    "word": "糖",
+    "pinyin": "táng",
+    "meaning": "砂糖、あめ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 884],
+    "word": "味道",
+    "pinyin": "wèi dào",
+    "meaning": "味",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 885],
+    "word": "鹹",
+    "pinyin": "xián",
+    "meaning": "塩辛い",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 886],
+    "word": "辣",
+    "pinyin": "là",
+    "meaning": "辛い",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 887],
+    "word": "酸",
+    "pinyin": "suān",
+    "meaning": "酸っぱい",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 888],
+    "word": "苦",
+    "pinyin": "kǔ",
+    "meaning": "苦い、苦しい、つらい",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 889],
+    "word": "新鮮",
+    "pinyin": "xīn xiān",
+    "meaning": "新鮮である",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 890],
+    "word": "香",
+    "pinyin": "xiāng",
+    "meaning": "香りのよい",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 891],
+    "word": "點菜",
+    "pinyin": "diǎn cài",
+    "meaning": "料理を注文する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 892],
+    "word": "請客",
+    "pinyin": "qǐng kè",
+    "meaning": "ごちそうする",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 893],
+    "word": "嚐",
+    "pinyin": "cháng",
+    "meaning": "味わう、味見する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 894],
+    "word": "吃飽",
+    "pinyin": "chī bǎo",
+    "meaning": "お腹いっぱい食べる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 895],
+    "word": "煮",
+    "pinyin": "zhǔ",
+    "meaning": "煮る、茹でる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 896],
+    "word": "烤",
+    "pinyin": "kǎo",
+    "meaning": "焼く",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 897],
+    "word": "刀子",
+    "pinyin": "dāo zi",
+    "meaning": "ナイフ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 898],
+    "word": "叉子",
+    "pinyin": "chā zi",
+    "meaning": "フォーク",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 899],
+    "word": "湯匙",
+    "pinyin": "tāng chí",
+    "meaning": "スプーン、れんげ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 900],
+    "word": "筷子",
+    "pinyin": "kuài zi",
+    "meaning": "箸",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 901],
+    "word": "碗",
+    "pinyin": "wǎn",
+    "meaning": "〜杯",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 902],
+    "word": "盤",
+    "pinyin": "pán",
+    "meaning": "〜皿",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 903],
+    "word": "旅遊",
+    "pinyin": "lǚ yóu",
+    "meaning": "旅行する",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 904],
+    "word": "護照",
+    "pinyin": "hù zhào",
+    "meaning": "パスポート",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 905],
+    "word": "行李",
+    "pinyin": "xíng lǐ",
+    "meaning": "荷物",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 906],
+    "word": "博物館",
+    "pinyin": "bó wù guǎn",
+    "meaning": "博物館",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 907],
+    "word": "動物園",
+    "pinyin": "dòng wù yuán",
+    "meaning": "動物園",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 908],
+    "word": "花園",
+    "pinyin": "huā yuán",
+    "meaning": "庭園",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 909],
+    "word": "中心",
+    "pinyin": "zhōng xīn",
+    "meaning": "中心、中央、センター",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 910],
+    "word": "爬",
+    "pinyin": "pá",
+    "meaning": "登る、這う、起き上がる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 911],
+    "word": "跳",
+    "pinyin": "tiào",
+    "meaning": "飛ぶ、跳ねる、飛ばす",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 912],
+    "word": "唱",
+    "pinyin": "chàng",
+    "meaning": "歌う",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 913],
+    "word": "歌",
+    "pinyin": "gē",
+    "meaning": "歌",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 914],
+    "word": "拉",
+    "pinyin": "lā",
+    "meaning": "引っ張る、弾く",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 915],
+    "word": "樂器",
+    "pinyin": "yuè qì",
+    "meaning": "楽器",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 916],
+    "word": "吉他",
+    "pinyin": "jí tā",
+    "meaning": "ギター",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 917],
+    "word": "鋼琴",
+    "pinyin": "gāng qín",
+    "meaning": "ピアノ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 918],
+    "word": "跳舞",
+    "pinyin": "tiào wǔ",
+    "meaning": "踊る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 919],
+    "word": "小說",
+    "pinyin": "xiǎo shuō",
+    "meaning": "小説",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 920],
+    "word": "故事",
+    "pinyin": "gù shì",
+    "meaning": "物語",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 921],
+    "word": "價格",
+    "pinyin": "jià gé",
+    "meaning": "価格",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 922],
+    "word": "價錢",
+    "pinyin": "jià qián",
+    "meaning": "価格",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 923],
+    "word": "付",
+    "pinyin": "fù",
+    "meaning": "支払う、渡す",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 924],
+    "word": "毛",
+    "pinyin": "máo",
+    "meaning": "（お金の単位）〜角",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 925],
+    "word": "信用卡",
+    "pinyin": "xìn yòng kǎ",
+    "meaning": "クレジットカード",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 926],
+    "word": "超級市場",
+    "pinyin": "chāo jí shì chǎng",
+    "meaning": "スーパーマーケット",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 927],
+    "word": "袋子",
+    "pinyin": "dài zi",
+    "meaning": "袋",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 928],
+    "word": "交通",
+    "pinyin": "jiāo tōng",
+    "meaning": "交通",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 929],
+    "word": "汽車",
+    "pinyin": "qì chē",
+    "meaning": "自動車",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 930],
+    "word": "輛",
+    "pinyin": "liàng",
+    "meaning": "〜台（自動車を数える）",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 931],
+    "word": "停車場",
+    "pinyin": "tíng chē chǎng",
+    "meaning": "駐車場",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 932],
+    "word": "船",
+    "pinyin": "chuán",
+    "meaning": "船",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 933],
+    "word": "搭",
+    "pinyin": "dā",
+    "meaning": "乗る",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 934],
+    "word": "起飛",
+    "pinyin": "qǐ fēi",
+    "meaning": "飛び立つ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 935],
+    "word": "路口",
+    "pinyin": "lù kǒu",
+    "meaning": "交差点",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 936],
+    "word": "紅綠燈",
+    "pinyin": "hóng lǜ dēng",
+    "meaning": "信号機",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 937],
+    "word": "地球",
+    "pinyin": "dì qiú",
+    "meaning": "地球",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 938],
+    "word": "月亮",
+    "pinyin": "yuè liàng",
+    "meaning": "月",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 939],
+    "word": "星星",
+    "pinyin": "xīng xing",
+    "meaning": "星",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 940],
+    "word": "雲",
+    "pinyin": "yún",
+    "meaning": "雲",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 941],
+    "word": "地",
+    "pinyin": "dì",
+    "meaning": "土地、大地",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 942],
+    "word": "森林",
+    "pinyin": "sēn lín",
+    "meaning": "森林",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 943],
+    "word": "草",
+    "pinyin": "cǎo",
+    "meaning": "草",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 944],
+    "word": "火",
+    "pinyin": "huǒ",
+    "meaning": "火",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 945],
+    "word": "晴天",
+    "pinyin": "qíng tiān",
+    "meaning": "晴天",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 946],
+    "word": "溫度",
+    "pinyin": "wēn dù",
+    "meaning": "温度",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 947],
+    "word": "雨",
+    "pinyin": "yǔ",
+    "meaning": "雨",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 948],
+    "word": "雪",
+    "pinyin": "xuě",
+    "meaning": "雪",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 949],
+    "word": "空氣",
+    "pinyin": "kōng qì",
+    "meaning": "空気",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 950],
+    "word": "環境",
+    "pinyin": "huán jìng",
+    "meaning": "環境",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 951],
+    "word": "動物",
+    "pinyin": "dòng wù",
+    "meaning": "動物",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 952],
+    "word": "牛",
+    "pinyin": "niú",
+    "meaning": "牛",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 953],
+    "word": "虎",
+    "pinyin": "hǔ",
+    "meaning": "虎",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 954],
+    "word": "羊",
+    "pinyin": "yáng",
+    "meaning": "羊、ヤギ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 955],
+    "word": "豬",
+    "pinyin": "zhū",
+    "meaning": "豚",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 956],
+    "word": "就",
+    "pinyin": "jiù",
+    "meaning": "すぐに、とっくに、ただ〜だけ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 957],
+    "word": "才",
+    "pinyin": "cái",
+    "meaning": "〜したばかり、〜してやっと、ようやく",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 958],
+    "word": "馬上",
+    "pinyin": "mǎ shàng",
+    "meaning": "すぐに",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 959],
+    "word": "當",
+    "pinyin": "dāng",
+    "meaning": "〜に、〜で、〜のときに（出来事の発生場所を表す）",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 960],
+    "word": "正在",
+    "pinyin": "zhèng zài",
+    "meaning": "ちょうど〜している、今〜しつつある",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 961],
+    "word": "剛剛",
+    "pinyin": "gāng gāng",
+    "meaning": "ちょうど、〜したばかり",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 962],
+    "word": "剛才",
+    "pinyin": "gāng cái",
+    "meaning": "たった今、ついさっき",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 963],
+    "word": "已經",
+    "pinyin": "yǐ jīng",
+    "meaning": "すでに",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 964],
+    "word": "然後",
+    "pinyin": "rán hòu",
+    "meaning": "それから",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 965],
+    "word": "最",
+    "pinyin": "zuì",
+    "meaning": "最も、一番",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 966],
+    "word": "更",
+    "pinyin": "gèng",
+    "meaning": "さらに、より、いっそう",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 967],
+    "word": "還",
+    "pinyin": "hái",
+    "meaning": "まだ、やはり、さらに",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 968],
+    "word": "經常",
+    "pinyin": "jīng cháng",
+    "meaning": "しょっちゅう、常に",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 969],
+    "word": "平常",
+    "pinyin": "píng cháng",
+    "meaning": "日頃、普段",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 970],
+    "word": "總是",
+    "pinyin": "zǒng shì",
+    "meaning": "いつも",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 971],
+    "word": "一直",
+    "pinyin": "yì zhí",
+    "meaning": "ずっと",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 972],
+    "word": "永遠",
+    "pinyin": "yǒng yuǎn",
+    "meaning": "いつまでも、永久に",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 973],
+    "word": "各",
+    "pinyin": "gè",
+    "meaning": "それぞれ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 974],
+    "word": "又",
+    "pinyin": "yòu",
+    "meaning": "何度も、また",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 975],
+    "word": "比較",
+    "pinyin": "bǐ jiào",
+    "meaning": "比較的、わりに、かなり",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 976],
+    "word": "好像",
+    "pinyin": "hǎo xiàng",
+    "meaning": "〜のようだ、〜らしい",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 977],
+    "word": "像",
+    "pinyin": "xiàng",
+    "meaning": "似ている、まるで〜のようだ、同じである",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 978],
+    "word": "差不多",
+    "pinyin": "chà bu duō",
+    "meaning": "ほとんど",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 979],
+    "word": "一共",
+    "pinyin": "yí gòng",
+    "meaning": "合計",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 980],
+    "word": "全部",
+    "pinyin": "quán bù",
+    "meaning": "全て",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 981],
+    "word": "所有",
+    "pinyin": "suǒ yǒu",
+    "meaning": "すべての、あらゆる",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 982],
+    "word": "任何",
+    "pinyin": "rèn hé",
+    "meaning": "いかなる、どのような",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 983],
+    "word": "許多",
+    "pinyin": "xǔ duō",
+    "meaning": "多くの",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 984],
+    "word": "其他",
+    "pinyin": "qí tā",
+    "meaning": "他の",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 985],
+    "word": "或",
+    "pinyin": "huò",
+    "meaning": "あるいは",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 986],
+    "word": "或是",
+    "pinyin": "huò shì",
+    "meaning": "あるいは、〜かそれとも〜か",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 987],
+    "word": "但是",
+    "pinyin": "dàn shì",
+    "meaning": "しかし",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 988],
+    "word": "而且",
+    "pinyin": "ér qiě",
+    "meaning": "かつ、そのうえ",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 989],
+    "word": "不但",
+    "pinyin": "bù dàn",
+    "meaning": "〜だけでなく",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 990],
+    "word": "雖然",
+    "pinyin": "suī rán",
+    "meaning": "〜ではあるが",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 991],
+    "word": "如果",
+    "pinyin": "rú guǒ",
+    "meaning": "もし〜なら",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 992],
+    "word": "要是",
+    "pinyin": "yào shì",
+    "meaning": "もし〜なら",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 993],
+    "word": "原來",
+    "pinyin": "yuán lái",
+    "meaning": "もともと、当初は、なんだ〜だったのか",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 994],
+    "word": "本來",
+    "pinyin": "běn lái",
+    "meaning": "もともと、本来",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 995],
+    "word": "必須",
+    "pinyin": "bì xū",
+    "meaning": "必ず、きっと",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 996],
+    "word": "當然",
+    "pinyin": "dāng rán",
+    "meaning": "当然、もちろん",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 997],
+    "word": "也許",
+    "pinyin": "yě xǔ",
+    "meaning": "もしかすると〜かもしれない",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 998],
+    "word": "只好",
+    "pinyin": "zhǐ hǎo",
+    "meaning": "〜するしかない、〜せざるをえない",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 999],
+    "word": "被",
+    "pinyin": "bèi",
+    "meaning": "〜に〜される、〜から〜される",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 1000],
+    "word": "起",
+    "pinyin": "qǐ",
+    "meaning": "〜から",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 1001],
+    "word": "啊",
+    "pinyin": "a",
+    "meaning": "（語気を強調する）",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 1002],
+    "word": "讓",
+    "pinyin": "ràng",
+    "meaning": "〜に〜させる、〜に〜してもらう",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
+  },
+  {
+    "number": [0, 1003],
+    "word": "把",
+    "pinyin": "bǎ",
+    "meaning": "〜を",
+    "example": {
+      "text": " ",
+      "pinyin": "",
+      "translation": " "
+    }
   }
 ]
